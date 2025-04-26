@@ -1,0 +1,4 @@
+[console_scripts]
+listener = ros2_pca9685.subscriber_member_function:main
+talker = ros2_pca9685.publisher_member_function:main
+

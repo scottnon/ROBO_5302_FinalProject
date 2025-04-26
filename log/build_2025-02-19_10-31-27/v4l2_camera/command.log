@@ -1,0 +1,2 @@
+Invoking command in '/home/kingpooper/deepRacerWS/build/v4l2_camera': /usr/bin/cmake /home/kingpooper/deepRacerWS/src/ros2_v4l2_camera -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kingpooper/deepRacerWS/install/v4l2_camera
+Invoked command in '/home/kingpooper/deepRacerWS/build/v4l2_camera' returned '1': /usr/bin/cmake /home/kingpooper/deepRacerWS/src/ros2_v4l2_camera -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kingpooper/deepRacerWS/install/v4l2_camera

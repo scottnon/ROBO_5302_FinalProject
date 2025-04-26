@@ -1,0 +1,232 @@
+[0.000000] (-) TimerEvent: {}
+[0.001163] (ros2_pca9685) JobQueued: {'identifier': 'ros2_pca9685', 'dependencies': OrderedDict()}
+[0.002366] (rplidar_ros) JobQueued: {'identifier': 'rplidar_ros', 'dependencies': OrderedDict()}
+[0.002486] (v4l2_camera) JobQueued: {'identifier': 'v4l2_camera', 'dependencies': OrderedDict()}
+[0.003130] (ros2_pca9685) JobStarted: {'identifier': 'ros2_pca9685'}
+[0.042039] (rplidar_ros) JobStarted: {'identifier': 'rplidar_ros'}
+[0.063755] (v4l2_camera) JobStarted: {'identifier': 'v4l2_camera'}
+[0.099112] (-) TimerEvent: {}
+[0.199991] (-) TimerEvent: {}
+[0.300828] (-) TimerEvent: {}
+[0.401560] (-) TimerEvent: {}
+[0.502351] (-) TimerEvent: {}
+[0.603160] (-) TimerEvent: {}
+[0.703885] (-) TimerEvent: {}
+[0.804674] (-) TimerEvent: {}
+[0.905411] (-) TimerEvent: {}
+[1.006138] (-) TimerEvent: {}
+[1.106948] (-) TimerEvent: {}
+[1.207715] (-) TimerEvent: {}
+[1.308578] (-) TimerEvent: {}
+[1.409548] (-) TimerEvent: {}
+[1.510623] (-) TimerEvent: {}
+[1.612181] (-) TimerEvent: {}
+[1.678162] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'cmake'}
+[1.692360] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'build'}
+[1.692766] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kingpooper/deepRacerWS/build/rplidar_ros', '--', '-j4', '-l4'], 'cwd': '/home/kingpooper/deepRacerWS/build/rplidar_ros', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kingpooper'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kingpooper'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '998'), ('SYSTEMD_EXEC_PID', '1148'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1922'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kingpooper'), ('JOURNAL_STREAM', '8:20349'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kingpooper'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kingpooper-pi:@/tmp/.ICE-unix/1123,unix/kingpooper-pi:/tmp/.ICE-unix/1123'), ('INVOCATION_ID', 'ed0c05da64404cbfbb20860536589a11'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.K4GF22'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:c2c56b70-2dda-4988-90b3-6e15f4337780'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kingpooper/deepRacerWS/build/rplidar_ros'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.712247] (-) TimerEvent: {}
+[1.756720] (v4l2_camera) JobProgress: {'identifier': 'v4l2_camera', 'progress': 'cmake'}
+[1.757142] (v4l2_camera) JobProgress: {'identifier': 'v4l2_camera', 'progress': 'build'}
+[1.759920] (v4l2_camera) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kingpooper/deepRacerWS/build/v4l2_camera', '--', '-j4', '-l4'], 'cwd': '/home/kingpooper/deepRacerWS/build/v4l2_camera', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kingpooper'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kingpooper'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '998'), ('SYSTEMD_EXEC_PID', '1148'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1922'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kingpooper'), ('JOURNAL_STREAM', '8:20349'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kingpooper'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kingpooper-pi:@/tmp/.ICE-unix/1123,unix/kingpooper-pi:/tmp/.ICE-unix/1123'), ('INVOCATION_ID', 'ed0c05da64404cbfbb20860536589a11'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.K4GF22'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:c2c56b70-2dda-4988-90b3-6e15f4337780'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kingpooper/deepRacerWS/build/v4l2_camera'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.812479] (-) TimerEvent: {}
+[1.913855] (-) TimerEvent: {}
+[2.015261] (-) TimerEvent: {}
+[2.120361] (-) TimerEvent: {}
+[2.221950] (-) TimerEvent: {}
+[2.322808] (-) TimerEvent: {}
+[2.403243] (rplidar_ros) StdoutLine: {'line': b'[ 47%] Built target rplidar_composition\n'}
+[2.407186] (rplidar_ros) StdoutLine: {'line': b'[ 52%] Built target rplidar_client\n'}
+[2.423041] (-) TimerEvent: {}
+[2.431856] (rplidar_ros) StdoutLine: {'line': b'[100%] Built target rplidar_node\n'}
+[2.526313] (rplidar_ros) CommandEnded: {'returncode': 0}
+[2.527839] (-) TimerEvent: {}
+[2.529311] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'install'}
+[2.606174] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/kingpooper/deepRacerWS/build/rplidar_ros'], 'cwd': '/home/kingpooper/deepRacerWS/build/rplidar_ros', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kingpooper'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kingpooper'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '998'), ('SYSTEMD_EXEC_PID', '1148'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1922'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kingpooper'), ('JOURNAL_STREAM', '8:20349'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kingpooper'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kingpooper-pi:@/tmp/.ICE-unix/1123,unix/kingpooper-pi:/tmp/.ICE-unix/1123'), ('INVOCATION_ID', 'ed0c05da64404cbfbb20860536589a11'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.K4GF22'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:c2c56b70-2dda-4988-90b3-6e15f4337780'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kingpooper/deepRacerWS/build/rplidar_ros'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.628580] (-) TimerEvent: {}
+[2.670705] (rplidar_ros) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.686777] (rplidar_ros) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[2.697059] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a1_launch.py\n'}
+[2.699219] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m12_launch.py\n'}
+[2.701398] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m7_launch.py\n'}
+[2.713387] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m8_launch.py\n'}
+[2.715434] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a3_launch.py\n'}
+[2.717808] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/launch/rplidar_c1_launch.py\n'}
+[2.720136] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_launch.py\n'}
+[2.722382] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_tcp_launch.py\n'}
+[2.724672] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2_launch.py\n'}
+[2.726932] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2e_launch.py\n'}
+[2.728808] (-) TimerEvent: {}
+[2.730824] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s3_launch.py\n'}
+[2.741329] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/launch/rplidar_t1_launch.py\n'}
+[2.743935] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a1_launch.py\n'}
+[2.746999] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m12_launch.py\n'}
+[2.749373] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m7_launch.py\n'}
+[2.752227] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m8_launch.py\n'}
+[2.754465] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a3_launch.py\n'}
+[2.757071] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_c1_launch.py\n'}
+[2.760036] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_launch.py\n'}
+[2.761458] (v4l2_camera) StdoutLine: {'line': b'[ 42%] Built target v4l2_camera\n'}
+[2.763693] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_tcp_launch.py\n'}
+[2.771649] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2_launch.py\n'}
+[2.774609] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2e_launch.py\n'}
+[2.777798] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s3_launch.py\n'}
+[2.792437] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_t1_launch.py\n'}
+[2.794947] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/rviz/rplidar_ros.rviz\n'}
+[2.797813] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/lib/rplidar_ros/rplidar_node\n'}
+[2.800929] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/lib/rplidar_ros/rplidar_composition\n'}
+[2.802548] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/lib/rplidar_ros/rplidar_client\n'}
+[2.805214] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/ament_index/resource_index/package_run_dependencies/rplidar_ros\n'}
+[2.808324] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/ament_index/resource_index/parent_prefix_path/rplidar_ros\n'}
+[2.814934] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.sh\n'}
+[2.817331] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.dsv\n'}
+[2.820079] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/environment/path.sh\n'}
+[2.822437] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/environment/path.dsv\n'}
+[2.824677] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/local_setup.bash\n'}
+[2.827180] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/local_setup.sh\n'}
+[2.828973] (-) TimerEvent: {}
+[2.830574] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/local_setup.zsh\n'}
+[2.832896] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/local_setup.dsv\n'}
+[2.835003] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/package.dsv\n'}
+[2.929225] (-) TimerEvent: {}
+[2.932712] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/ament_index/resource_index/packages/rplidar_ros\n'}
+[2.935291] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.937803] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.940349] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake\n'}
+[2.942595] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake\n'}
+[2.945228] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/package.xml\n'}
+[2.974123] (rplidar_ros) CommandEnded: {'returncode': 0}
+[3.029585] (-) TimerEvent: {}
+[3.030883] (v4l2_camera) StdoutLine: {'line': b'[ 71%] Built target v4l2_camera_node\n'}
+[3.046358] (v4l2_camera) StdoutLine: {'line': b'[100%] Built target v4l2_camera_compose_test\n'}
+[3.130758] (-) TimerEvent: {}
+[3.209940] (rplidar_ros) JobEnded: {'identifier': 'rplidar_ros', 'rc': 0}
+[3.215948] (v4l2_camera) CommandEnded: {'returncode': 0}
+[3.221511] (v4l2_camera) JobProgress: {'identifier': 'v4l2_camera', 'progress': 'install'}
+[3.223693] (v4l2_camera) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/kingpooper/deepRacerWS/build/v4l2_camera'], 'cwd': '/home/kingpooper/deepRacerWS/build/v4l2_camera', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kingpooper'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kingpooper'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '998'), ('SYSTEMD_EXEC_PID', '1148'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1922'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kingpooper'), ('JOURNAL_STREAM', '8:20349'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kingpooper'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/kingpooper-pi:@/tmp/.ICE-unix/1123,unix/kingpooper-pi:/tmp/.ICE-unix/1123'), ('INVOCATION_ID', 'ed0c05da64404cbfbb20860536589a11'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.K4GF22'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:c2c56b70-2dda-4988-90b3-6e15f4337780'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kingpooper/deepRacerWS/build/v4l2_camera'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.231999] (-) TimerEvent: {}
+[3.292454] (v4l2_camera) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.299263] (v4l2_camera) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[3.311658] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/v4l2_camera/include/v4l2_camera/control.hpp\n'}
+[3.315933] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/v4l2_camera/include/v4l2_camera/fourcc.hpp\n'}
+[3.321148] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/v4l2_camera/include/v4l2_camera/image_format.hpp\n'}
+[3.332803] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/v4l2_camera/include/v4l2_camera/pixel_format.hpp\n'}
+[3.335014] (-) TimerEvent: {}
+[3.339308] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/v4l2_camera/include/v4l2_camera/v4l2_camera.hpp\n'}
+[3.344538] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/v4l2_camera/include/v4l2_camera/v4l2_camera_device.hpp\n'}
+[3.349916] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/v4l2_camera/include/v4l2_camera/visibility_control.h\n'}
+[3.361273] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/v4l2_camera/share/v4l2_camera/environment/library_path.sh\n'}
+[3.366305] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/v4l2_camera/share/v4l2_camera/environment/library_path.dsv\n'}
+[3.375772] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/v4l2_camera/include/v4l2_camera/control.hpp\n'}
+[3.380595] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/v4l2_camera/include/v4l2_camera/fourcc.hpp\n'}
+[3.386057] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/v4l2_camera/include/v4l2_camera/image_format.hpp\n'}
+[3.389282] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/v4l2_camera/include/v4l2_camera/pixel_format.hpp\n'}
+[3.392902] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/v4l2_camera/include/v4l2_camera/v4l2_camera.hpp\n'}
+[3.400833] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/v4l2_camera/include/v4l2_camera/v4l2_camera_device.hpp\n'}
+[3.404943] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/v4l2_camera/include/v4l2_camera/visibility_control.h\n'}
+[3.413642] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/v4l2_camera/share/v4l2_camera/launch/v4l2_camera.launch.py\n'}
+[3.423402] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/v4l2_camera/share/ament_index/resource_index/package_run_dependencies/v4l2_camera\n'}
+[3.427628] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/v4l2_camera/share/ament_index/resource_index/parent_prefix_path/v4l2_camera\n'}
+[3.435231] (-) TimerEvent: {}
+[3.438017] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/v4l2_camera/share/v4l2_camera/environment/ament_prefix_path.sh\n'}
+[3.441819] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/v4l2_camera/share/v4l2_camera/environment/ament_prefix_path.dsv\n'}
+[3.445155] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/v4l2_camera/share/v4l2_camera/environment/path.sh\n'}
+[3.450360] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/v4l2_camera/share/v4l2_camera/environment/path.dsv\n'}
+[3.455497] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/v4l2_camera/share/v4l2_camera/local_setup.bash\n'}
+[3.459120] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/v4l2_camera/share/v4l2_camera/local_setup.sh\n'}
+[3.469512] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/v4l2_camera/share/v4l2_camera/local_setup.zsh\n'}
+[3.474156] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/v4l2_camera/share/v4l2_camera/local_setup.dsv\n'}
+[3.476962] (v4l2_camera) StdoutLine: {'line': b'-- Symlinking: /home/kingpooper/deepRacerWS/install/v4l2_camera/share/v4l2_camera/package.dsv\n'}
+[3.535604] (-) TimerEvent: {}
+[3.556376] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/v4l2_camera/share/ament_index/resource_index/packages/v4l2_camera\n'}
+[3.557107] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/v4l2_camera/share/ament_index/resource_index/rclcpp_components/v4l2_camera\n'}
+[3.559688] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/v4l2_camera/share/v4l2_camera/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.562387] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/v4l2_camera/share/v4l2_camera/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[3.565405] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/v4l2_camera/share/v4l2_camera/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[3.568025] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/v4l2_camera/share/v4l2_camera/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[3.573632] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/v4l2_camera/share/v4l2_camera/cmake/v4l2_cameraConfig.cmake\n'}
+[3.579375] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/v4l2_camera/share/v4l2_camera/cmake/v4l2_cameraConfig-version.cmake\n'}
+[3.583044] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/v4l2_camera/share/v4l2_camera/package.xml\n'}
+[3.591027] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/kingpooper/deepRacerWS/install/v4l2_camera/lib/libv4l2_camera.so\n'}
+[3.594832] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/kingpooper/deepRacerWS/install/v4l2_camera/lib/v4l2_camera/v4l2_camera_node\n'}
+[3.599491] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/kingpooper/deepRacerWS/install/v4l2_camera/lib/v4l2_camera/v4l2_camera_compose_test\n'}
+[3.603315] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/kingpooper/deepRacerWS/install/v4l2_camera/share/v4l2_camera/cmake/export_v4l2_cameraExport.cmake\n'}
+[3.605215] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/kingpooper/deepRacerWS/install/v4l2_camera/share/v4l2_camera/cmake/export_v4l2_cameraExport-noconfig.cmake\n'}
+[3.620223] (v4l2_camera) CommandEnded: {'returncode': 0}
+[3.636102] (-) TimerEvent: {}
+[3.737946] (-) TimerEvent: {}
+[3.777645] (v4l2_camera) JobEnded: {'identifier': 'v4l2_camera', 'rc': 0}
+[3.838204] (-) TimerEvent: {}
+[3.939044] (-) TimerEvent: {}
+[4.039852] (-) TimerEvent: {}
+[4.140799] (-) TimerEvent: {}
+[4.241679] (-) TimerEvent: {}
+[4.342509] (-) TimerEvent: {}
+[4.443381] (-) TimerEvent: {}
+[4.544348] (-) TimerEvent: {}
+[4.645684] (-) TimerEvent: {}
+[4.746454] (-) TimerEvent: {}
+[4.847334] (-) TimerEvent: {}
+[4.948499] (-) TimerEvent: {}
+[5.049404] (-) TimerEvent: {}
+[5.150485] (-) TimerEvent: {}
+[5.251780] (-) TimerEvent: {}
+[5.353248] (-) TimerEvent: {}
+[5.390686] (ros2_pca9685) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/kingpooper/deepRacerWS/build/ros2_pca9685/build', '--no-deps', 'symlink_data'], 'cwd': '/home/kingpooper/deepRacerWS/build/ros2_pca9685', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'kingpooper', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/kingpooper', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '998', 'SYSTEMD_EXEC_PID': '1148', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '1922', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'kingpooper', 'JOURNAL_STREAM': '8:20349', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kingpooper', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kingpooper-pi:@/tmp/.ICE-unix/1123,unix/kingpooper-pi:/tmp/.ICE-unix/1123', 'INVOCATION_ID': 'ed0c05da64404cbfbb20860536589a11', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.K4GF22', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:c2c56b70-2dda-4988-90b3-6e15f4337780', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kingpooper/deepRacerWS/build/ros2_pca9685', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/kingpooper/deepRacerWS/build/ros2_pca9685/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kingpooper/deepRacerWS/install/ros2_pca9685/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[5.453582] (-) TimerEvent: {}
+[5.555444] (-) TimerEvent: {}
+[5.656229] (-) TimerEvent: {}
+[5.757157] (-) TimerEvent: {}
+[5.858204] (-) TimerEvent: {}
+[5.959059] (-) TimerEvent: {}
+[6.060234] (-) TimerEvent: {}
+[6.161183] (-) TimerEvent: {}
+[6.261915] (-) TimerEvent: {}
+[6.363003] (-) TimerEvent: {}
+[6.464990] (-) TimerEvent: {}
+[6.566130] (-) TimerEvent: {}
+[6.667459] (-) TimerEvent: {}
+[6.769741] (-) TimerEvent: {}
+[6.871749] (-) TimerEvent: {}
+[6.972720] (-) TimerEvent: {}
+[7.073524] (-) TimerEvent: {}
+[7.111565] (ros2_pca9685) StderrLine: {'line': b"/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[7.112651] (ros2_pca9685) StderrLine: {'line': b'  warnings.warn(\n'}
+[7.173726] (-) TimerEvent: {}
+[7.247013] (ros2_pca9685) StdoutLine: {'line': b'running develop\n'}
+[7.273891] (-) TimerEvent: {}
+[7.374585] (-) TimerEvent: {}
+[7.475403] (-) TimerEvent: {}
+[7.576174] (-) TimerEvent: {}
+[7.676889] (-) TimerEvent: {}
+[7.777573] (-) TimerEvent: {}
+[7.878391] (-) TimerEvent: {}
+[7.979342] (-) TimerEvent: {}
+[8.080091] (-) TimerEvent: {}
+[8.180915] (-) TimerEvent: {}
+[8.282085] (-) TimerEvent: {}
+[8.383215] (-) TimerEvent: {}
+[8.484317] (-) TimerEvent: {}
+[8.585464] (-) TimerEvent: {}
+[8.618424] (ros2_pca9685) StdoutLine: {'line': b'running egg_info\n'}
+[8.620678] (ros2_pca9685) StdoutLine: {'line': b'writing ros2_pca9685.egg-info/PKG-INFO\n'}
+[8.623348] (ros2_pca9685) StdoutLine: {'line': b'writing dependency_links to ros2_pca9685.egg-info/dependency_links.txt\n'}
+[8.626995] (ros2_pca9685) StdoutLine: {'line': b'writing entry points to ros2_pca9685.egg-info/entry_points.txt\n'}
+[8.632131] (ros2_pca9685) StdoutLine: {'line': b'writing requirements to ros2_pca9685.egg-info/requires.txt\n'}
+[8.637334] (ros2_pca9685) StdoutLine: {'line': b'writing top-level names to ros2_pca9685.egg-info/top_level.txt\n'}
+[8.646681] (ros2_pca9685) StdoutLine: {'line': b"reading manifest file 'ros2_pca9685.egg-info/SOURCES.txt'\n"}
+[8.653003] (ros2_pca9685) StdoutLine: {'line': b"writing manifest file 'ros2_pca9685.egg-info/SOURCES.txt'\n"}
+[8.662100] (ros2_pca9685) StdoutLine: {'line': b'running build_ext\n'}
+[8.665433] (ros2_pca9685) StdoutLine: {'line': b'Creating /home/kingpooper/deepRacerWS/install/ros2_pca9685/lib/python3.10/site-packages/ros2-pca9685.egg-link (link to .)\n'}
+[8.677250] (ros2_pca9685) StdoutLine: {'line': b'Installing listener script to /home/kingpooper/deepRacerWS/install/ros2_pca9685/lib/ros2_pca9685\n'}
+[8.679377] (ros2_pca9685) StdoutLine: {'line': b'Installing talker script to /home/kingpooper/deepRacerWS/install/ros2_pca9685/lib/ros2_pca9685\n'}
+[8.682336] (ros2_pca9685) StdoutLine: {'line': b'\n'}
+[8.683692] (ros2_pca9685) StdoutLine: {'line': b'Installed /home/kingpooper/deepRacerWS/build/ros2_pca9685\n'}
+[8.684566] (ros2_pca9685) StdoutLine: {'line': b'running symlink_data\n'}
+[8.687325] (-) TimerEvent: {}
+[8.798129] (-) TimerEvent: {}
+[8.901594] (-) TimerEvent: {}
+[9.003801] (-) TimerEvent: {}
+[9.059100] (ros2_pca9685) CommandEnded: {'returncode': 0}
+[9.104642] (-) TimerEvent: {}
+[9.163630] (ros2_pca9685) JobEnded: {'identifier': 'ros2_pca9685', 'rc': 0}
+[9.175963] (-) EventReactorShutdown: {}

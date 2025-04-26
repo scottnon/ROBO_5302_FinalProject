@@ -1,0 +1,19 @@
+[7.951s] Invoking command in '/home/kingpooper/deepRacerWS/build/control': PYTHONPATH=/home/kingpooper/deepRacerWS/build/control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kingpooper/deepRacerWS/install/control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kingpooper/deepRacerWS/build/control/build --no-deps symlink_data --force
+[11.554s] running develop
+[13.866s] running egg_info
+[13.872s] writing control.egg-info/PKG-INFO
+[13.873s] writing dependency_links to control.egg-info/dependency_links.txt
+[13.875s] writing entry points to control.egg-info/entry_points.txt
+[13.875s] writing requirements to control.egg-info/requires.txt
+[13.876s] writing top-level names to control.egg-info/top_level.txt
+[13.888s] reading manifest file 'control.egg-info/SOURCES.txt'
+[13.898s] writing manifest file 'control.egg-info/SOURCES.txt'
+[13.917s] running build_ext
+[13.918s] Creating /home/kingpooper/deepRacerWS/install/control/lib/python3.10/site-packages/control.egg-link (link to .)
+[13.924s] Installing subscriber script to /home/kingpooper/deepRacerWS/install/control/lib/control
+[13.926s] 
+[13.927s] Installed /home/kingpooper/deepRacerWS/build/control
+[13.928s] running symlink_data
+[13.930s] symbolically linking /home/kingpooper/deepRacerWS/build/control/resource/control -> /home/kingpooper/deepRacerWS/install/control/share/ament_index/resource_index/packages
+[13.931s] symbolically linking /home/kingpooper/deepRacerWS/build/control/package.xml -> /home/kingpooper/deepRacerWS/install/control/share/control
+[16.693s] Invoked command in '/home/kingpooper/deepRacerWS/build/control' returned '0': PYTHONPATH=/home/kingpooper/deepRacerWS/build/control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kingpooper/deepRacerWS/install/control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kingpooper/deepRacerWS/build/control/build --no-deps symlink_data --force

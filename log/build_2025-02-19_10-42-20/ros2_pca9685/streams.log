@@ -1,0 +1,20 @@
+[3.748s] Invoking command in '/home/kingpooper/deepRacerWS/build/ros2_pca9685': PYTHONPATH=/home/kingpooper/deepRacerWS/build/ros2_pca9685/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kingpooper/deepRacerWS/install/ros2_pca9685/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kingpooper/deepRacerWS/build/ros2_pca9685/build --no-deps symlink_data
+[5.181s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[5.181s]   warnings.warn(
+[5.318s] running develop
+[6.378s] running egg_info
+[6.379s] writing ros2_pca9685.egg-info/PKG-INFO
+[6.400s] writing dependency_links to ros2_pca9685.egg-info/dependency_links.txt
+[6.401s] writing entry points to ros2_pca9685.egg-info/entry_points.txt
+[6.402s] writing requirements to ros2_pca9685.egg-info/requires.txt
+[6.402s] writing top-level names to ros2_pca9685.egg-info/top_level.txt
+[6.403s] reading manifest file 'ros2_pca9685.egg-info/SOURCES.txt'
+[6.407s] writing manifest file 'ros2_pca9685.egg-info/SOURCES.txt'
+[6.416s] running build_ext
+[6.417s] Creating /home/kingpooper/deepRacerWS/install/ros2_pca9685/lib/python3.10/site-packages/ros2-pca9685.egg-link (link to .)
+[6.422s] Installing listener script to /home/kingpooper/deepRacerWS/install/ros2_pca9685/lib/ros2_pca9685
+[6.423s] Installing talker script to /home/kingpooper/deepRacerWS/install/ros2_pca9685/lib/ros2_pca9685
+[6.425s] 
+[6.425s] Installed /home/kingpooper/deepRacerWS/build/ros2_pca9685
+[6.429s] running symlink_data
+[6.630s] Invoked command in '/home/kingpooper/deepRacerWS/build/ros2_pca9685' returned '0': PYTHONPATH=/home/kingpooper/deepRacerWS/build/ros2_pca9685/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kingpooper/deepRacerWS/install/ros2_pca9685/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kingpooper/deepRacerWS/build/ros2_pca9685/build --no-deps symlink_data

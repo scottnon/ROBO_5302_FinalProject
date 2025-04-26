@@ -1,0 +1,20 @@
+/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+  warnings.warn(
+running develop
+running egg_info
+writing ros2_pca9685.egg-info/PKG-INFO
+writing dependency_links to ros2_pca9685.egg-info/dependency_links.txt
+writing entry points to ros2_pca9685.egg-info/entry_points.txt
+writing requirements to ros2_pca9685.egg-info/requires.txt
+writing top-level names to ros2_pca9685.egg-info/top_level.txt
+reading manifest file 'ros2_pca9685.egg-info/SOURCES.txt'
+writing manifest file 'ros2_pca9685.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/kingpooper/deepRacerWS/install/ros2_pca9685/lib/python3.10/site-packages/ros2-pca9685.egg-link (link to .)
+Installing listener script to /home/kingpooper/deepRacerWS/install/ros2_pca9685/lib/ros2_pca9685
+Installing talker script to /home/kingpooper/deepRacerWS/install/ros2_pca9685/lib/ros2_pca9685
+
+Installed /home/kingpooper/deepRacerWS/build/ros2_pca9685
+running symlink_data
+symbolically linking /home/kingpooper/deepRacerWS/build/ros2_pca9685/resource/ros2_pca9685 -> /home/kingpooper/deepRacerWS/install/ros2_pca9685/share/ament_index/resource_index/packages
+symbolically linking /home/kingpooper/deepRacerWS/build/ros2_pca9685/package.xml -> /home/kingpooper/deepRacerWS/install/ros2_pca9685/share/ros2_pca9685

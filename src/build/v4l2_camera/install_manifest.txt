@@ -1,0 +1,5 @@
+/home/kingpooper/deepRacerWS/src/install/v4l2_camera/lib/libv4l2_camera.so
+/home/kingpooper/deepRacerWS/src/install/v4l2_camera/lib/v4l2_camera/v4l2_camera_node
+/home/kingpooper/deepRacerWS/src/install/v4l2_camera/lib/v4l2_camera/v4l2_camera_compose_test
+/home/kingpooper/deepRacerWS/src/install/v4l2_camera/share/v4l2_camera/cmake/export_v4l2_cameraExport.cmake
+/home/kingpooper/deepRacerWS/src/install/v4l2_camera/share/v4l2_camera/cmake/export_v4l2_cameraExport-noconfig.cmake

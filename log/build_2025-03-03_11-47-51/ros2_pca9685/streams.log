@@ -1,0 +1,31 @@
+[3.197s] Invoking command in '/home/kingpooper/deepRacerWS/src/ros2_pca9685': PYTHONPATH=/home/kingpooper/deepRacerWS/build/ros2_pca9685/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kingpooper/deepRacerWS/install/ros2_pca9685/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros2_pca9685 build --build-base /home/kingpooper/deepRacerWS/build/ros2_pca9685/build install --record /home/kingpooper/deepRacerWS/build/ros2_pca9685/install.log --install-scripts $base/lib/ros2_pca9685 --single-version-externally-managed install_data
+[4.355s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[4.355s]   warnings.warn(
+[4.395s] running egg_info
+[4.398s] writing ../../build/ros2_pca9685/ros2_pca9685.egg-info/PKG-INFO
+[4.400s] writing dependency_links to ../../build/ros2_pca9685/ros2_pca9685.egg-info/dependency_links.txt
+[4.401s] writing entry points to ../../build/ros2_pca9685/ros2_pca9685.egg-info/entry_points.txt
+[4.402s] writing requirements to ../../build/ros2_pca9685/ros2_pca9685.egg-info/requires.txt
+[4.403s] writing top-level names to ../../build/ros2_pca9685/ros2_pca9685.egg-info/top_level.txt
+[4.411s] reading manifest file '../../build/ros2_pca9685/ros2_pca9685.egg-info/SOURCES.txt'
+[4.414s] adding license file 'LICENSE'
+[4.417s] writing manifest file '../../build/ros2_pca9685/ros2_pca9685.egg-info/SOURCES.txt'
+[4.417s] running build
+[4.418s] running build_py
+[4.421s] copying ros2_pca9685/publisher_member_function.py -> /home/kingpooper/deepRacerWS/build/ros2_pca9685/build/lib/ros2_pca9685
+[4.422s] copying ros2_pca9685/subscriber_member_function.py -> /home/kingpooper/deepRacerWS/build/ros2_pca9685/build/lib/ros2_pca9685
+[4.424s] running install
+[4.425s] running install_lib
+[4.429s] copying /home/kingpooper/deepRacerWS/build/ros2_pca9685/build/lib/ros2_pca9685/publisher_member_function.py -> /home/kingpooper/deepRacerWS/install/ros2_pca9685/lib/python3.10/site-packages/ros2_pca9685
+[4.430s] copying /home/kingpooper/deepRacerWS/build/ros2_pca9685/build/lib/ros2_pca9685/subscriber_member_function.py -> /home/kingpooper/deepRacerWS/install/ros2_pca9685/lib/python3.10/site-packages/ros2_pca9685
+[4.433s] byte-compiling /home/kingpooper/deepRacerWS/install/ros2_pca9685/lib/python3.10/site-packages/ros2_pca9685/publisher_member_function.py to publisher_member_function.cpython-310.pyc
+[4.436s] byte-compiling /home/kingpooper/deepRacerWS/install/ros2_pca9685/lib/python3.10/site-packages/ros2_pca9685/subscriber_member_function.py to subscriber_member_function.cpython-310.pyc
+[4.441s] running install_data
+[4.441s] running install_egg_info
+[4.453s] removing '/home/kingpooper/deepRacerWS/install/ros2_pca9685/lib/python3.10/site-packages/ros2_pca9685-0.0.0-py3.10.egg-info' (and everything under it)
+[4.455s] Copying ../../build/ros2_pca9685/ros2_pca9685.egg-info to /home/kingpooper/deepRacerWS/install/ros2_pca9685/lib/python3.10/site-packages/ros2_pca9685-0.0.0-py3.10.egg-info
+[4.464s] running install_scripts
+[4.542s] Installing listener script to /home/kingpooper/deepRacerWS/install/ros2_pca9685/lib/ros2_pca9685
+[4.543s] Installing talker script to /home/kingpooper/deepRacerWS/install/ros2_pca9685/lib/ros2_pca9685
+[4.545s] writing list of installed files to '/home/kingpooper/deepRacerWS/build/ros2_pca9685/install.log'
+[4.679s] Invoked command in '/home/kingpooper/deepRacerWS/src/ros2_pca9685' returned '0': PYTHONPATH=/home/kingpooper/deepRacerWS/build/ros2_pca9685/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kingpooper/deepRacerWS/install/ros2_pca9685/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros2_pca9685 build --build-base /home/kingpooper/deepRacerWS/build/ros2_pca9685/build install --record /home/kingpooper/deepRacerWS/build/ros2_pca9685/install.log --install-scripts $base/lib/ros2_pca9685 --single-version-externally-managed install_data

@@ -1,0 +1,26 @@
+[3.300s] Invoking command in '/home/kingpooper/deepRacerWS/build/ros2_pca9685': PYTHONPATH=/home/kingpooper/deepRacerWS/build/ros2_pca9685/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kingpooper/deepRacerWS/install/ros2_pca9685/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kingpooper/deepRacerWS/build/ros2_pca9685/build --no-deps symlink_data
+[4.509s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[4.509s]   warnings.warn(
+[4.630s] running develop
+[5.121s] running egg_info
+[5.122s] creating ros2_pca9685.egg-info
+[5.122s] writing ros2_pca9685.egg-info/PKG-INFO
+[5.123s] writing dependency_links to ros2_pca9685.egg-info/dependency_links.txt
+[5.123s] writing entry points to ros2_pca9685.egg-info/entry_points.txt
+[5.124s] writing requirements to ros2_pca9685.egg-info/requires.txt
+[5.124s] writing top-level names to ros2_pca9685.egg-info/top_level.txt
+[5.125s] writing manifest file 'ros2_pca9685.egg-info/SOURCES.txt'
+[5.133s] reading manifest file 'ros2_pca9685.egg-info/SOURCES.txt'
+[5.136s] writing manifest file 'ros2_pca9685.egg-info/SOURCES.txt'
+[5.142s] running build_ext
+[5.143s] Creating /home/kingpooper/deepRacerWS/install/ros2_pca9685/lib/python3.10/site-packages/ros2-pca9685.egg-link (link to .)
+[5.146s] Installing listener script to /home/kingpooper/deepRacerWS/install/ros2_pca9685/lib/ros2_pca9685
+[5.147s] Installing talker script to /home/kingpooper/deepRacerWS/install/ros2_pca9685/lib/ros2_pca9685
+[5.148s] 
+[5.149s] Installed /home/kingpooper/deepRacerWS/build/ros2_pca9685
+[5.149s] running symlink_data
+[5.150s] creating /home/kingpooper/deepRacerWS/install/ros2_pca9685/share/ament_index
+[5.150s] creating /home/kingpooper/deepRacerWS/install/ros2_pca9685/share/ament_index/resource_index
+[5.151s] creating /home/kingpooper/deepRacerWS/install/ros2_pca9685/share/ament_index/resource_index/packages
+[5.152s] symbolically linking /home/kingpooper/deepRacerWS/build/ros2_pca9685/resource/ros2_pca9685 -> /home/kingpooper/deepRacerWS/install/ros2_pca9685/share/ament_index/resource_index/packages
+[5.153s] symbolically linking /home/kingpooper/deepRacerWS/build/ros2_pca9685/package.xml -> /home/kingpooper/deepRacerWS/install/ros2_pca9685/share/ros2_pca9685

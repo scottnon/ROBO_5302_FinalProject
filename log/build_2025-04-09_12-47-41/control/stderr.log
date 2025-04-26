@@ -1,0 +1,5 @@
+  File "/home/kingpooper/deepRacerWS/install/control/lib/python3.10/site-packages/control/subscriber.py", line 20
+    	min_range = max(min(msg.ranges), msg.range_min))
+    	                                               ^
+SyntaxError: unmatched ')'
+

@@ -1,0 +1,10 @@
+In file included from [01m[K/home/kingpooper/deepRacerWS/src/slam_toolbox/solvers/ceres_solver.hpp:17[m[K,
+                 from [01m[K/home/kingpooper/deepRacerWS/src/slam_toolbox/solvers/ceres_solver.cpp:9[m[K:
+[01m[K/home/kingpooper/deepRacerWS/src/slam_toolbox/solvers/ceres_utils.h:10:10:[m[K [01;31m[Kfatal error: [m[Kceres/autodiff_manifold.h: No such file or directory
+   10 | #include [01;31m[K<ceres/autodiff_manifold.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/ceres_solver_plugin.dir/build.make:76: CMakeFiles/ceres_solver_plugin.dir/solvers/ceres_solver.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:665: CMakeFiles/ceres_solver_plugin.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

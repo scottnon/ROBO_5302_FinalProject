@@ -1,0 +1,33 @@
+[1.048s] Invoking command in '/home/kingpooper/deepRacerWS/build/v4l2_camera': /usr/bin/cmake /home/kingpooper/deepRacerWS/src/ros2_v4l2_camera -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kingpooper/deepRacerWS/install/v4l2_camera
+[2.166s] -- The C compiler identification is GNU 11.4.0
+[3.124s] -- The CXX compiler identification is GNU 11.4.0
+[3.187s] -- Detecting C compiler ABI info
+[3.594s] -- Detecting C compiler ABI info - done
+[3.623s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.626s] -- Detecting C compile features
+[3.629s] -- Detecting C compile features - done
+[3.647s] -- Detecting CXX compiler ABI info
+[4.056s] -- Detecting CXX compiler ABI info - done
+[4.084s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.085s] -- Detecting CXX compile features
+[4.087s] -- Detecting CXX compile features - done
+[4.256s] [31mCMake Error at CMakeLists.txt:19 (find_package):
+[4.257s]   By not providing "Findament_cmake_auto.cmake" in CMAKE_MODULE_PATH this
+[4.257s]   project has asked CMake to find a package configuration file provided by
+[4.257s]   "ament_cmake_auto", but CMake did not find one.
+[4.258s] 
+[4.258s]   Could not find a package configuration file provided by "ament_cmake_auto"
+[4.260s]   with any of the following names:
+[4.261s] 
+[4.262s]     ament_cmake_autoConfig.cmake
+[4.262s] -- Configuring incomplete, errors occurred!
+[4.263s] See also "/home/kingpooper/deepRacerWS/build/v4l2_camera/CMakeFiles/CMakeOutput.log".
+[4.263s]     ament_cmake_auto-config.cmake
+[4.264s] 
+[4.264s]   Add the installation prefix of "ament_cmake_auto" to CMAKE_PREFIX_PATH or
+[4.265s]   set "ament_cmake_auto_DIR" to a directory containing one of the above
+[4.266s]   files.  If "ament_cmake_auto" provides a separate development package or
+[4.267s]   SDK, be sure it has been installed.
+[4.269s] 
+[4.270s] [0m
+[4.271s] Invoked command in '/home/kingpooper/deepRacerWS/build/v4l2_camera' returned '1': /usr/bin/cmake /home/kingpooper/deepRacerWS/src/ros2_v4l2_camera -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kingpooper/deepRacerWS/install/v4l2_camera

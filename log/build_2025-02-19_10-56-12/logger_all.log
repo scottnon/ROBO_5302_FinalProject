@@ -1,0 +1,267 @@
+[0.463s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.463s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffff9ae80970>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff9b035870>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff9b035870>>, mixin_verb=('build',))
+[1.281s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.282s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.282s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.282s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.282s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.282s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.283s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/kingpooper/deepRacerWS'
+[1.283s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.283s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.284s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.284s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.284s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.284s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.284s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.284s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.284s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.328s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.328s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.329s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.329s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.329s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.329s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.330s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.330s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.331s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.331s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.331s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.332s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.332s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.332s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.332s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.333s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.333s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.333s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.333s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.333s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.334s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.334s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.334s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.334s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.334s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.334s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.335s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.335s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_pca9685) by extensions ['ignore', 'ignore_ament_install']
+[1.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_pca9685) by extension 'ignore'
+[1.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_pca9685) by extension 'ignore_ament_install'
+[1.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_pca9685) by extensions ['colcon_pkg']
+[1.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_pca9685) by extension 'colcon_pkg'
+[1.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_pca9685) by extensions ['colcon_meta']
+[1.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_pca9685) by extension 'colcon_meta'
+[1.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_pca9685) by extensions ['ros']
+[1.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_pca9685) by extension 'ros'
+[1.345s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_pca9685' with type 'ros.ament_python' and name 'ros2_pca9685'
+[1.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_v4l2_camera) by extensions ['ignore', 'ignore_ament_install']
+[1.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_v4l2_camera) by extension 'ignore'
+[1.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_v4l2_camera) by extension 'ignore_ament_install'
+[1.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_v4l2_camera) by extensions ['colcon_pkg']
+[1.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_v4l2_camera) by extension 'colcon_pkg'
+[1.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_v4l2_camera) by extensions ['colcon_meta']
+[1.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_v4l2_camera) by extension 'colcon_meta'
+[1.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_v4l2_camera) by extensions ['ros']
+[1.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_v4l2_camera) by extension 'ros'
+[1.351s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_v4l2_camera' with type 'ros.ament_cmake' and name 'v4l2_camera'
+[1.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['ignore', 'ignore_ament_install']
+[1.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ignore'
+[1.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ignore_ament_install'
+[1.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['colcon_pkg']
+[1.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'colcon_pkg'
+[1.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['colcon_meta']
+[1.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'colcon_meta'
+[1.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['ros']
+[1.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ros'
+[1.356s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rplidar_ros' with type 'ros.ament_cmake' and name 'rplidar_ros'
+[1.356s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.356s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.356s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.357s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.357s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.477s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.478s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.486s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/kingpooper/deepRacerWS/install
+[1.495s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 273 installed packages in /opt/ros/humble
+[1.501s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.672s] Level 5:colcon.colcon_core.verb:set package 'ros2_pca9685' build argument 'cmake_args' from command line to 'None'
+[1.672s] Level 5:colcon.colcon_core.verb:set package 'ros2_pca9685' build argument 'cmake_target' from command line to 'None'
+[1.672s] Level 5:colcon.colcon_core.verb:set package 'ros2_pca9685' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.672s] Level 5:colcon.colcon_core.verb:set package 'ros2_pca9685' build argument 'cmake_clean_cache' from command line to 'False'
+[1.672s] Level 5:colcon.colcon_core.verb:set package 'ros2_pca9685' build argument 'cmake_clean_first' from command line to 'False'
+[1.672s] Level 5:colcon.colcon_core.verb:set package 'ros2_pca9685' build argument 'cmake_force_configure' from command line to 'False'
+[1.672s] Level 5:colcon.colcon_core.verb:set package 'ros2_pca9685' build argument 'ament_cmake_args' from command line to 'None'
+[1.672s] Level 5:colcon.colcon_core.verb:set package 'ros2_pca9685' build argument 'catkin_cmake_args' from command line to 'None'
+[1.673s] Level 5:colcon.colcon_core.verb:set package 'ros2_pca9685' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.673s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_pca9685' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kingpooper/deepRacerWS/build/ros2_pca9685', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kingpooper/deepRacerWS/install/ros2_pca9685', 'merge_install': False, 'path': '/home/kingpooper/deepRacerWS/src/ros2_pca9685', 'symlink_install': True, 'test_result_base': None}
+[1.674s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_args' from command line to 'None'
+[1.674s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_target' from command line to 'None'
+[1.675s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.675s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[1.675s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_clean_first' from command line to 'False'
+[1.675s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_force_configure' from command line to 'False'
+[1.675s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'ament_cmake_args' from command line to 'None'
+[1.675s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[1.675s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.675s] DEBUG:colcon.colcon_core.verb:Building package 'rplidar_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kingpooper/deepRacerWS/build/rplidar_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kingpooper/deepRacerWS/install/rplidar_ros', 'merge_install': False, 'path': '/home/kingpooper/deepRacerWS/src/rplidar_ros', 'symlink_install': True, 'test_result_base': None}
+[1.677s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'cmake_args' from command line to 'None'
+[1.677s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'cmake_target' from command line to 'None'
+[1.677s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.677s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'cmake_clean_cache' from command line to 'False'
+[1.677s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'cmake_clean_first' from command line to 'False'
+[1.677s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'cmake_force_configure' from command line to 'False'
+[1.677s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'ament_cmake_args' from command line to 'None'
+[1.677s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'catkin_cmake_args' from command line to 'None'
+[1.678s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.678s] DEBUG:colcon.colcon_core.verb:Building package 'v4l2_camera' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kingpooper/deepRacerWS/build/v4l2_camera', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kingpooper/deepRacerWS/install/v4l2_camera', 'merge_install': False, 'path': '/home/kingpooper/deepRacerWS/src/ros2_v4l2_camera', 'symlink_install': True, 'test_result_base': None}
+[1.678s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.681s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.683s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/kingpooper/deepRacerWS/src/ros2_pca9685' with build type 'ament_python'
+[1.683s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_pca9685', 'ament_prefix_path')
+[1.692s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.693s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kingpooper/deepRacerWS/install/ros2_pca9685/share/ros2_pca9685/hook/ament_prefix_path.ps1'
+[1.697s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kingpooper/deepRacerWS/install/ros2_pca9685/share/ros2_pca9685/hook/ament_prefix_path.dsv'
+[1.699s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kingpooper/deepRacerWS/install/ros2_pca9685/share/ros2_pca9685/hook/ament_prefix_path.sh'
+[1.704s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.704s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.723s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kingpooper/deepRacerWS/src/rplidar_ros' with build type 'ament_cmake'
+[1.724s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kingpooper/deepRacerWS/src/rplidar_ros'
+[1.725s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.726s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.747s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kingpooper/deepRacerWS/src/ros2_v4l2_camera' with build type 'ament_cmake'
+[1.747s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kingpooper/deepRacerWS/src/ros2_v4l2_camera'
+[1.749s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.749s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.029s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/kingpooper/deepRacerWS/src/ros2_pca9685'
+[3.030s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.032s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.070s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kingpooper/deepRacerWS/build/rplidar_ros': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kingpooper/deepRacerWS/build/rplidar_ros -- -j4 -l4
+[3.099s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kingpooper/deepRacerWS/build/v4l2_camera': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kingpooper/deepRacerWS/build/v4l2_camera -- -j4 -l4
+[3.581s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kingpooper/deepRacerWS/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kingpooper/deepRacerWS/build/rplidar_ros -- -j4 -l4
+[3.627s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kingpooper/deepRacerWS/build/rplidar_ros': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kingpooper/deepRacerWS/build/rplidar_ros
+[3.760s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kingpooper/deepRacerWS/build/v4l2_camera' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kingpooper/deepRacerWS/build/v4l2_camera -- -j4 -l4
+[3.771s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kingpooper/deepRacerWS/build/v4l2_camera': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kingpooper/deepRacerWS/build/v4l2_camera
+[3.801s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rplidar_ros)
+[3.804s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kingpooper/deepRacerWS/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kingpooper/deepRacerWS/build/rplidar_ros
+[3.829s] Level 1:colcon.colcon_core.environment:checking '/home/kingpooper/deepRacerWS/install/rplidar_ros' for CMake module files
+[3.837s] Level 1:colcon.colcon_core.environment:checking '/home/kingpooper/deepRacerWS/install/rplidar_ros' for CMake config files
+[3.842s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'cmake_prefix_path')
+[3.845s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.ps1'
+[3.859s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.dsv'
+[3.868s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.sh'
+[3.872s] Level 1:colcon.colcon_core.environment:checking '/home/kingpooper/deepRacerWS/install/rplidar_ros/lib'
+[3.873s] Level 1:colcon.colcon_core.environment:checking '/home/kingpooper/deepRacerWS/install/rplidar_ros/bin'
+[3.873s] Level 1:colcon.colcon_core.environment:checking '/home/kingpooper/deepRacerWS/install/rplidar_ros/lib/pkgconfig/rplidar_ros.pc'
+[3.874s] Level 1:colcon.colcon_core.environment:checking '/home/kingpooper/deepRacerWS/install/rplidar_ros/lib/python3.10/site-packages'
+[3.876s] Level 1:colcon.colcon_core.environment:checking '/home/kingpooper/deepRacerWS/install/rplidar_ros/bin'
+[3.877s] INFO:colcon.colcon_core.shell:Creating package script '/home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/package.ps1'
+[3.882s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/package.dsv'
+[3.885s] INFO:colcon.colcon_core.shell:Creating package script '/home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/package.sh'
+[3.889s] INFO:colcon.colcon_core.shell:Creating package script '/home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/package.bash'
+[3.894s] INFO:colcon.colcon_core.shell:Creating package script '/home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/package.zsh'
+[3.898s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kingpooper/deepRacerWS/install/rplidar_ros/share/colcon-core/packages/rplidar_ros)
+[3.902s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rplidar_ros)
+[3.904s] Level 1:colcon.colcon_core.environment:checking '/home/kingpooper/deepRacerWS/install/rplidar_ros' for CMake module files
+[3.916s] Level 1:colcon.colcon_core.environment:checking '/home/kingpooper/deepRacerWS/install/rplidar_ros' for CMake config files
+[3.922s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'cmake_prefix_path')
+[3.923s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.ps1'
+[3.928s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.dsv'
+[3.930s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.sh'
+[3.935s] Level 1:colcon.colcon_core.environment:checking '/home/kingpooper/deepRacerWS/install/rplidar_ros/lib'
+[3.935s] Level 1:colcon.colcon_core.environment:checking '/home/kingpooper/deepRacerWS/install/rplidar_ros/bin'
+[3.936s] Level 1:colcon.colcon_core.environment:checking '/home/kingpooper/deepRacerWS/install/rplidar_ros/lib/pkgconfig/rplidar_ros.pc'
+[3.937s] Level 1:colcon.colcon_core.environment:checking '/home/kingpooper/deepRacerWS/install/rplidar_ros/lib/python3.10/site-packages'
+[3.938s] Level 1:colcon.colcon_core.environment:checking '/home/kingpooper/deepRacerWS/install/rplidar_ros/bin'
+[3.940s] INFO:colcon.colcon_core.shell:Creating package script '/home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/package.ps1'
+[3.944s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/package.dsv'
+[3.948s] INFO:colcon.colcon_core.shell:Creating package script '/home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/package.sh'
+[3.950s] INFO:colcon.colcon_core.shell:Creating package script '/home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/package.bash'
+[3.953s] INFO:colcon.colcon_core.shell:Creating package script '/home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/package.zsh'
+[3.955s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kingpooper/deepRacerWS/install/rplidar_ros/share/colcon-core/packages/rplidar_ros)
+[3.959s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(v4l2_camera)
+[3.961s] Level 1:colcon.colcon_core.environment:checking '/home/kingpooper/deepRacerWS/install/v4l2_camera' for CMake module files
+[3.966s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kingpooper/deepRacerWS/build/v4l2_camera' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kingpooper/deepRacerWS/build/v4l2_camera
+[3.969s] Level 1:colcon.colcon_core.environment:checking '/home/kingpooper/deepRacerWS/install/v4l2_camera' for CMake config files
+[3.973s] Level 1:colcon.colcon_core.shell:create_environment_hook('v4l2_camera', 'cmake_prefix_path')
+[3.974s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kingpooper/deepRacerWS/install/v4l2_camera/share/v4l2_camera/hook/cmake_prefix_path.ps1'
+[3.978s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kingpooper/deepRacerWS/install/v4l2_camera/share/v4l2_camera/hook/cmake_prefix_path.dsv'
+[3.982s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kingpooper/deepRacerWS/install/v4l2_camera/share/v4l2_camera/hook/cmake_prefix_path.sh'
+[3.985s] Level 1:colcon.colcon_core.environment:checking '/home/kingpooper/deepRacerWS/install/v4l2_camera/lib'
+[3.985s] Level 1:colcon.colcon_core.shell:create_environment_hook('v4l2_camera', 'ld_library_path_lib')
+[3.986s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kingpooper/deepRacerWS/install/v4l2_camera/share/v4l2_camera/hook/ld_library_path_lib.ps1'
+[3.989s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kingpooper/deepRacerWS/install/v4l2_camera/share/v4l2_camera/hook/ld_library_path_lib.dsv'
+[3.991s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kingpooper/deepRacerWS/install/v4l2_camera/share/v4l2_camera/hook/ld_library_path_lib.sh'
+[3.993s] Level 1:colcon.colcon_core.environment:checking '/home/kingpooper/deepRacerWS/install/v4l2_camera/bin'
+[3.994s] Level 1:colcon.colcon_core.environment:checking '/home/kingpooper/deepRacerWS/install/v4l2_camera/lib/pkgconfig/v4l2_camera.pc'
+[3.995s] Level 1:colcon.colcon_core.environment:checking '/home/kingpooper/deepRacerWS/install/v4l2_camera/lib/python3.10/site-packages'
+[3.996s] Level 1:colcon.colcon_core.environment:checking '/home/kingpooper/deepRacerWS/install/v4l2_camera/bin'
+[3.998s] INFO:colcon.colcon_core.shell:Creating package script '/home/kingpooper/deepRacerWS/install/v4l2_camera/share/v4l2_camera/package.ps1'
+[4.001s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kingpooper/deepRacerWS/install/v4l2_camera/share/v4l2_camera/package.dsv'
+[4.004s] INFO:colcon.colcon_core.shell:Creating package script '/home/kingpooper/deepRacerWS/install/v4l2_camera/share/v4l2_camera/package.sh'
+[4.007s] INFO:colcon.colcon_core.shell:Creating package script '/home/kingpooper/deepRacerWS/install/v4l2_camera/share/v4l2_camera/package.bash'
+[4.009s] INFO:colcon.colcon_core.shell:Creating package script '/home/kingpooper/deepRacerWS/install/v4l2_camera/share/v4l2_camera/package.zsh'
+[4.011s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kingpooper/deepRacerWS/install/v4l2_camera/share/colcon-core/packages/v4l2_camera)
+[4.014s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(v4l2_camera)
+[4.016s] Level 1:colcon.colcon_core.environment:checking '/home/kingpooper/deepRacerWS/install/v4l2_camera' for CMake module files
+[4.019s] Level 1:colcon.colcon_core.environment:checking '/home/kingpooper/deepRacerWS/install/v4l2_camera' for CMake config files
+[4.023s] Level 1:colcon.colcon_core.shell:create_environment_hook('v4l2_camera', 'cmake_prefix_path')
+[4.024s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kingpooper/deepRacerWS/install/v4l2_camera/share/v4l2_camera/hook/cmake_prefix_path.ps1'
+[4.027s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kingpooper/deepRacerWS/install/v4l2_camera/share/v4l2_camera/hook/cmake_prefix_path.dsv'
+[4.030s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kingpooper/deepRacerWS/install/v4l2_camera/share/v4l2_camera/hook/cmake_prefix_path.sh'
+[4.033s] Level 1:colcon.colcon_core.environment:checking '/home/kingpooper/deepRacerWS/install/v4l2_camera/lib'
+[4.034s] Level 1:colcon.colcon_core.shell:create_environment_hook('v4l2_camera', 'ld_library_path_lib')
+[4.035s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kingpooper/deepRacerWS/install/v4l2_camera/share/v4l2_camera/hook/ld_library_path_lib.ps1'
+[4.038s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kingpooper/deepRacerWS/install/v4l2_camera/share/v4l2_camera/hook/ld_library_path_lib.dsv'
+[4.041s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kingpooper/deepRacerWS/install/v4l2_camera/share/v4l2_camera/hook/ld_library_path_lib.sh'
+[4.046s] Level 1:colcon.colcon_core.environment:checking '/home/kingpooper/deepRacerWS/install/v4l2_camera/bin'
+[4.046s] Level 1:colcon.colcon_core.environment:checking '/home/kingpooper/deepRacerWS/install/v4l2_camera/lib/pkgconfig/v4l2_camera.pc'
+[4.048s] Level 1:colcon.colcon_core.environment:checking '/home/kingpooper/deepRacerWS/install/v4l2_camera/lib/python3.10/site-packages'
+[4.050s] Level 1:colcon.colcon_core.environment:checking '/home/kingpooper/deepRacerWS/install/v4l2_camera/bin'
+[4.052s] INFO:colcon.colcon_core.shell:Creating package script '/home/kingpooper/deepRacerWS/install/v4l2_camera/share/v4l2_camera/package.ps1'
+[4.054s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kingpooper/deepRacerWS/install/v4l2_camera/share/v4l2_camera/package.dsv'
+[4.057s] INFO:colcon.colcon_core.shell:Creating package script '/home/kingpooper/deepRacerWS/install/v4l2_camera/share/v4l2_camera/package.sh'
+[4.060s] INFO:colcon.colcon_core.shell:Creating package script '/home/kingpooper/deepRacerWS/install/v4l2_camera/share/v4l2_camera/package.bash'
+[4.063s] INFO:colcon.colcon_core.shell:Creating package script '/home/kingpooper/deepRacerWS/install/v4l2_camera/share/v4l2_camera/package.zsh'
+[4.065s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kingpooper/deepRacerWS/install/v4l2_camera/share/colcon-core/packages/v4l2_camera)
+[5.019s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kingpooper/deepRacerWS/build/ros2_pca9685': PYTHONPATH=/home/kingpooper/deepRacerWS/build/ros2_pca9685/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kingpooper/deepRacerWS/install/ros2_pca9685/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kingpooper/deepRacerWS/build/ros2_pca9685/build --no-deps symlink_data
+[7.337s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_pca9685', 'pythonpath_develop')
+[7.338s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kingpooper/deepRacerWS/build/ros2_pca9685/share/ros2_pca9685/hook/pythonpath_develop.ps1'
+[7.339s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kingpooper/deepRacerWS/build/ros2_pca9685' returned '0': PYTHONPATH=/home/kingpooper/deepRacerWS/build/ros2_pca9685/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kingpooper/deepRacerWS/install/ros2_pca9685/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kingpooper/deepRacerWS/build/ros2_pca9685/build --no-deps symlink_data
+[7.343s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kingpooper/deepRacerWS/build/ros2_pca9685/share/ros2_pca9685/hook/pythonpath_develop.dsv'
+[7.345s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kingpooper/deepRacerWS/build/ros2_pca9685/share/ros2_pca9685/hook/pythonpath_develop.sh'
+[7.349s] Level 1:colcon.colcon_core.environment:checking '/home/kingpooper/deepRacerWS/install/ros2_pca9685' for CMake module files
+[7.352s] Level 1:colcon.colcon_core.environment:checking '/home/kingpooper/deepRacerWS/install/ros2_pca9685' for CMake config files
+[7.355s] Level 1:colcon.colcon_core.environment:checking '/home/kingpooper/deepRacerWS/install/ros2_pca9685/lib'
+[7.356s] Level 1:colcon.colcon_core.environment:checking '/home/kingpooper/deepRacerWS/install/ros2_pca9685/bin'
+[7.356s] Level 1:colcon.colcon_core.environment:checking '/home/kingpooper/deepRacerWS/install/ros2_pca9685/lib/pkgconfig/ros2_pca9685.pc'
+[7.357s] Level 1:colcon.colcon_core.environment:checking '/home/kingpooper/deepRacerWS/install/ros2_pca9685/lib/python3.10/site-packages'
+[7.357s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_pca9685', 'pythonpath')
+[7.358s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kingpooper/deepRacerWS/install/ros2_pca9685/share/ros2_pca9685/hook/pythonpath.ps1'
+[7.361s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kingpooper/deepRacerWS/install/ros2_pca9685/share/ros2_pca9685/hook/pythonpath.dsv'
+[7.363s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kingpooper/deepRacerWS/install/ros2_pca9685/share/ros2_pca9685/hook/pythonpath.sh'
+[7.368s] Level 1:colcon.colcon_core.environment:checking '/home/kingpooper/deepRacerWS/install/ros2_pca9685/bin'
+[7.368s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_pca9685)
+[7.370s] INFO:colcon.colcon_core.shell:Creating package script '/home/kingpooper/deepRacerWS/install/ros2_pca9685/share/ros2_pca9685/package.ps1'
+[7.375s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kingpooper/deepRacerWS/install/ros2_pca9685/share/ros2_pca9685/package.dsv'
+[7.379s] INFO:colcon.colcon_core.shell:Creating package script '/home/kingpooper/deepRacerWS/install/ros2_pca9685/share/ros2_pca9685/package.sh'
+[7.382s] INFO:colcon.colcon_core.shell:Creating package script '/home/kingpooper/deepRacerWS/install/ros2_pca9685/share/ros2_pca9685/package.bash'
+[7.384s] INFO:colcon.colcon_core.shell:Creating package script '/home/kingpooper/deepRacerWS/install/ros2_pca9685/share/ros2_pca9685/package.zsh'
+[7.387s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kingpooper/deepRacerWS/install/ros2_pca9685/share/colcon-core/packages/ros2_pca9685)
+[7.388s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[7.389s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[7.389s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[7.390s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[7.417s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[7.418s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[7.418s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[7.475s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[7.476s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kingpooper/deepRacerWS/install/local_setup.ps1'
+[7.482s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kingpooper/deepRacerWS/install/_local_setup_util_ps1.py'
+[7.490s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kingpooper/deepRacerWS/install/setup.ps1'
+[7.495s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kingpooper/deepRacerWS/install/local_setup.sh'
+[7.498s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kingpooper/deepRacerWS/install/_local_setup_util_sh.py'
+[7.502s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kingpooper/deepRacerWS/install/setup.sh'
+[7.507s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kingpooper/deepRacerWS/install/local_setup.bash'
+[7.510s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kingpooper/deepRacerWS/install/setup.bash'
+[7.516s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kingpooper/deepRacerWS/install/local_setup.zsh'
+[7.519s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kingpooper/deepRacerWS/install/setup.zsh'

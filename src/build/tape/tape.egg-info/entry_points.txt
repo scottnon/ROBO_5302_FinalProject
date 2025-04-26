@@ -1,0 +1,3 @@
+[console_scripts]
+image_subscriber = tape.image_subscriber:maintape_follower = tape.tape_follower:main
+

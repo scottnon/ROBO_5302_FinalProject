@@ -1,0 +1,79 @@
+[0.000000] (-) TimerEvent: {}
+[0.001767] (-) JobUnselected: {'identifier': 'rplidar_ros'}
+[0.002375] (-) JobUnselected: {'identifier': 'v4l2_camera'}
+[0.002470] (ros2_pca9685) JobQueued: {'identifier': 'ros2_pca9685', 'dependencies': OrderedDict()}
+[0.002556] (ros2_pca9685) JobStarted: {'identifier': 'ros2_pca9685'}
+[0.098894] (-) TimerEvent: {}
+[0.199564] (-) TimerEvent: {}
+[0.300269] (-) TimerEvent: {}
+[0.401075] (-) TimerEvent: {}
+[0.502000] (-) TimerEvent: {}
+[0.602752] (-) TimerEvent: {}
+[0.703574] (-) TimerEvent: {}
+[0.804226] (-) TimerEvent: {}
+[0.904867] (-) TimerEvent: {}
+[1.005511] (-) TimerEvent: {}
+[1.106207] (-) TimerEvent: {}
+[1.206880] (-) TimerEvent: {}
+[1.307850] (-) TimerEvent: {}
+[1.408730] (-) TimerEvent: {}
+[1.509423] (-) TimerEvent: {}
+[1.610208] (-) TimerEvent: {}
+[1.710894] (-) TimerEvent: {}
+[1.811576] (-) TimerEvent: {}
+[1.912192] (-) TimerEvent: {}
+[2.012828] (-) TimerEvent: {}
+[2.113462] (-) TimerEvent: {}
+[2.214149] (-) TimerEvent: {}
+[2.314823] (-) TimerEvent: {}
+[2.415480] (-) TimerEvent: {}
+[2.516181] (-) TimerEvent: {}
+[2.616862] (-) TimerEvent: {}
+[2.717533] (-) TimerEvent: {}
+[2.818469] (-) TimerEvent: {}
+[2.919738] (-) TimerEvent: {}
+[2.950371] (ros2_pca9685) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/ros2_pca9685', 'build', '--build-base', '/home/kingpooper/deepRacerWS/build/ros2_pca9685/build', 'install', '--record', '/home/kingpooper/deepRacerWS/build/ros2_pca9685/install.log', '--install-scripts', '$base/lib/ros2_pca9685', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/kingpooper/deepRacerWS/src/ros2_pca9685', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'kingpooper', 'SSH_CLIENT': '100.124.103.28 46226 22', 'GIT_ASKPASS': '/home/kingpooper/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/kingpooper/deepRacerWS/install/v4l2_camera/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/kingpooper/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/bin/helpers/browser.sh', 'HOME': '/home/kingpooper', 'OLDPWD': '/home/kingpooper', 'TERM_PROGRAM_VERSION': '1.96.4', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-1d2fe466-46b8-49ec-8d23-ab0b6272ffd2.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/kingpooper/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/kingpooper/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/kingpooper/deepRacerWS/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/kingpooper/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-5d449e6c91.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/kingpooper/deepRacerWS/install/v4l2_camera:/home/kingpooper/deepRacerWS/install/rplidar_ros:/home/kingpooper/deepRacerWS/install/ros2_pca9685:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/kingpooper/deepRacerWS/build/ros2_pca9685', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '100.124.103.28 46226 100.119.1.100 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/kingpooper/deepRacerWS/build/ros2_pca9685/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kingpooper/deepRacerWS/install/ros2_pca9685/lib/python3.10/site-packages:/home/kingpooper/deepRacerWS/install/ros2_pca9685/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/kingpooper/deepRacerWS/install/v4l2_camera:/home/kingpooper/deepRacerWS/install/rplidar_ros'}, 'shell': False}
+[3.019886] (-) TimerEvent: {}
+[3.120603] (-) TimerEvent: {}
+[3.221345] (-) TimerEvent: {}
+[3.322054] (-) TimerEvent: {}
+[3.422692] (-) TimerEvent: {}
+[3.523465] (-) TimerEvent: {}
+[3.624401] (-) TimerEvent: {}
+[3.725026] (-) TimerEvent: {}
+[3.825811] (-) TimerEvent: {}
+[3.926456] (-) TimerEvent: {}
+[4.027101] (-) TimerEvent: {}
+[4.108473] (ros2_pca9685) StderrLine: {'line': b"/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[4.109126] (ros2_pca9685) StderrLine: {'line': b'  warnings.warn(\n'}
+[4.127284] (-) TimerEvent: {}
+[4.145597] (ros2_pca9685) StdoutLine: {'line': b'running egg_info\n'}
+[4.149265] (ros2_pca9685) StdoutLine: {'line': b'writing ../../build/ros2_pca9685/ros2_pca9685.egg-info/PKG-INFO\n'}
+[4.150417] (ros2_pca9685) StdoutLine: {'line': b'writing dependency_links to ../../build/ros2_pca9685/ros2_pca9685.egg-info/dependency_links.txt\n'}
+[4.151336] (ros2_pca9685) StdoutLine: {'line': b'writing entry points to ../../build/ros2_pca9685/ros2_pca9685.egg-info/entry_points.txt\n'}
+[4.152087] (ros2_pca9685) StdoutLine: {'line': b'writing requirements to ../../build/ros2_pca9685/ros2_pca9685.egg-info/requires.txt\n'}
+[4.152813] (ros2_pca9685) StdoutLine: {'line': b'writing top-level names to ../../build/ros2_pca9685/ros2_pca9685.egg-info/top_level.txt\n'}
+[4.161199] (ros2_pca9685) StdoutLine: {'line': b"reading manifest file '../../build/ros2_pca9685/ros2_pca9685.egg-info/SOURCES.txt'\n"}
+[4.162678] (ros2_pca9685) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[4.165286] (ros2_pca9685) StdoutLine: {'line': b"writing manifest file '../../build/ros2_pca9685/ros2_pca9685.egg-info/SOURCES.txt'\n"}
+[4.165937] (ros2_pca9685) StdoutLine: {'line': b'running build\n'}
+[4.166407] (ros2_pca9685) StdoutLine: {'line': b'running build_py\n'}
+[4.167308] (ros2_pca9685) StdoutLine: {'line': b'copying ros2_pca9685/subscriber_member_function.py -> /home/kingpooper/deepRacerWS/build/ros2_pca9685/build/lib/ros2_pca9685\n'}
+[4.168704] (ros2_pca9685) StdoutLine: {'line': b'running install\n'}
+[4.170059] (ros2_pca9685) StdoutLine: {'line': b'running install_lib\n'}
+[4.173815] (ros2_pca9685) StdoutLine: {'line': b'copying /home/kingpooper/deepRacerWS/build/ros2_pca9685/build/lib/ros2_pca9685/subscriber_member_function.py -> /home/kingpooper/deepRacerWS/install/ros2_pca9685/lib/python3.10/site-packages/ros2_pca9685\n'}
+[4.176762] (ros2_pca9685) StdoutLine: {'line': b'byte-compiling /home/kingpooper/deepRacerWS/install/ros2_pca9685/lib/python3.10/site-packages/ros2_pca9685/subscriber_member_function.py to subscriber_member_function.cpython-310.pyc\n'}
+[4.180956] (ros2_pca9685) StdoutLine: {'line': b'running install_data\n'}
+[4.181799] (ros2_pca9685) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.193287] (ros2_pca9685) StdoutLine: {'line': b"removing '/home/kingpooper/deepRacerWS/install/ros2_pca9685/lib/python3.10/site-packages/ros2_pca9685-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[4.194993] (ros2_pca9685) StdoutLine: {'line': b'Copying ../../build/ros2_pca9685/ros2_pca9685.egg-info to /home/kingpooper/deepRacerWS/install/ros2_pca9685/lib/python3.10/site-packages/ros2_pca9685-0.0.0-py3.10.egg-info\n'}
+[4.200190] (ros2_pca9685) StdoutLine: {'line': b'running install_scripts\n'}
+[4.227489] (-) TimerEvent: {}
+[4.279339] (ros2_pca9685) StdoutLine: {'line': b'Installing listener script to /home/kingpooper/deepRacerWS/install/ros2_pca9685/lib/ros2_pca9685\n'}
+[4.280240] (ros2_pca9685) StdoutLine: {'line': b'Installing talker script to /home/kingpooper/deepRacerWS/install/ros2_pca9685/lib/ros2_pca9685\n'}
+[4.282164] (ros2_pca9685) StdoutLine: {'line': b"writing list of installed files to '/home/kingpooper/deepRacerWS/build/ros2_pca9685/install.log'\n"}
+[4.327782] (-) TimerEvent: {}
+[4.410736] (ros2_pca9685) CommandEnded: {'returncode': 0}
+[4.428017] (-) TimerEvent: {}
+[4.458552] (ros2_pca9685) JobEnded: {'identifier': 'ros2_pca9685', 'rc': 0}
+[4.461458] (-) EventReactorShutdown: {}

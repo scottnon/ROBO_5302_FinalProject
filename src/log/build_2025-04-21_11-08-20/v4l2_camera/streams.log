@@ -1,0 +1,83 @@
+[1.708s] Invoking command in '/home/kingpooper/deepRacerWS/src/build/v4l2_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kingpooper/deepRacerWS/install/tape:/home/kingpooper/deepRacerWS/install/ros2_pca9685:/home/kingpooper/deepRacerWS/install/control:/opt/ros/humble /usr/bin/cmake /home/kingpooper/deepRacerWS/src/ros2_v4l2_camera -DCMAKE_INSTALL_PREFIX=/home/kingpooper/deepRacerWS/src/install/v4l2_camera
+[1.776s] -- Found ament_cmake_auto: 1.3.11 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[2.547s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.187s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.202s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.235s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.291s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.361s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.541s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.552s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.696s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.544s] [0mCUDA_TOOLKIT_ROOT_DIR not found or specified[0m
+[5.579s] -- Could NOT find CUDA (missing: CUDA_TOOLKIT_ROOT_DIR CUDA_NVCC_EXECUTABLE CUDA_INCLUDE_DIRS CUDA_CUDART_LIBRARY) 
+[5.596s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.813s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.814s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/kingpooper/deepRacerWS/src/ros2_v4l2_camera/include>
+[5.815s] -- Configured cppcheck exclude dirs and/or files: 
+[5.856s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[5.856s] -- Configured cpplint exclude dirs and/or files: 
+[5.897s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.910s] -- Added test 'lint_cmake' to check CMake code style
+[5.918s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[5.956s] -- Added test 'uncrustify' to check C / C++ code style
+[5.956s] -- Configured uncrustify additional arguments: 
+[5.963s] -- Added test 'xmllint' to check XML markup files
+[5.994s] -- Configuring done
+[6.200s] -- Generating done
+[6.246s] -- Build files have been written to: /home/kingpooper/deepRacerWS/src/build/v4l2_camera
+[6.283s] Invoked command in '/home/kingpooper/deepRacerWS/src/build/v4l2_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kingpooper/deepRacerWS/install/tape:/home/kingpooper/deepRacerWS/install/ros2_pca9685:/home/kingpooper/deepRacerWS/install/control:/opt/ros/humble /usr/bin/cmake /home/kingpooper/deepRacerWS/src/ros2_v4l2_camera -DCMAKE_INSTALL_PREFIX=/home/kingpooper/deepRacerWS/src/install/v4l2_camera
+[6.291s] Invoking command in '/home/kingpooper/deepRacerWS/src/build/v4l2_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kingpooper/deepRacerWS/install/tape:/home/kingpooper/deepRacerWS/install/ros2_pca9685:/home/kingpooper/deepRacerWS/install/control:/opt/ros/humble /usr/bin/cmake --build /home/kingpooper/deepRacerWS/src/build/v4l2_camera -- -j4 -l4
+[6.482s] [35m[1mConsolidate compiler generated dependencies of target v4l2_camera[0m
+[6.603s] [ 42%] Built target v4l2_camera
+[6.656s] [35m[1mConsolidate compiler generated dependencies of target v4l2_camera_node[0m
+[6.659s] [35m[1mConsolidate compiler generated dependencies of target v4l2_camera_compose_test[0m
+[6.754s] [ 71%] Built target v4l2_camera_node
+[6.756s] [100%] Built target v4l2_camera_compose_test
+[6.797s] Invoked command in '/home/kingpooper/deepRacerWS/src/build/v4l2_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kingpooper/deepRacerWS/install/tape:/home/kingpooper/deepRacerWS/install/ros2_pca9685:/home/kingpooper/deepRacerWS/install/control:/opt/ros/humble /usr/bin/cmake --build /home/kingpooper/deepRacerWS/src/build/v4l2_camera -- -j4 -l4
+[6.809s] Invoking command in '/home/kingpooper/deepRacerWS/src/build/v4l2_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kingpooper/deepRacerWS/install/tape:/home/kingpooper/deepRacerWS/install/ros2_pca9685:/home/kingpooper/deepRacerWS/install/control:/opt/ros/humble /usr/bin/cmake --install /home/kingpooper/deepRacerWS/src/build/v4l2_camera
+[6.839s] -- Install configuration: ""
+[6.841s] -- Execute custom install script
+[6.844s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/src/install/v4l2_camera/include/v4l2_camera/control.hpp
+[6.846s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/src/install/v4l2_camera/include/v4l2_camera/fourcc.hpp
+[6.847s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/src/install/v4l2_camera/include/v4l2_camera/image_format.hpp
+[6.848s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/src/install/v4l2_camera/include/v4l2_camera/pixel_format.hpp
+[6.850s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/src/install/v4l2_camera/include/v4l2_camera/v4l2_camera.hpp
+[6.851s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/src/install/v4l2_camera/include/v4l2_camera/v4l2_camera_device.hpp
+[6.853s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/src/install/v4l2_camera/include/v4l2_camera/visibility_control.h
+[6.856s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/src/install/v4l2_camera/share/v4l2_camera/environment/library_path.sh
+[6.858s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/src/install/v4l2_camera/share/v4l2_camera/environment/library_path.dsv
+[6.860s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/src/install/v4l2_camera/include/v4l2_camera/control.hpp
+[6.861s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/src/install/v4l2_camera/include/v4l2_camera/fourcc.hpp
+[6.862s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/src/install/v4l2_camera/include/v4l2_camera/image_format.hpp
+[6.863s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/src/install/v4l2_camera/include/v4l2_camera/pixel_format.hpp
+[6.864s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/src/install/v4l2_camera/include/v4l2_camera/v4l2_camera.hpp
+[6.865s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/src/install/v4l2_camera/include/v4l2_camera/v4l2_camera_device.hpp
+[6.866s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/src/install/v4l2_camera/include/v4l2_camera/visibility_control.h
+[6.869s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/src/install/v4l2_camera/share/v4l2_camera/launch/v4l2_camera.launch.py
+[6.872s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/src/install/v4l2_camera/share/ament_index/resource_index/package_run_dependencies/v4l2_camera
+[6.874s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/src/install/v4l2_camera/share/ament_index/resource_index/parent_prefix_path/v4l2_camera
+[6.876s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/src/install/v4l2_camera/share/v4l2_camera/environment/ament_prefix_path.sh
+[6.878s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/src/install/v4l2_camera/share/v4l2_camera/environment/ament_prefix_path.dsv
+[6.879s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/src/install/v4l2_camera/share/v4l2_camera/environment/path.sh
+[6.881s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/src/install/v4l2_camera/share/v4l2_camera/environment/path.dsv
+[6.883s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/src/install/v4l2_camera/share/v4l2_camera/local_setup.bash
+[6.884s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/src/install/v4l2_camera/share/v4l2_camera/local_setup.sh
+[6.886s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/src/install/v4l2_camera/share/v4l2_camera/local_setup.zsh
+[6.888s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/src/install/v4l2_camera/share/v4l2_camera/local_setup.dsv
+[6.889s] -- Symlinking: /home/kingpooper/deepRacerWS/src/install/v4l2_camera/share/v4l2_camera/package.dsv
+[6.928s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/src/install/v4l2_camera/share/ament_index/resource_index/packages/v4l2_camera
+[6.931s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/src/install/v4l2_camera/share/ament_index/resource_index/rclcpp_components/v4l2_camera
+[6.933s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/src/install/v4l2_camera/share/v4l2_camera/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.935s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/src/install/v4l2_camera/share/v4l2_camera/cmake/ament_cmake_export_targets-extras.cmake
+[6.937s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/src/install/v4l2_camera/share/v4l2_camera/cmake/ament_cmake_export_libraries-extras.cmake
+[6.938s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/src/install/v4l2_camera/share/v4l2_camera/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.940s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/src/install/v4l2_camera/share/v4l2_camera/cmake/v4l2_cameraConfig.cmake
+[6.942s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/src/install/v4l2_camera/share/v4l2_camera/cmake/v4l2_cameraConfig-version.cmake
+[6.943s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/src/install/v4l2_camera/share/v4l2_camera/package.xml
+[6.947s] -- Up-to-date: /home/kingpooper/deepRacerWS/src/install/v4l2_camera/lib/libv4l2_camera.so
+[6.953s] -- Up-to-date: /home/kingpooper/deepRacerWS/src/install/v4l2_camera/lib/v4l2_camera/v4l2_camera_node
+[6.957s] -- Up-to-date: /home/kingpooper/deepRacerWS/src/install/v4l2_camera/lib/v4l2_camera/v4l2_camera_compose_test
+[6.961s] -- Up-to-date: /home/kingpooper/deepRacerWS/src/install/v4l2_camera/share/v4l2_camera/cmake/export_v4l2_cameraExport.cmake
+[6.961s] -- Up-to-date: /home/kingpooper/deepRacerWS/src/install/v4l2_camera/share/v4l2_camera/cmake/export_v4l2_cameraExport-noconfig.cmake
+[6.971s] Invoked command in '/home/kingpooper/deepRacerWS/src/build/v4l2_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kingpooper/deepRacerWS/install/tape:/home/kingpooper/deepRacerWS/install/ros2_pca9685:/home/kingpooper/deepRacerWS/install/control:/opt/ros/humble /usr/bin/cmake --install /home/kingpooper/deepRacerWS/src/build/v4l2_camera

@@ -1,0 +1,18 @@
+running develop
+running egg_info
+writing tape.egg-info/PKG-INFO
+writing dependency_links to tape.egg-info/dependency_links.txt
+writing entry points to tape.egg-info/entry_points.txt
+writing requirements to tape.egg-info/requires.txt
+writing top-level names to tape.egg-info/top_level.txt
+reading manifest file 'tape.egg-info/SOURCES.txt'
+writing manifest file 'tape.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/kingpooper/deepRacerWS/install/tape/lib/python3.10/site-packages/tape.egg-link (link to .)
+Installing image_subscriber script to /home/kingpooper/deepRacerWS/install/tape/lib/tape
+Installing tape_follower script to /home/kingpooper/deepRacerWS/install/tape/lib/tape
+
+Installed /home/kingpooper/deepRacerWS/build/tape
+running symlink_data
+symbolically linking /home/kingpooper/deepRacerWS/build/tape/resource/tape -> /home/kingpooper/deepRacerWS/install/tape/share/ament_index/resource_index/packages
+symbolically linking /home/kingpooper/deepRacerWS/build/tape/package.xml -> /home/kingpooper/deepRacerWS/install/tape/share/tape

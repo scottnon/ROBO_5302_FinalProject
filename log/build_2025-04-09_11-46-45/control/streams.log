@@ -1,0 +1,34 @@
+[4.470s] Invoking command in '/home/kingpooper/deepRacerWS/src/control': PYTHONPATH=/home/kingpooper/deepRacerWS/build/control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kingpooper/deepRacerWS/install/control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/control build --build-base /home/kingpooper/deepRacerWS/build/control/build install --record /home/kingpooper/deepRacerWS/build/control/install.log --single-version-externally-managed install_data
+[6.154s] running egg_info
+[6.158s] creating ../../build/control/control.egg-info
+[6.159s] writing ../../build/control/control.egg-info/PKG-INFO
+[6.160s] writing dependency_links to ../../build/control/control.egg-info/dependency_links.txt
+[6.161s] writing entry points to ../../build/control/control.egg-info/entry_points.txt
+[6.162s] writing requirements to ../../build/control/control.egg-info/requires.txt
+[6.163s] writing top-level names to ../../build/control/control.egg-info/top_level.txt
+[6.164s] writing manifest file '../../build/control/control.egg-info/SOURCES.txt'
+[6.174s] reading manifest file '../../build/control/control.egg-info/SOURCES.txt'
+[6.178s] adding license file 'LICENSE'
+[6.182s] writing manifest file '../../build/control/control.egg-info/SOURCES.txt'
+[6.186s] running build
+[6.191s] running build_py
+[6.192s] creating /home/kingpooper/deepRacerWS/build/control/build
+[6.195s] creating /home/kingpooper/deepRacerWS/build/control/build/lib
+[6.197s] creating /home/kingpooper/deepRacerWS/build/control/build/lib/control
+[6.198s] copying control/__init__.py -> /home/kingpooper/deepRacerWS/build/control/build/lib/control
+[6.199s] running install
+[6.204s] running install_lib
+[6.212s] creating /home/kingpooper/deepRacerWS/install/control/lib/python3.10/site-packages/control
+[6.213s] copying /home/kingpooper/deepRacerWS/build/control/build/lib/control/__init__.py -> /home/kingpooper/deepRacerWS/install/control/lib/python3.10/site-packages/control
+[6.218s] byte-compiling /home/kingpooper/deepRacerWS/install/control/lib/python3.10/site-packages/control/__init__.py to __init__.cpython-310.pyc
+[6.223s] running install_data
+[6.225s] creating /home/kingpooper/deepRacerWS/install/control/share/ament_index
+[6.226s] creating /home/kingpooper/deepRacerWS/install/control/share/ament_index/resource_index
+[6.227s] creating /home/kingpooper/deepRacerWS/install/control/share/ament_index/resource_index/packages
+[6.228s] copying resource/control -> /home/kingpooper/deepRacerWS/install/control/share/ament_index/resource_index/packages
+[6.229s] copying package.xml -> /home/kingpooper/deepRacerWS/install/control/share/control
+[6.230s] running install_egg_info
+[6.242s] Copying ../../build/control/control.egg-info to /home/kingpooper/deepRacerWS/install/control/lib/python3.10/site-packages/control-0.0.0-py3.10.egg-info
+[6.263s] running install_scripts
+[6.470s] writing list of installed files to '/home/kingpooper/deepRacerWS/build/control/install.log'
+[6.780s] Invoked command in '/home/kingpooper/deepRacerWS/src/control' returned '0': PYTHONPATH=/home/kingpooper/deepRacerWS/build/control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kingpooper/deepRacerWS/install/control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/control build --build-base /home/kingpooper/deepRacerWS/build/control/build install --record /home/kingpooper/deepRacerWS/build/control/install.log --single-version-externally-managed install_data
