@@ -1,3 +1,7 @@
+/home/kingpooper/deepRacerWS/install/robot_car/lib/robot_car/bicycle_model_fake_odom_publisher.py
+/home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/launch/display.launch.py
+/home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/urdf/description/robot_car_description.urdf
+/home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/rviz/config.rviz
 /home/kingpooper/deepRacerWS/install/robot_car/share/ament_index/resource_index/package_run_dependencies/robot_car
 /home/kingpooper/deepRacerWS/install/robot_car/share/ament_index/resource_index/parent_prefix_path/robot_car
 /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/environment/ament_prefix_path.sh

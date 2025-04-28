@@ -1,0 +1,190 @@
+[0.000000] (-) TimerEvent: {}
+[0.016188] (-) JobUnselected: {'identifier': 'control'}
+[0.016851] (-) JobUnselected: {'identifier': 'ros2_pca9685'}
+[0.017193] (-) JobUnselected: {'identifier': 'rplidar_ros'}
+[0.017447] (-) JobUnselected: {'identifier': 'tape'}
+[0.017624] (-) JobUnselected: {'identifier': 'v4l2_camera'}
+[0.017746] (robot_car) JobQueued: {'identifier': 'robot_car', 'dependencies': OrderedDict()}
+[0.017863] (robot_car) JobStarted: {'identifier': 'robot_car'}
+[0.096560] (robot_car) JobProgress: {'identifier': 'robot_car', 'progress': 'cmake'}
+[0.099669] (-) TimerEvent: {}
+[0.104320] (robot_car) JobProgress: {'identifier': 'robot_car', 'progress': 'build'}
+[0.107311] (robot_car) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kingpooper/deepRacerWS/build/robot_car', '--', '-j4', '-l4'], 'cwd': '/home/kingpooper/deepRacerWS/build/robot_car', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kingpooper'), ('SSH_CLIENT', '100.120.59.83 50948 22'), ('GIT_ASKPASS', '/home/kingpooper/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kingpooper/deepRacerWS/install/v4l2_camera/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/kingpooper/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/bin/helpers/browser.sh'), ('HOME', '/home/kingpooper'), ('OLDPWD', '/home/kingpooper/deepRacerWS/src/robot_car'), ('TERM_PROGRAM_VERSION', '1.99.3'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-1c75bb02-243e-40e1-bbcd-db9e18115223.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/kingpooper/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/kingpooper/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/kingpooper/.vscode-server/extensions/ms-python.debugpy-2025.6.0-linux-arm64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/kingpooper/deepRacerWS/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/kingpooper/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/kingpooper/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/kingpooper/.vscode-server/extensions/ms-python.debugpy-2025.6.0-linux-arm64/bundled/scripts/noConfigScripts'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/kingpooper/.vscode-server/extensions/ms-python.debugpy-2025.6.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-7e018d3015ed46f1.txt'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-23a4450da1.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '73'), ('AMENT_PREFIX_PATH', '/home/kingpooper/deepRacerWS/install/v4l2_camera:/home/kingpooper/deepRacerWS/install/tape:/home/kingpooper/deepRacerWS/install/rplidar_ros:/home/kingpooper/deepRacerWS/install/ros2_pca9685:/home/kingpooper/deepRacerWS/install/robot_car:/home/kingpooper/deepRacerWS/install/control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/kingpooper/deepRacerWS/build/robot_car'), ('SSH_CONNECTION', '100.120.59.83 50948 100.119.1.100 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kingpooper/deepRacerWS/install/tape/lib/python3.10/site-packages:/home/kingpooper/deepRacerWS/install/ros2_pca9685/lib/python3.10/site-packages:/home/kingpooper/deepRacerWS/install/control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/kingpooper/deepRacerWS/install/v4l2_camera:/home/kingpooper/deepRacerWS/install/rplidar_ros:/home/kingpooper/deepRacerWS/install/robot_car:/home/kingpooper/deepRacerWS/install/tape:/home/kingpooper/deepRacerWS/install/ros2_pca9685:/home/kingpooper/deepRacerWS/install/control:/opt/ros/humble')]), 'shell': False}
+[0.199874] (-) TimerEvent: {}
+[0.300733] (-) TimerEvent: {}
+[0.401680] (-) TimerEvent: {}
+[0.506776] (-) TimerEvent: {}
+[0.551632] (robot_car) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.610800] (-) TimerEvent: {}
+[0.717308] (-) TimerEvent: {}
+[0.818641] (-) TimerEvent: {}
+[0.919493] (-) TimerEvent: {}
+[1.020349] (-) TimerEvent: {}
+[1.121300] (-) TimerEvent: {}
+[1.227034] (-) TimerEvent: {}
+[1.327931] (-) TimerEvent: {}
+[1.428741] (-) TimerEvent: {}
+[1.529540] (-) TimerEvent: {}
+[1.633205] (-) TimerEvent: {}
+[1.743177] (-) TimerEvent: {}
+[1.844168] (-) TimerEvent: {}
+[1.946019] (-) TimerEvent: {}
+[2.047292] (-) TimerEvent: {}
+[2.096718] (robot_car) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.147532] (-) TimerEvent: {}
+[2.248625] (-) TimerEvent: {}
+[2.349896] (-) TimerEvent: {}
+[2.450875] (-) TimerEvent: {}
+[2.554814] (-) TimerEvent: {}
+[2.655825] (-) TimerEvent: {}
+[2.756662] (-) TimerEvent: {}
+[2.857640] (-) TimerEvent: {}
+[2.958385] (-) TimerEvent: {}
+[2.971940] (robot_car) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[3.058621] (-) TimerEvent: {}
+[3.111262] (robot_car) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.158785] (-) TimerEvent: {}
+[3.264383] (-) TimerEvent: {}
+[3.276745] (robot_car) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.364574] (-) TimerEvent: {}
+[3.465459] (-) TimerEvent: {}
+[3.469304] (robot_car) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.565673] (-) TimerEvent: {}
+[3.666707] (-) TimerEvent: {}
+[3.719908] (robot_car) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.766973] (-) TimerEvent: {}
+[3.868056] (-) TimerEvent: {}
+[3.970256] (-) TimerEvent: {}
+[4.071122] (-) TimerEvent: {}
+[4.171991] (-) TimerEvent: {}
+[4.273915] (-) TimerEvent: {}
+[4.374752] (-) TimerEvent: {}
+[4.487831] (-) TimerEvent: {}
+[4.588895] (-) TimerEvent: {}
+[4.632394] (robot_car) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[4.689250] (-) TimerEvent: {}
+[4.719626] (robot_car) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[4.789474] (-) TimerEvent: {}
+[4.890825] (-) TimerEvent: {}
+[4.991774] (-) TimerEvent: {}
+[5.093064] (-) TimerEvent: {}
+[5.156912] (robot_car) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[5.193419] (-) TimerEvent: {}
+[5.294681] (-) TimerEvent: {}
+[5.382158] (robot_car) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[5.394911] (-) TimerEvent: {}
+[5.495785] (-) TimerEvent: {}
+[5.596747] (-) TimerEvent: {}
+[5.697658] (-) TimerEvent: {}
+[5.799358] (-) TimerEvent: {}
+[5.900251] (-) TimerEvent: {}
+[6.001528] (-) TimerEvent: {}
+[6.102683] (-) TimerEvent: {}
+[6.203591] (-) TimerEvent: {}
+[6.304353] (-) TimerEvent: {}
+[6.405105] (-) TimerEvent: {}
+[6.505910] (-) TimerEvent: {}
+[6.606863] (-) TimerEvent: {}
+[6.707913] (-) TimerEvent: {}
+[6.808914] (-) TimerEvent: {}
+[6.909844] (-) TimerEvent: {}
+[7.011207] (-) TimerEvent: {}
+[7.112101] (-) TimerEvent: {}
+[7.213116] (-) TimerEvent: {}
+[7.314669] (-) TimerEvent: {}
+[7.415800] (-) TimerEvent: {}
+[7.516593] (-) TimerEvent: {}
+[7.617496] (-) TimerEvent: {}
+[7.718673] (-) TimerEvent: {}
+[7.786398] (robot_car) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[7.802068] (robot_car) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[7.818860] (-) TimerEvent: {}
+[7.920490] (-) TimerEvent: {}
+[8.021254] (-) TimerEvent: {}
+[8.122028] (-) TimerEvent: {}
+[8.223025] (-) TimerEvent: {}
+[8.323963] (-) TimerEvent: {}
+[8.424812] (-) TimerEvent: {}
+[8.527106] (-) TimerEvent: {}
+[8.593483] (robot_car) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[8.619287] (robot_car) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[8.627242] (-) TimerEvent: {}
+[8.728166] (-) TimerEvent: {}
+[8.829400] (-) TimerEvent: {}
+[8.930541] (-) TimerEvent: {}
+[9.031640] (-) TimerEvent: {}
+[9.132530] (-) TimerEvent: {}
+[9.233352] (-) TimerEvent: {}
+[9.335083] (-) TimerEvent: {}
+[9.435907] (-) TimerEvent: {}
+[9.494913] (robot_car) StdoutLine: {'line': b'-- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[9.536213] (-) TimerEvent: {}
+[9.548466] (robot_car) StdoutLine: {'line': b'-- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)\n'}
+[9.636953] (-) TimerEvent: {}
+[9.738463] (-) TimerEvent: {}
+[9.839454] (-) TimerEvent: {}
+[9.940756] (-) TimerEvent: {}
+[9.942736] (robot_car) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[10.041056] (-) TimerEvent: {}
+[10.142770] (-) TimerEvent: {}
+[10.243655] (-) TimerEvent: {}
+[10.349202] (-) TimerEvent: {}
+[10.450190] (-) TimerEvent: {}
+[10.551077] (-) TimerEvent: {}
+[10.651865] (-) TimerEvent: {}
+[10.752908] (-) TimerEvent: {}
+[10.854879] (-) TimerEvent: {}
+[10.955720] (-) TimerEvent: {}
+[11.056544] (-) TimerEvent: {}
+[11.157568] (-) TimerEvent: {}
+[11.258506] (-) TimerEvent: {}
+[11.359776] (-) TimerEvent: {}
+[11.375971] (robot_car) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[11.460075] (-) TimerEvent: {}
+[11.561322] (-) TimerEvent: {}
+[11.662325] (-) TimerEvent: {}
+[11.763369] (-) TimerEvent: {}
+[11.876958] (-) TimerEvent: {}
+[11.979331] (-) TimerEvent: {}
+[12.082803] (-) TimerEvent: {}
+[12.184063] (-) TimerEvent: {}
+[12.286810] (-) TimerEvent: {}
+[12.387650] (-) TimerEvent: {}
+[12.488572] (-) TimerEvent: {}
+[12.589695] (-) TimerEvent: {}
+[12.690543] (-) TimerEvent: {}
+[12.694989] (robot_car) StdoutLine: {'line': b'-- Configuring done\n'}
+[12.793158] (-) TimerEvent: {}
+[12.807762] (robot_car) StdoutLine: {'line': b'-- Generating done\n'}
+[12.845855] (robot_car) StdoutLine: {'line': b'-- Build files have been written to: /home/kingpooper/deepRacerWS/build/robot_car\n'}
+[12.896047] (-) TimerEvent: {}
+[12.999251] (-) TimerEvent: {}
+[13.100620] (-) TimerEvent: {}
+[13.200067] (robot_car) CommandEnded: {'returncode': 0}
+[13.202112] (-) TimerEvent: {}
+[13.211229] (robot_car) JobProgress: {'identifier': 'robot_car', 'progress': 'install'}
+[13.305728] (-) TimerEvent: {}
+[13.414113] (-) TimerEvent: {}
+[13.441610] (robot_car) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/kingpooper/deepRacerWS/build/robot_car'], 'cwd': '/home/kingpooper/deepRacerWS/build/robot_car', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kingpooper'), ('SSH_CLIENT', '100.120.59.83 50948 22'), ('GIT_ASKPASS', '/home/kingpooper/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kingpooper/deepRacerWS/install/v4l2_camera/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/kingpooper/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/bin/helpers/browser.sh'), ('HOME', '/home/kingpooper'), ('OLDPWD', '/home/kingpooper/deepRacerWS/src/robot_car'), ('TERM_PROGRAM_VERSION', '1.99.3'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-1c75bb02-243e-40e1-bbcd-db9e18115223.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/kingpooper/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/kingpooper/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/kingpooper/.vscode-server/extensions/ms-python.debugpy-2025.6.0-linux-arm64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/kingpooper/deepRacerWS/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/kingpooper/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/kingpooper/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/kingpooper/.vscode-server/extensions/ms-python.debugpy-2025.6.0-linux-arm64/bundled/scripts/noConfigScripts'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/kingpooper/.vscode-server/extensions/ms-python.debugpy-2025.6.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-7e018d3015ed46f1.txt'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-23a4450da1.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '73'), ('AMENT_PREFIX_PATH', '/home/kingpooper/deepRacerWS/install/v4l2_camera:/home/kingpooper/deepRacerWS/install/tape:/home/kingpooper/deepRacerWS/install/rplidar_ros:/home/kingpooper/deepRacerWS/install/ros2_pca9685:/home/kingpooper/deepRacerWS/install/robot_car:/home/kingpooper/deepRacerWS/install/control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/kingpooper/deepRacerWS/build/robot_car'), ('SSH_CONNECTION', '100.120.59.83 50948 100.119.1.100 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kingpooper/deepRacerWS/install/tape/lib/python3.10/site-packages:/home/kingpooper/deepRacerWS/install/ros2_pca9685/lib/python3.10/site-packages:/home/kingpooper/deepRacerWS/install/control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/kingpooper/deepRacerWS/install/v4l2_camera:/home/kingpooper/deepRacerWS/install/rplidar_ros:/home/kingpooper/deepRacerWS/install/robot_car:/home/kingpooper/deepRacerWS/install/tape:/home/kingpooper/deepRacerWS/install/ros2_pca9685:/home/kingpooper/deepRacerWS/install/control:/opt/ros/humble')]), 'shell': False}
+[13.515324] (-) TimerEvent: {}
+[13.636254] (-) TimerEvent: {}
+[13.717077] (robot_car) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.718315] (robot_car) StdoutLine: {'line': b'-- Installing: /home/kingpooper/deepRacerWS/install/robot_car/lib/robot_car/bicycle_model_fake_odom_publisher.py\n'}
+[13.720655] (robot_car) StdoutLine: {'line': b'-- Up-to-date: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/launch\n'}
+[13.723224] (robot_car) StdoutLine: {'line': b'-- Up-to-date: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/launch/display.launch.py\n'}
+[13.723888] (robot_car) StdoutLine: {'line': b'-- Installing: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/urdf\n'}
+[13.725025] (robot_car) StdoutLine: {'line': b'-- Installing: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/urdf/description\n'}
+[13.725669] (robot_car) StdoutLine: {'line': b'-- Installing: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/urdf/description/robot_car_description.urdf\n'}
+[13.736476] (-) TimerEvent: {}
+[13.800807] (robot_car) StderrLine: {'line': b'\x1b[31mCMake Error at cmake_install.cmake:50 (file):\n'}
+[13.801668] (robot_car) StderrLine: {'line': b'  file INSTALL cannot find\n'}
+[13.802245] (robot_car) StderrLine: {'line': b'  "/home/kingpooper/deepRacerWS/src/robot_car/config": No such file or\n'}
+[13.802825] (robot_car) StderrLine: {'line': b'  directory.\n'}
+[13.803967] (robot_car) StderrLine: {'line': b'\n'}
+[13.804417] (robot_car) StderrLine: {'line': b'\x1b[0m\n'}
+[13.846802] (robot_car) CommandEnded: {'returncode': 1}
+[13.848949] (-) TimerEvent: {}
+[13.953000] (-) TimerEvent: {}
+[14.039130] (robot_car) JobEnded: {'identifier': 'robot_car', 'rc': 1}
+[14.067638] (-) TimerEvent: {}
+[14.068228] (-) EventReactorShutdown: {}

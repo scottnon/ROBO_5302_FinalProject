@@ -10,12 +10,12 @@ class LineFollower(Node):
     def __init__(self):
         super().__init__('line_follower')
         self.subscription = self.create_subscription(Image, '/image_raw', self.listener_callback, 10)
-        self.subscription
+        self.subscription   # idk what this does
         self.br = CvBridge()
         self.publisher_ = self.create_publisher(Twist, '/cmd_vel', 10)
 
         # Set the desired linear and angular velocity gains
-        self.linear_velocity_gain = 0.1
+        self.linear_velocity_gain = 0.25
         self.angular_velocity_gain = 0.3
 
     def listener_callback(self, data):
@@ -64,9 +64,9 @@ class LineFollower(Node):
             twist.angular.z = angular_velocity
             self.publisher_.publish(twist)
 
-        #cv2.imshow("Line Threshold", mask)
-        #cv2.imshow("Region of Interest", roi)
-        #cv2.imshow("Centroid Indicator", img)
+        # cv2.imshow("Line Threshold", mask)
+        # cv2.imshow("Region of Interest", roi)
+        # cv2.imshow("Centroid Indicator", img)
         cv2.waitKey(1)
 
 def main(args=None):

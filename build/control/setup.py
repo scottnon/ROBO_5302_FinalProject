@@ -1,1 +1,0 @@
-/home/kingpooper/deepRacerWS/src/control/setup.py

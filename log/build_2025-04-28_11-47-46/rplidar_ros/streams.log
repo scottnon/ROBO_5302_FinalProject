@@ -1,0 +1,88 @@
+[4.299s] Invoking command in '/home/kingpooper/deepRacerWS/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kingpooper/deepRacerWS/install/tape:/home/kingpooper/deepRacerWS/install/ros2_pca9685:/home/kingpooper/deepRacerWS/install/control:/opt/ros/humble /usr/bin/cmake --build /home/kingpooper/deepRacerWS/build/rplidar_ros -- -j4 -l4
+[5.574s] [35m[1mConsolidate compiler generated dependencies of target rplidar_node[0m
+[5.652s] [35m[1mConsolidate compiler generated dependencies of target rplidar_composition[0m
+[5.888s] [  5%] Built target rplidar_client
+[6.557s] [  7%] [32mBuilding CXX object CMakeFiles/rplidar_node.dir/src/rplidar_node.cpp.o[0m
+[6.576s] [ 10%] [32mBuilding CXX object CMakeFiles/rplidar_composition.dir/src/rplidar_node.cpp.o[0m
+[48.703s] In file included from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/sl_lidar_cmd.h:41[m[K,
+[48.704s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/sl_lidar_driver.h:54[m[K,
+[48.715s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/sl_lidar.h:36[m[K,
+[48.717s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/src/rplidar_node.cpp:38[m[K:
+[48.719s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[48.720s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[48.721s]       |                [01;35m[K^[m[K
+[48.730s] In file included from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/sl_lidar_driver.h:54[m[K,
+[48.731s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/sl_lidar.h:36[m[K,
+[48.732s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/src/rplidar_node.cpp:38[m[K:
+[48.733s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[48.735s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[48.736s]       |                    [01;35m[K^[m[K
+[54.562s] In file included from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/sl_lidar_cmd.h:41[m[K,
+[54.563s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/sl_lidar_driver.h:54[m[K,
+[54.564s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/sl_lidar.h:36[m[K,
+[54.565s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/src/rplidar_node.cpp:38[m[K:
+[54.570s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[54.573s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[54.586s]       |                [01;35m[K^[m[K
+[54.587s] In file included from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/sl_lidar_driver.h:54[m[K,
+[54.588s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/sl_lidar.h:36[m[K,
+[54.589s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/src/rplidar_node.cpp:38[m[K:
+[54.590s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[54.591s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[54.592s]       |                    [01;35m[K^[m[K
+[75.426s] [ 13%] [32m[1mLinking CXX executable rplidar_node[0m
+[79.780s] [ 55%] Built target rplidar_node
+[84.082s] [ 57%] [32m[1mLinking CXX executable rplidar_composition[0m
+[86.232s] [100%] Built target rplidar_composition
+[86.315s] Invoked command in '/home/kingpooper/deepRacerWS/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kingpooper/deepRacerWS/install/tape:/home/kingpooper/deepRacerWS/install/ros2_pca9685:/home/kingpooper/deepRacerWS/install/control:/opt/ros/humble /usr/bin/cmake --build /home/kingpooper/deepRacerWS/build/rplidar_ros -- -j4 -l4
+[86.326s] Invoking command in '/home/kingpooper/deepRacerWS/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kingpooper/deepRacerWS/install/tape:/home/kingpooper/deepRacerWS/install/ros2_pca9685:/home/kingpooper/deepRacerWS/install/control:/opt/ros/humble /usr/bin/cmake --install /home/kingpooper/deepRacerWS/build/rplidar_ros
+[86.379s] -- Install configuration: ""
+[86.383s] -- Execute custom install script
+[86.387s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/launch/__pycache__/rplidar_a1_launch.cpython-310.pyc
+[86.388s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/launch/__pycache__/view_rplidar_a1_launch.cpython-310.pyc
+[86.390s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a1_launch.py
+[86.391s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m12_launch.py
+[86.395s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m7_launch.py
+[86.396s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m8_launch.py
+[86.401s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a3_launch.py
+[86.402s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/launch/rplidar_c1_launch.py
+[86.402s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_launch.py
+[86.403s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_tcp_launch.py
+[86.403s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2_launch.py
+[86.404s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2e_launch.py
+[86.404s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s3_launch.py
+[86.404s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/launch/rplidar_t1_launch.py
+[86.411s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a1_launch.py
+[86.412s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m12_launch.py
+[86.413s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m7_launch.py
+[86.414s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m8_launch.py
+[86.418s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a3_launch.py
+[86.420s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_c1_launch.py
+[86.422s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_launch.py
+[86.425s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_tcp_launch.py
+[86.431s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2_launch.py
+[86.432s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2e_launch.py
+[86.434s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s3_launch.py
+[86.436s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_t1_launch.py
+[86.439s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/rviz/rplidar_ros.rviz
+[86.439s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/lib/rplidar_ros/rplidar_node
+[86.440s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/lib/rplidar_ros/rplidar_composition
+[86.445s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/lib/rplidar_ros/rplidar_client
+[86.446s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/ament_index/resource_index/package_run_dependencies/rplidar_ros
+[86.454s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/ament_index/resource_index/parent_prefix_path/rplidar_ros
+[86.454s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.sh
+[86.455s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.dsv
+[86.456s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/environment/path.sh
+[86.457s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/environment/path.dsv
+[86.462s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/local_setup.bash
+[86.463s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/local_setup.sh
+[86.464s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/local_setup.zsh
+[86.469s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/local_setup.dsv
+[86.470s] -- Symlinking: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/package.dsv
+[86.525s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/ament_index/resource_index/packages/rplidar_ros
+[86.526s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[86.528s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[86.529s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake
+[86.534s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake
+[86.535s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/package.xml
+[86.552s] Invoked command in '/home/kingpooper/deepRacerWS/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kingpooper/deepRacerWS/install/tape:/home/kingpooper/deepRacerWS/install/ros2_pca9685:/home/kingpooper/deepRacerWS/install/control:/opt/ros/humble /usr/bin/cmake --install /home/kingpooper/deepRacerWS/build/rplidar_ros

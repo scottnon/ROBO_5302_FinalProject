@@ -1,0 +1,39 @@
+[0.092s] Invoking command in '/home/kingpooper/deepRacerWS/build/robot_car': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kingpooper/deepRacerWS/install/tape:/home/kingpooper/deepRacerWS/install/ros2_pca9685:/home/kingpooper/deepRacerWS/install/control:/opt/ros/humble /usr/bin/cmake --build /home/kingpooper/deepRacerWS/build/robot_car -- -j4 -l4
+[0.535s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.080s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[2.955s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.095s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.259s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.452s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.703s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.615s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.702s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[5.140s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[5.365s] -- Looking for pthread.h
+[7.769s] -- Looking for pthread.h - found
+[7.785s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[8.576s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[8.602s] -- Found Threads: TRUE  
+[9.478s] -- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)
+[9.532s] -- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)
+[9.925s] -- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)
+[11.359s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[12.678s] -- Configuring done
+[12.791s] -- Generating done
+[12.828s] -- Build files have been written to: /home/kingpooper/deepRacerWS/build/robot_car
+[13.183s] Invoked command in '/home/kingpooper/deepRacerWS/build/robot_car' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kingpooper/deepRacerWS/install/tape:/home/kingpooper/deepRacerWS/install/ros2_pca9685:/home/kingpooper/deepRacerWS/install/control:/opt/ros/humble /usr/bin/cmake --build /home/kingpooper/deepRacerWS/build/robot_car -- -j4 -l4
+[13.433s] Invoking command in '/home/kingpooper/deepRacerWS/build/robot_car': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kingpooper/deepRacerWS/install/tape:/home/kingpooper/deepRacerWS/install/ros2_pca9685:/home/kingpooper/deepRacerWS/install/control:/opt/ros/humble /usr/bin/cmake --install /home/kingpooper/deepRacerWS/build/robot_car
+[13.700s] -- Install configuration: ""
+[13.701s] -- Installing: /home/kingpooper/deepRacerWS/install/robot_car/lib/robot_car/bicycle_model_fake_odom_publisher.py
+[13.705s] -- Up-to-date: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/launch
+[13.706s] -- Up-to-date: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/launch/display.launch.py
+[13.707s] -- Installing: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/urdf
+[13.708s] -- Installing: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/urdf/description
+[13.708s] -- Installing: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/urdf/description/robot_car_description.urdf
+[13.784s] [31mCMake Error at cmake_install.cmake:50 (file):
+[13.784s]   file INSTALL cannot find
+[13.785s]   "/home/kingpooper/deepRacerWS/src/robot_car/config": No such file or
+[13.786s]   directory.
+[13.786s] 
+[13.787s] [0m
+[13.830s] Invoked command in '/home/kingpooper/deepRacerWS/build/robot_car' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kingpooper/deepRacerWS/install/tape:/home/kingpooper/deepRacerWS/install/ros2_pca9685:/home/kingpooper/deepRacerWS/install/control:/opt/ros/humble /usr/bin/cmake --install /home/kingpooper/deepRacerWS/build/robot_car

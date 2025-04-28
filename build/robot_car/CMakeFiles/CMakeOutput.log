@@ -435,3 +435,55 @@ Parsed CXX implicit link information from above output:
   implicit fwks: []
 
 
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/kingpooper/deepRacerWS/build/robot_car/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3bdbe/fast && gmake[1]: Entering directory '/home/kingpooper/deepRacerWS/build/robot_car/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_3bdbe.dir/build.make CMakeFiles/cmTC_3bdbe.dir/build
+gmake[2]: Entering directory '/home/kingpooper/deepRacerWS/build/robot_car/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3bdbe.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_3bdbe.dir/CheckIncludeFile.c.o -c /home/kingpooper/deepRacerWS/build/robot_car/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_3bdbe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3bdbe.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_3bdbe.dir/CheckIncludeFile.c.o -o cmTC_3bdbe 
+gmake[2]: Leaving directory '/home/kingpooper/deepRacerWS/build/robot_car/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/kingpooper/deepRacerWS/build/robot_car/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /home/kingpooper/deepRacerWS/build/robot_car/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a7ecd/fast && gmake[1]: Entering directory '/home/kingpooper/deepRacerWS/build/robot_car/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_a7ecd.dir/build.make CMakeFiles/cmTC_a7ecd.dir/build
+gmake[2]: Entering directory '/home/kingpooper/deepRacerWS/build/robot_car/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a7ecd.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_a7ecd.dir/src.c.o -c /home/kingpooper/deepRacerWS/build/robot_car/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_a7ecd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a7ecd.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_a7ecd.dir/src.c.o -o cmTC_a7ecd 
+gmake[2]: Leaving directory '/home/kingpooper/deepRacerWS/build/robot_car/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/kingpooper/deepRacerWS/build/robot_car/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
