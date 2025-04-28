@@ -30,8 +30,8 @@ class LineFollower(Node):
 
         mask = cv2.inRange(imgHSV, lower_yellow, upper_yellow) #gets rid of everything that isnt in that color range
 
-        roi_height = mask.shape[0] // 2
-        roi = mask[mask.shape[0] - roi_height:, :]
+        roi_height = mask.shape[0] // 2 #take only (a hot dog) half of the image
+        roi = mask[mask.shape[0] - roi_height:, :] #cut out the desired region
         #roi = mask[:,50:]
 
         M = cv2.moments(roi)
@@ -41,7 +41,7 @@ class LineFollower(Node):
             centroid = (cx, cy) #The center of those points
 
             radius = 8 #sets the radius (in pixels) of the circle that will be drawn at the centroid
-            img_center = (mask.shape[1] // 2, mask.shape[0] // 2)
+            img_center = (mask.shape[1] // 2, mask.shape[0] // 2) #center of the actual image
             distance_from_center = np.sqrt((cx - img_center[0])**2 + (cy - img_center[1])**2) # how far the centroid is from the center of the image
             #The next four lines are just for the visualizer
             max_distance = np.sqrt(img_center[0]**2 + img_center[1]**2) 

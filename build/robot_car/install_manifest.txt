@@ -1,0 +1,15 @@
+/home/kingpooper/deepRacerWS/install/robot_car/share/ament_index/resource_index/package_run_dependencies/robot_car
+/home/kingpooper/deepRacerWS/install/robot_car/share/ament_index/resource_index/parent_prefix_path/robot_car
+/home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/environment/ament_prefix_path.sh
+/home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/environment/ament_prefix_path.dsv
+/home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/environment/path.sh
+/home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/environment/path.dsv
+/home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/local_setup.bash
+/home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/local_setup.sh
+/home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/local_setup.zsh
+/home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/local_setup.dsv
+/home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/package.dsv
+/home/kingpooper/deepRacerWS/install/robot_car/share/ament_index/resource_index/packages/robot_car
+/home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/cmake/robot_carConfig.cmake
+/home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/cmake/robot_carConfig-version.cmake
+/home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/package.xml

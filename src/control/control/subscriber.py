@@ -58,9 +58,9 @@ if __name__ == '__main__':
     main()
     
    
-   # this is the format for our output data from the /scan topic
-   # output type is std_msgs/msg/LaserScan
-   # https://docs.ros2.org/foxy/api/sensor_msgs/msg/LaserScan.html
+# this is the format for our output data from the /scan topic
+# output type is std_msgs/msg/LaserScan
+# https://docs.ros2.org/foxy/api/sensor_msgs/msg/LaserScan.html
     
 # std_msgs/msg/Header header
 # float angle_min
