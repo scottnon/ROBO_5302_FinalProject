@@ -48,10 +48,11 @@ maxr=100	# can be adjusted slightly according to Dusty
 minl=30		# can be adjusted slightly according to Dusty (these are steering angle values)
 maxthr=100
 minthr= 75
-thrinit = 90
-strinit = 100
+thrinit = 90    # initial linear
+strinit = 100   # initial angular    
 pinSTR = 15
 pinTHR = 14
+
 
 print("Initializing Propulsion System")
 kit.servo[pinTHR].angle = thrinit
@@ -80,14 +81,13 @@ class MinimalSubscriber(Node):
 
     def listener_callback(self, msg):
         throttle=-msg.linear.x
-        steering=msg.angular.z
+        steering=msg.angular.z - 10      # -20 is trim
   #      self.get_logger().info('Y AXIS: "%s"' % yaxis)
  #       self.get_logger().info('X AXIS: "%s"' % xaxis)
         self.get_logger().info('Throttle: "%s"' % throttle)
         self.get_logger().info('Steering: "%s"' % steering)
         
         oldstrvalue = float(steering)
-        
         
         oldthrvalue = float(throttle)
 

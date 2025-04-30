@@ -1,0 +1,5 @@
+  File "/home/kingpooper/deepRacerWS/install/tape/lib/python3.10/site-packages/tape/my_sexy_tape_follower.py", line 9
+    linear = 
+             ^
+SyntaxError: invalid syntax
+

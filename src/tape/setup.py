@@ -22,7 +22,8 @@ setup(
         'console_scripts': [
         'image_subscriber = tape.image_subscriber:main',
         'tape_follower = tape.tape_follower:main',
-        'my_tape_follower = tape.my_tape_follower:main'
+        'my_tape_follower = tape.my_tape_follower:main',
+        'my_sexy_tape_follower = tape.my_sexy_tape_follower:main',
         ],
     },
 )

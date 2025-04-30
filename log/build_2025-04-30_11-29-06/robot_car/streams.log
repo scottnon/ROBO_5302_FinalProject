@@ -1,0 +1,29 @@
+[0.130s] Invoking command in '/home/kingpooper/deepRacerWS/build/robot_car': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kingpooper/deepRacerWS/install/tape:/home/kingpooper/deepRacerWS/install/ros2_pca9685:/home/kingpooper/deepRacerWS/install/control:/opt/ros/humble /usr/bin/cmake --build /home/kingpooper/deepRacerWS/build/robot_car -- -j4 -l4
+[0.457s] Invoked command in '/home/kingpooper/deepRacerWS/build/robot_car' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kingpooper/deepRacerWS/install/tape:/home/kingpooper/deepRacerWS/install/ros2_pca9685:/home/kingpooper/deepRacerWS/install/control:/opt/ros/humble /usr/bin/cmake --build /home/kingpooper/deepRacerWS/build/robot_car -- -j4 -l4
+[0.534s] Invoking command in '/home/kingpooper/deepRacerWS/build/robot_car': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kingpooper/deepRacerWS/install/tape:/home/kingpooper/deepRacerWS/install/ros2_pca9685:/home/kingpooper/deepRacerWS/install/control:/opt/ros/humble /usr/bin/cmake --install /home/kingpooper/deepRacerWS/build/robot_car
+[0.610s] -- Install configuration: ""
+[0.611s] -- Up-to-date: /home/kingpooper/deepRacerWS/install/robot_car/lib/robot_car/bicycle_model_fake_odom_publisher.py
+[0.612s] -- Up-to-date: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/launch
+[0.613s] -- Installing: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/launch/display.launch.py
+[0.614s] -- Up-to-date: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/urdf
+[0.615s] -- Up-to-date: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/urdf/description
+[0.628s] -- Up-to-date: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/urdf/description/robot_car_description.urdf
+[0.629s] -- Up-to-date: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/config
+[0.644s] -- Up-to-date: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/rviz
+[0.671s] -- Up-to-date: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/rviz/config.rviz
+[0.672s] -- Up-to-date: /home/kingpooper/deepRacerWS/install/robot_car/share/ament_index/resource_index/package_run_dependencies/robot_car
+[0.673s] -- Up-to-date: /home/kingpooper/deepRacerWS/install/robot_car/share/ament_index/resource_index/parent_prefix_path/robot_car
+[0.674s] -- Up-to-date: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/environment/ament_prefix_path.sh
+[0.679s] -- Up-to-date: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/environment/ament_prefix_path.dsv
+[0.680s] -- Up-to-date: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/environment/path.sh
+[0.681s] -- Up-to-date: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/environment/path.dsv
+[0.682s] -- Up-to-date: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/local_setup.bash
+[0.682s] -- Up-to-date: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/local_setup.sh
+[0.688s] -- Up-to-date: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/local_setup.zsh
+[0.689s] -- Up-to-date: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/local_setup.dsv
+[0.690s] -- Installing: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/package.dsv
+[0.691s] -- Up-to-date: /home/kingpooper/deepRacerWS/install/robot_car/share/ament_index/resource_index/packages/robot_car
+[0.692s] -- Up-to-date: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/cmake/robot_carConfig.cmake
+[0.693s] -- Up-to-date: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/cmake/robot_carConfig-version.cmake
+[0.694s] -- Up-to-date: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/package.xml
+[0.707s] Invoked command in '/home/kingpooper/deepRacerWS/build/robot_car' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kingpooper/deepRacerWS/install/tape:/home/kingpooper/deepRacerWS/install/ros2_pca9685:/home/kingpooper/deepRacerWS/install/control:/opt/ros/humble /usr/bin/cmake --install /home/kingpooper/deepRacerWS/build/robot_car

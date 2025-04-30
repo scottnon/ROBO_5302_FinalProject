@@ -4,6 +4,7 @@ from sensor_msgs.msg import Image
 from geometry_msgs.msg import Twist
 from cv_bridge import CvBridge
 import cv2
+import time
 import numpy as np
 
 class LineFollower(Node):
@@ -16,7 +17,10 @@ class LineFollower(Node):
 
         # Set the desired linear and angular velocity gains
         self.linear_velocity_gain = 0.3
-        self.angular_velocity_gain = 0.3
+        self.kp = 0.3
+        self.ki = 0.0
+        self.kd = 0.0
+
 
     def listener_callback(self, data):
         self.get_logger().info('Receiving video frame')
@@ -52,7 +56,7 @@ class LineFollower(Node):
             # Calculate linear and angular velocities based on centroid position
             error = img_center[0] - cx #positive if centroid is on the left part of the image, and vice versa
             linear_velocity = self.linear_velocity_gain #constant
-            angular_velocity = self.angular_velocity_gain * error #this is just proportional control
+            angular_velocity = self.kp * error #this is just proportional control
 
             # Keep the centroid in the center of the ROI
             if abs(error) > 20:

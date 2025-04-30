@@ -21,18 +21,20 @@ class MyTapeFollower(Node):
 
     def listener_callback(self, data):
         self.get_logger().info("receiving video frame") 
-        # img = self.br.imgmsg_to_cv2(data, 'mono8') #convert to grayscale image
-        img = self.br.imgmsg_to_cv2(data, 'bgr8') #convert to grayscale image
+        img = self.br.imgmsg_to_cv2(data, 'mono8') #convert to grayscale image
+        # img = self.br.imgmsg_to_cv2(data, 'bgr8') #convert to BGR8 Image
+        #note: the reason it's not converting to a grayscale image right way is because we later use the cvtColor function 
         img = cv2.resize(img, None, 1, 0.25, 0.25, cv2.INTER_CUBIC) #resizes by cubic interpolation
 		
         #imgHSV = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)  may not be needed bceause we are using grayscale
-        gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+        # img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
 
-        lower_threshold = 10 #darkest gray we accept
-        upper_threshold = 30 #lightest gray we accept
+        lower_threshold = 0 #darkest gray we accept
+        upper_threshold = 20 #lightest gray we accept
+        #another thing we can do is find the distribution of the grayscale values and find the darkest region
 
-        mask = cv2.inRange(gray, lower_threshold, upper_threshold) #gets rid of everything that isnt in that color range
+        mask = cv2.inRange(img, lower_threshold, upper_threshold) #gets rid of everything that isnt in that color range
         # self.get_logger().info("image moments before masking: ", cv2.moments(mask)['m00']) #print the moments of the image before masking
         roi_height = mask.shape[0] // 2 #take only (a hot dog) half of the image
         roi = mask[mask.shape[0] - roi_height:, :] #cut out the desired region
@@ -84,10 +86,11 @@ class MyTapeFollower(Node):
             # twist.linear.x = 0.0
             # twist.angular.z = 0.0
             # self.publisher_.publish(twist)
-                
-        #cv2.imshow("Line Threshold", mask)
-        #cv2.imshow("Region of Interest", roi)
-        #cv2.imshow("Centroid Indicator", img)
+
+        #UNCOMMENT THESE FOR VISUALIZATION        
+        cv2.imshow("Line Threshold", mask)
+        cv2.imshow("Region of Interest", roi)
+        cv2.imshow("Centroid Indicator", img)
         cv2.waitKey(1)
 
 def main(args=None):

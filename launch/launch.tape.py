@@ -8,9 +8,9 @@ def generate_launch_description():
     return LaunchDescription([
         Node(   # launch motor listener node
             package='ros2_pca9685',
-        #    namespace='motor',
+        #   namespace='motor',
             executable='listener',
-         #   name='minimal_subscriber'
+        #   name='minimal_subscriber'
         ), 
 
         Node(   # launch camera node
@@ -20,7 +20,7 @@ def generate_launch_description():
 
         Node(   # launch tape_follower
             package='tape',
-            executable='tape_follower',
+            executable='my_sexy_tape_follower',
         ), 
 
 

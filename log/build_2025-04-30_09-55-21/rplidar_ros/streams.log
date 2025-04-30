@@ -1,0 +1,1007 @@
+[4.307s] Invoking command in '/home/kingpooper/deepRacerWS/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kingpooper/deepRacerWS/install/tape:/home/kingpooper/deepRacerWS/install/ros2_pca9685:/home/kingpooper/deepRacerWS/install/control:/opt/ros/humble /usr/bin/cmake --build /home/kingpooper/deepRacerWS/build/rplidar_ros -- -j4 -l4
+[4.866s] [35m[1mConsolidate compiler generated dependencies of target rplidar_node[0m
+[5.637s] [  2%] [32mBuilding CXX object CMakeFiles/rplidar_node.dir/sdk/src/arch/linux/net_serial.cpp.o[0m
+[14.420s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kbool rp::arch::net::raw_serial::open(const char*, uint32_t, uint32_t)[m[K’:
+[14.421s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:97:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflags[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[14.421s]    97 | _serial::open(const char * portname, uint32_t baudrate, [01;35m[Kuint32_t flags[m[K)
+[14.421s]       |                                                         [01;35m[K~~~~~~~~~^~~~~[m[K
+[14.422s] 
+[14.423s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kvirtual void rp::arch::net::raw_serial::flush(_u32)[m[K’:
+[14.425s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:281:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflags[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[14.426s]   281 | void raw_serial::flush( [01;35m[K_u32 flags[m[K)
+[14.429s]       |                         [01;35m[K~~~~~^~~~~[m[K
+[14.430s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kvirtual int rp::arch::net::raw_serial::waitforsent(_u32, size_t*)[m[K’:
+[14.431s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:286:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[14.431s]   286 | int raw_serial::waitforsent([01;35m[K_u32 timeout[m[K, size_t * returned_size)
+[14.432s]       |                             [01;35m[K~~~~~^~~~~~~[m[K
+[14.433s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kvirtual int rp::arch::net::raw_serial::waitforrecv(_u32, size_t*)[m[K’:
+[14.433s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:292:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[14.434s]   292 | int raw_serial::waitforrecv([01;35m[K_u32 timeout[m[K, size_t * returned_size)
+[14.435s]       |                             [01;35m[K~~~~~^~~~~~~[m[K
+[14.454s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kvirtual void rp::arch::net::raw_serial::cancelOperation()[m[K’:
+[14.455s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:427:5:[m[K [01;35m[Kwarning: [m[Kvalue computed is not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[14.456s]   427 |     [01;35m[K(int)::write(_selfpipe[1], "x", 1)[m[K;
+[14.456s]       |     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[15.744s] [  5%] [32mBuilding CXX object CMakeFiles/rplidar_node.dir/sdk/src/arch/linux/net_socket.cpp.o[0m
+[22.114s] In file included from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/rplidar_protocol.h:36[m[K,
+[22.122s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/rplidar.h:39[m[K,
+[22.125s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sdkcommon.h:49[m[K,
+[22.126s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/arch/linux/net_socket.cpp:10[m[K:
+[22.127s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[22.128s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[22.130s]       |                [01;35m[K^[m[K
+[22.144s] In file included from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/rplidar_cmd.h:36[m[K,
+[22.146s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/rplidar.h:40[m[K,
+[22.171s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sdkcommon.h:49[m[K,
+[22.174s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/arch/linux/net_socket.cpp:10[m[K:
+[22.175s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[22.176s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[22.177s]       |                    [01;35m[K^[m[K
+[22.746s] In file included from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/arch/linux/arch_linux.h:42[m[K,
+[22.747s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sdkcommon.h:41[m[K,
+[22.748s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/arch/linux/net_socket.cpp:10[m[K:
+[22.749s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/arch/linux/net_socket.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::arch::net::DGramSocketImpl::sendTo(const rp::net::SocketAddress*, const void*, size_t)[m[K’:
+[22.763s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/arch/linux/net_socket.cpp:733:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[22.764s]   733 |             assert([01;35m[Kans == len[m[K);
+[22.765s]       |                    [01;35m[K~~~~^~~~~~[m[K
+[24.456s] [  7%] [32mBuilding CXX object CMakeFiles/rplidar_node.dir/sdk/src/arch/linux/timer.cpp.o[0m
+[29.138s] [ 10%] [32mBuilding CXX object CMakeFiles/rplidar_node.dir/sdk/src/dataunpacker/dataunpacker.cpp.o[0m
+[32.864s] In file included from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/rplidar_protocol.h:36[m[K,
+[32.865s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/rplidar.h:39[m[K,
+[32.866s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sdkcommon.h:49[m[K,
+[32.868s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/dataunnpacker_commondef.h:41[m[K,
+[32.871s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/dataunpacker.cpp:39[m[K:
+[32.872s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[32.873s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[32.874s]       |                [01;35m[K^[m[K
+[32.875s] In file included from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/rplidar_cmd.h:36[m[K,
+[32.876s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/rplidar.h:40[m[K,
+[32.877s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sdkcommon.h:49[m[K,
+[32.877s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/dataunnpacker_commondef.h:41[m[K,
+[32.878s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/dataunpacker.cpp:39[m[K:
+[32.879s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[32.881s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[32.882s]       |                    [01;35m[K^[m[K
+[34.446s] In file included from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/dataunpacker.cpp:40[m[K:
+[34.449s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/dataunpacker.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::LIDARSampleDataListener::onCustomSampleDataDecoded(_u8, _u32, const void*, size_t)[m[K’:
+[34.450s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/dataunpacker.h:54:52:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KansType[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[34.453s]    54 |         virtual void onCustomSampleDataDecoded([01;35m[K_u8 ansType[m[K, _u32 customCode, const void* data, size_t size) {}
+[34.454s]       |                                                [01;35m[K~~~~^~~~~~~[m[K
+[34.455s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/dataunpacker.h:54:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KcustomCode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[34.460s]    54 |    virtual void onCustomSampleDataDecoded(_u8 ansType, [01;35m[K_u32 customCode[m[K, const void* data, size_t size) {}
+[34.461s]       |                                                        [01;35m[K~~~~~^~~~~~~~~~[m[K
+[34.461s] 
+[34.462s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/dataunpacker.h:54:90:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[34.463s]    54 | SampleDataDecoded(_u8 ansType, _u32 customCode, [01;35m[Kconst void* data[m[K, size_t size) {}
+[34.464s]       |                                                 [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[34.465s] 
+[34.466s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/dataunpacker.h:54:103:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksize[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[34.475s]    54 | Decoded(_u8 ansType, _u32 customCode, const void* data, [01;35m[Ksize_t size[m[K) {}
+[34.476s]       |                                                         [01;35m[K~~~~~~~^~~~[m[K
+[34.477s] 
+[34.478s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/dataunpacker.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::LIDARSampleDataListener::onDecodingError(int, _u8, const void*, size_t)[m[K’:
+[34.479s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/dataunpacker.h:56:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KerrMsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[34.480s]    56 |         virtual void onDecodingError([01;35m[Kint errMsg[m[K, _u8 ansType, const void* payload, size_t size) {}
+[34.481s]       |                                      [01;35m[K~~~~^~~~~~[m[K
+[34.482s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/dataunpacker.h:56:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KansType[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[34.483s]    56 |         virtual void onDecodingError(int errMsg, [01;35m[K_u8 ansType[m[K, const void* payload, size_t size) {}
+[34.489s]       |                                                  [01;35m[K~~~~^~~~~~~[m[K
+[34.490s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/dataunpacker.h:56:75:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[34.491s]    56 | l void onDecodingError(int errMsg, _u8 ansType, [01;35m[Kconst void* payload[m[K, size_t size) {}
+[34.492s]       |                                                 [01;35m[K~~~~~~~~~~~~^~~~~~~[m[K
+[34.493s] 
+[34.493s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/dataunpacker.h:56:91:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksize[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[34.494s]    56 | dingError(int errMsg, _u8 ansType, const void* payload, [01;35m[Ksize_t size[m[K) {}
+[34.495s]       |                                                         [01;35m[K~~~~~~~^~~~[m[K
+[34.496s] 
+[36.039s] [ 13%] [32mBuilding CXX object CMakeFiles/rplidar_node.dir/sdk/src/dataunpacker/unpacker/handler_capsules.cpp.o[0m
+[39.164s] In file included from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/rplidar_protocol.h:36[m[K,
+[39.167s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/rplidar.h:39[m[K,
+[39.168s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sdkcommon.h:49[m[K,
+[39.173s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunnpacker_commondef.h:41[m[K,
+[39.174s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/unpacker/handler_capsules.cpp:39[m[K:
+[39.180s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[39.181s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[39.182s]       |                [01;35m[K^[m[K
+[39.183s] In file included from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/rplidar_cmd.h:36[m[K,
+[39.188s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/rplidar.h:40[m[K,
+[39.210s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sdkcommon.h:49[m[K,
+[39.211s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunnpacker_commondef.h:41[m[K,
+[39.212s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/unpacker/handler_capsules.cpp:39[m[K:
+[39.213s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[39.215s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[39.228s]       |                    [01;35m[K^[m[K
+[40.210s] In file included from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/unpacker/handler_capsules.cpp:40[m[K:
+[40.212s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::LIDARSampleDataListener::onCustomSampleDataDecoded(_u8, _u32, const void*, size_t)[m[K’:
+[40.213s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:52:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KansType[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[40.214s]    54 |         virtual void onCustomSampleDataDecoded([01;35m[K_u8 ansType[m[K, _u32 customCode, const void* data, size_t size) {}
+[40.215s]       |                                                [01;35m[K~~~~^~~~~~~[m[K
+[40.216s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KcustomCode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[40.218s]    54 |    virtual void onCustomSampleDataDecoded(_u8 ansType, [01;35m[K_u32 customCode[m[K, const void* data, size_t size) {}
+[40.219s]       |                                                        [01;35m[K~~~~~^~~~~~~~~~[m[K
+[40.221s] 
+[40.225s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:90:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[40.226s]    54 | SampleDataDecoded(_u8 ansType, _u32 customCode, [01;35m[Kconst void* data[m[K, size_t size) {}
+[40.226s]       |                                                 [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[40.227s] 
+[40.229s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:103:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksize[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[40.230s]    54 | Decoded(_u8 ansType, _u32 customCode, const void* data, [01;35m[Ksize_t size[m[K) {}
+[40.231s]       |                                                         [01;35m[K~~~~~~~^~~~[m[K
+[40.234s] 
+[40.235s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::LIDARSampleDataListener::onDecodingError(int, _u8, const void*, size_t)[m[K’:
+[40.236s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KerrMsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[40.237s]    56 |         virtual void onDecodingError([01;35m[Kint errMsg[m[K, _u8 ansType, const void* payload, size_t size) {}
+[40.238s]       |                                      [01;35m[K~~~~^~~~~~[m[K
+[40.239s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KansType[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[40.240s]    56 |         virtual void onDecodingError(int errMsg, [01;35m[K_u8 ansType[m[K, const void* payload, size_t size) {}
+[40.241s]       |                                                  [01;35m[K~~~~^~~~~~~[m[K
+[40.242s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:75:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[40.242s]    56 | l void onDecodingError(int errMsg, _u8 ansType, [01;35m[Kconst void* payload[m[K, size_t size) {}
+[40.243s]       |                                                 [01;35m[K~~~~~~~~~~~~^~~~~~~[m[K
+[40.244s] 
+[40.245s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:91:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksize[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[40.245s]    56 | dingError(int errMsg, _u8 ansType, const void* payload, [01;35m[Ksize_t size[m[K) {}
+[40.246s]       |                                                         [01;35m[K~~~~~~~^~~~[m[K
+[40.247s] 
+[40.272s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/unpacker/handler_capsules.cpp:[m[K In member function ‘[01m[Kvoid sl::internal::unpacker::UnpackerHandler_DenseCapsuleNode::_onScanNodeDenseCapsuleData(rplidar_response_dense_capsule_measurement_nodes_t&, sl::internal::LIDARSampleDataUnpackerInner*)[m[K’:
+[40.273s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/unpacker/handler_capsules.cpp:763:30:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on cast result type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+[40.273s]   763 |             const int dist = [01;35m[Kstatic_cast<const int>(_cached_previous_dense_capsuledata.cabins[pos].distance)[m[K;
+[40.274s]       |                              [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[41.002s] [ 15%] [32mBuilding CXX object CMakeFiles/rplidar_node.dir/sdk/src/dataunpacker/unpacker/handler_hqnode.cpp.o[0m
+[43.245s] In file included from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/rplidar_protocol.h:36[m[K,
+[43.246s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/rplidar.h:39[m[K,
+[43.248s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sdkcommon.h:49[m[K,
+[43.252s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunnpacker_commondef.h:41[m[K,
+[43.258s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/unpacker/handler_hqnode.cpp:39[m[K:
+[43.262s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[43.262s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[43.263s]       |                [01;35m[K^[m[K
+[43.264s] In file included from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/rplidar_cmd.h:36[m[K,
+[43.266s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/rplidar.h:40[m[K,
+[43.267s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sdkcommon.h:49[m[K,
+[43.268s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunnpacker_commondef.h:41[m[K,
+[43.269s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/unpacker/handler_hqnode.cpp:39[m[K:
+[43.270s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[43.271s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[43.272s]       |                    [01;35m[K^[m[K
+[44.106s] In file included from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/unpacker/handler_hqnode.cpp:40[m[K:
+[44.107s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::LIDARSampleDataListener::onCustomSampleDataDecoded(_u8, _u32, const void*, size_t)[m[K’:
+[44.108s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:52:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KansType[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[44.109s]    54 |         virtual void onCustomSampleDataDecoded([01;35m[K_u8 ansType[m[K, _u32 customCode, const void* data, size_t size) {}
+[44.109s]       |                                                [01;35m[K~~~~^~~~~~~[m[K
+[44.110s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KcustomCode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[44.111s]    54 |    virtual void onCustomSampleDataDecoded(_u8 ansType, [01;35m[K_u32 customCode[m[K, const void* data, size_t size) {}
+[44.112s]       |                                                        [01;35m[K~~~~~^~~~~~~~~~[m[K
+[44.113s] 
+[44.114s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:90:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[44.114s]    54 | SampleDataDecoded(_u8 ansType, _u32 customCode, [01;35m[Kconst void* data[m[K, size_t size) {}
+[44.116s]       |                                                 [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[44.116s] 
+[44.117s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:103:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksize[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[44.118s]    54 | Decoded(_u8 ansType, _u32 customCode, const void* data, [01;35m[Ksize_t size[m[K) {}
+[44.120s]       |                                                         [01;35m[K~~~~~~~^~~~[m[K
+[44.120s] 
+[44.121s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::LIDARSampleDataListener::onDecodingError(int, _u8, const void*, size_t)[m[K’:
+[44.124s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KerrMsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[44.124s]    56 |         virtual void onDecodingError([01;35m[Kint errMsg[m[K, _u8 ansType, const void* payload, size_t size) {}
+[44.125s]       |                                      [01;35m[K~~~~^~~~~~[m[K
+[44.126s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KansType[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[44.127s]    56 |         virtual void onDecodingError(int errMsg, [01;35m[K_u8 ansType[m[K, const void* payload, size_t size) {}
+[44.128s]       |                                                  [01;35m[K~~~~^~~~~~~[m[K
+[44.129s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:75:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[44.130s]    56 | l void onDecodingError(int errMsg, _u8 ansType, [01;35m[Kconst void* payload[m[K, size_t size) {}
+[44.131s]       |                                                 [01;35m[K~~~~~~~~~~~~^~~~~~~[m[K
+[44.131s] 
+[44.132s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:91:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksize[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[44.134s]    56 | dingError(int errMsg, _u8 ansType, const void* payload, [01;35m[Ksize_t size[m[K) {}
+[44.135s]       |                                                         [01;35m[K~~~~~~~^~~~[m[K
+[44.136s] 
+[44.693s] [ 18%] [32mBuilding CXX object CMakeFiles/rplidar_node.dir/sdk/src/dataunpacker/unpacker/handler_normalnode.cpp.o[0m
+[47.148s] In file included from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/rplidar_protocol.h:36[m[K,
+[47.149s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/rplidar.h:39[m[K,
+[47.150s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sdkcommon.h:49[m[K,
+[47.151s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunnpacker_commondef.h:41[m[K,
+[47.151s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/unpacker/handler_normalnode.cpp:39[m[K:
+[47.152s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[47.153s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[47.154s]       |                [01;35m[K^[m[K
+[47.156s] In file included from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/rplidar_cmd.h:36[m[K,
+[47.156s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/rplidar.h:40[m[K,
+[47.157s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sdkcommon.h:49[m[K,
+[47.158s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunnpacker_commondef.h:41[m[K,
+[47.160s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/unpacker/handler_normalnode.cpp:39[m[K:
+[47.161s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[47.162s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[47.163s]       |                    [01;35m[K^[m[K
+[48.154s] In file included from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/unpacker/handler_normalnode.cpp:40[m[K:
+[48.155s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::LIDARSampleDataListener::onCustomSampleDataDecoded(_u8, _u32, const void*, size_t)[m[K’:
+[48.156s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:52:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KansType[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[48.158s]    54 |         virtual void onCustomSampleDataDecoded([01;35m[K_u8 ansType[m[K, _u32 customCode, const void* data, size_t size) {}
+[48.158s]       |                                                [01;35m[K~~~~^~~~~~~[m[K
+[48.160s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KcustomCode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[48.161s]    54 |    virtual void onCustomSampleDataDecoded(_u8 ansType, [01;35m[K_u32 customCode[m[K, const void* data, size_t size) {}
+[48.162s]       |                                                        [01;35m[K~~~~~^~~~~~~~~~[m[K
+[48.163s] 
+[48.164s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:90:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[48.166s]    54 | SampleDataDecoded(_u8 ansType, _u32 customCode, [01;35m[Kconst void* data[m[K, size_t size) {}
+[48.168s]       |                                                 [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[48.169s] 
+[48.171s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:103:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksize[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[48.172s]    54 | Decoded(_u8 ansType, _u32 customCode, const void* data, [01;35m[Ksize_t size[m[K) {}
+[48.173s]       |                                                         [01;35m[K~~~~~~~^~~~[m[K
+[48.174s] 
+[48.176s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::LIDARSampleDataListener::onDecodingError(int, _u8, const void*, size_t)[m[K’:
+[48.178s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KerrMsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[48.179s]    56 |         virtual void onDecodingError([01;35m[Kint errMsg[m[K, _u8 ansType, const void* payload, size_t size) {}
+[48.179s]       |                                      [01;35m[K~~~~^~~~~~[m[K
+[48.181s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KansType[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[48.182s]    56 |         virtual void onDecodingError(int errMsg, [01;35m[K_u8 ansType[m[K, const void* payload, size_t size) {}
+[48.183s]       |                                                  [01;35m[K~~~~^~~~~~~[m[K
+[48.184s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:75:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[48.185s]    56 | l void onDecodingError(int errMsg, _u8 ansType, [01;35m[Kconst void* payload[m[K, size_t size) {}
+[48.187s]       |                                                 [01;35m[K~~~~~~~~~~~~^~~~~~~[m[K
+[48.188s] 
+[48.189s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:91:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksize[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[48.190s]    56 | dingError(int errMsg, _u8 ansType, const void* payload, [01;35m[Ksize_t size[m[K) {}
+[48.192s]       |                                                         [01;35m[K~~~~~~~^~~~[m[K
+[48.193s] 
+[48.807s] [ 21%] [32mBuilding CXX object CMakeFiles/rplidar_node.dir/sdk/src/hal/thread.cpp.o[0m
+[51.115s] In file included from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/rplidar_protocol.h:36[m[K,
+[51.116s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/rplidar.h:39[m[K,
+[51.117s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sdkcommon.h:49[m[K,
+[51.118s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/hal/thread.cpp:35[m[K:
+[51.118s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[51.119s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[51.121s]       |                [01;35m[K^[m[K
+[51.122s] In file included from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/rplidar_cmd.h:36[m[K,
+[51.123s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/rplidar.h:40[m[K,
+[51.131s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sdkcommon.h:49[m[K,
+[51.132s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/hal/thread.cpp:35[m[K:
+[51.133s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[51.133s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[51.134s]       |                    [01;35m[K^[m[K
+[51.363s] In file included from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/hal/thread.cpp:43[m[K:
+[51.364s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/arch/linux/thread.hpp:[m[K In static member function ‘[01m[Kstatic rp::hal::Thread rp::hal::Thread::create(thread_proc_t, void*)[m[K’:
+[51.365s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/arch/linux/thread.hpp:52:57:[m[K [01;35m[Kwarning: [m[Kcast between incompatible function types from ‘[01m[Kthread_proc_t[m[K’ {aka ‘[01m[Klong unsigned int (*)(void*)[m[K’} to ‘[01m[Kvoid* (*)(void*)[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcast-function-type-Wcast-function-type]8;;[m[K]
+[51.366s]    52 |     pthread_create((pthread_t *)&newborn._handle, NULL, [01;35m[K(void * (*)(void *))proc[m[K, data);
+[51.367s]       |                                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[51.368s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/arch/linux/thread.hpp:[m[K In member function ‘[01m[Ku_result rp::hal::Thread::join(long unsigned int)[m[K’:
+[51.369s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/arch/linux/thread.hpp:176:37:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[51.369s]   176 | u_result Thread::join([01;35m[Kunsigned long timeout[m[K)
+[51.370s]       |                       [01;35m[K~~~~~~~~~~~~~~^~~~~~~[m[K
+[51.766s] [ 23%] [32mBuilding CXX object CMakeFiles/rplidar_node.dir/sdk/src/rplidar_driver.cpp.o[0m
+[54.059s] In file included from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/rplidar_protocol.h:36[m[K,
+[54.060s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/rplidar.h:39[m[K,
+[54.061s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sdkcommon.h:49[m[K,
+[54.061s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/rplidar_driver.cpp:33[m[K:
+[54.062s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[54.063s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[54.063s]       |                [01;35m[K^[m[K
+[54.064s] In file included from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/rplidar_cmd.h:36[m[K,
+[54.065s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/rplidar.h:40[m[K,
+[54.065s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sdkcommon.h:49[m[K,
+[54.066s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/rplidar_driver.cpp:33[m[K:
+[54.076s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[54.077s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[54.078s]       |                    [01;35m[K^[m[K
+[54.785s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Ku_result rp::standalone::rplidar::RPlidarDriver::connect(const char*, _u32, _u32)[m[K’:
+[54.786s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/rplidar_driver.cpp:67:77:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflag[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[54.787s]    67 | lt RPlidarDriver::connect(const char *path, _u32 portOrBaud, [01;35m[K_u32 flag[m[K)
+[54.789s]       |                                                              [01;35m[K~~~~~^~~~[m[K
+[54.790s] 
+[54.790s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Ku_result rp::standalone::rplidar::RPlidarDriver::reset(_u32)[m[K’:
+[54.791s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/rplidar_driver.cpp:101:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[54.792s]   101 |     u_result RPlidarDriver::reset([01;35m[K_u32 timeout[m[K)
+[54.793s]       |                                   [01;35m[K~~~~~^~~~~~~[m[K
+[54.800s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Ku_result rp::standalone::rplidar::RPlidarDriver::getScanDataWithInterval(rplidar_response_measurement_node_t*, size_t&)[m[K’:
+[54.801s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/rplidar_driver.cpp:180:91:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knodebuffer[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[54.801s]   180 | tScanDataWithInterval([01;35m[Krplidar_response_measurement_node_t * nodebuffer[m[K, size_t & count)
+[54.803s]       |                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[54.804s] 
+[54.805s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/rplidar_driver.cpp:180:112:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcount[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[54.806s]   180 | erval(rplidar_response_measurement_node_t * nodebuffer, [01;35m[Ksize_t & count[m[K)
+[54.806s]       |                                                         [01;35m[K~~~~~~~~~^~~~~[m[K
+[54.807s] 
+[55.530s] [ 26%] [32mBuilding CXX object CMakeFiles/rplidar_node.dir/sdk/src/sl_async_transceiver.cpp.o[0m
+[57.662s] In file included from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/rplidar_protocol.h:36[m[K,
+[57.663s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/rplidar.h:39[m[K,
+[57.664s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sdkcommon.h:49[m[K,
+[57.665s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sl_async_transceiver.cpp:35[m[K:
+[57.665s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[57.666s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[57.667s]       |                [01;35m[K^[m[K
+[57.667s] In file included from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/rplidar_cmd.h:36[m[K,
+[57.668s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/rplidar.h:40[m[K,
+[57.668s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sdkcommon.h:49[m[K,
+[57.669s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sl_async_transceiver.cpp:35[m[K:
+[57.670s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[57.670s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[57.671s]       |                    [01;35m[K^[m[K
+[58.123s] In file included from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sl_async_transceiver.cpp:44[m[K:
+[58.124s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sl_async_transceiver.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::IAsyncProtocolCodec::onChannelError(u_result)[m[K’:
+[58.124s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sl_async_transceiver.h:90:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KerrCode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[58.125s]    90 |         virtual void   onChannelError([01;35m[Ku_result errCode[m[K) {}
+[58.125s]       |                                       [01;35m[K~~~~~~~~~^~~~~~~[m[K
+[58.765s] [ 28%] [32mBuilding CXX object CMakeFiles/rplidar_node.dir/sdk/src/sl_lidar_driver.cpp.o[0m
+[61.401s] In file included from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/rplidar_protocol.h:36[m[K,
+[61.401s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/rplidar.h:39[m[K,
+[61.403s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sdkcommon.h:49[m[K,
+[61.404s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:33[m[K:
+[61.405s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[61.406s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[61.406s]       |                [01;35m[K^[m[K
+[61.407s] In file included from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/rplidar_cmd.h:36[m[K,
+[61.411s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/rplidar.h:40[m[K,
+[61.413s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sdkcommon.h:49[m[K,
+[61.414s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:33[m[K:
+[61.415s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[61.415s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[61.416s]       |                    [01;35m[K^[m[K
+[62.507s] In file included from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:50[m[K:
+[62.508s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/dataunpacker.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::LIDARSampleDataListener::onCustomSampleDataDecoded(_u8, _u32, const void*, size_t)[m[K’:
+[62.509s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/dataunpacker.h:54:52:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KansType[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[62.510s]    54 |         virtual void onCustomSampleDataDecoded([01;35m[K_u8 ansType[m[K, _u32 customCode, const void* data, size_t size) {}
+[62.511s]       |                                                [01;35m[K~~~~^~~~~~~[m[K
+[62.512s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/dataunpacker.h:54:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KcustomCode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[62.512s]    54 |    virtual void onCustomSampleDataDecoded(_u8 ansType, [01;35m[K_u32 customCode[m[K, const void* data, size_t size) {}
+[62.513s]       |                                                        [01;35m[K~~~~~^~~~~~~~~~[m[K
+[62.514s] 
+[62.514s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/dataunpacker.h:54:90:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[62.515s]    54 | SampleDataDecoded(_u8 ansType, _u32 customCode, [01;35m[Kconst void* data[m[K, size_t size) {}
+[62.516s]       |                                                 [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[62.519s] 
+[62.520s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/dataunpacker.h:54:103:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksize[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[62.521s]    54 | Decoded(_u8 ansType, _u32 customCode, const void* data, [01;35m[Ksize_t size[m[K) {}
+[62.521s]       |                                                         [01;35m[K~~~~~~~^~~~[m[K
+[62.523s] 
+[62.524s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/dataunpacker.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::LIDARSampleDataListener::onDecodingError(int, _u8, const void*, size_t)[m[K’:
+[62.524s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/dataunpacker.h:56:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KerrMsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[62.525s]    56 |         virtual void onDecodingError([01;35m[Kint errMsg[m[K, _u8 ansType, const void* payload, size_t size) {}
+[62.526s]       |                                      [01;35m[K~~~~^~~~~~[m[K
+[62.527s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/dataunpacker.h:56:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KansType[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[62.527s]    56 |         virtual void onDecodingError(int errMsg, [01;35m[K_u8 ansType[m[K, const void* payload, size_t size) {}
+[62.528s]       |                                                  [01;35m[K~~~~^~~~~~~[m[K
+[62.529s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/dataunpacker.h:56:75:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[62.530s]    56 | l void onDecodingError(int errMsg, _u8 ansType, [01;35m[Kconst void* payload[m[K, size_t size) {}
+[62.531s]       |                                                 [01;35m[K~~~~~~~~~~~~^~~~~~~[m[K
+[62.532s] 
+[62.532s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/dataunpacker.h:56:91:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksize[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[62.533s]    56 | dingError(int errMsg, _u8 ansType, const void* payload, [01;35m[Ksize_t size[m[K) {}
+[62.534s]       |                                                         [01;35m[K~~~~~~~^~~~[m[K
+[62.535s] 
+[62.553s] In file included from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:51[m[K:
+[62.553s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sl_async_transceiver.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::IAsyncProtocolCodec::onChannelError(u_result)[m[K’:
+[62.554s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sl_async_transceiver.h:90:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KerrCode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[62.556s]    90 |         virtual void   onChannelError([01;35m[Ku_result errCode[m[K) {}
+[62.557s]       |                                       [01;35m[K~~~~~~~~~^~~~~~~[m[K
+[62.648s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::reset(sl_u32)[m[K’:
+[62.648s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:511:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KtimeoutInMs[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[62.660s]   511 |         sl_result reset([01;35m[Ksl_u32 timeoutInMs = DEFAULT_TIMEOUT[m[K)
+[62.661s]       |                         [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[62.665s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::startScan(bool, bool, sl_u32, sl::LidarScanMode*)[m[K’:
+[62.667s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:586:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Koptions[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[62.667s]   586 | sl_result startScan(bool force, bool useTypicalScan, [01;35m[Ksl_u32 options = 0[m[K, LidarScanMode* outUsedScanMode = nullptr)
+[62.668s]       |                                                      [01;35m[K~~~~~~~^~~~~~~~~~~[m[K
+[62.669s] 
+[62.674s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::stop(sl_u32)[m[K’:
+[62.675s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:763:31:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[62.676s]   763 |         sl_result stop([01;35m[Ksl_u32 timeout = DEFAULT_TIMEOUT[m[K)
+[62.676s]       |                        [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[62.682s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::getFrequency(const sl::LidarScanMode&, const sl_lidar_response_measurement_node_hq_t*, size_t, float&)[m[K’:
+[62.683s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:880:110:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knodes[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[62.684s]   880 | e& scanMode, [01;35m[Kconst sl_lidar_response_measurement_node_hq_t* nodes[m[K, size_t count, float& frequency)
+[62.684s]       |              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[62.685s] 
+[62.695s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::getMotorInfo(sl::LidarMotorInfo&, sl_u32)[m[K’:
+[62.696s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:1023:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KtimeoutInMs[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[62.699s]  1023 |    sl_result getMotorInfo(LidarMotorInfo &motorInfo, [01;35m[Ksl_u32 timeoutInMs[m[K)
+[62.700s]       |                                                      [01;35m[K~~~~~~~^~~~~~~~~~~[m[K
+[62.706s] 
+[62.707s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Ku_result sl::SlamtecLidarDriver::getScanModeCount(sl_u16&, sl_u32)[m[K’:
+[62.708s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:1199:61:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KtimeoutInMs[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[62.709s]  1199 |         u_result getScanModeCount(sl_u16& modeCount, [01;35m[Ksl_u32 timeoutInMs = DEFAULT_TIMEOUT[m[K)
+[62.710s]       |                                                      [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[62.890s] /home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp: In instantiation of ‘[01m[Kvoid sl::RawSampleNodeHolder<T>::pushNode(_u64, const T*) [with T = sl_lidar_response_measurement_node_hq_t; _u64 = long unsigned int][m[K’:
+[62.891s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:1648:42:[m[K   required from here
+[62.892s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:202:28:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimestamp_uS[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[62.892s]   202 |         void pushNode([01;35m[K_u64 timestamp_uS[m[K, const T* node)
+[62.893s]       |                       [01;35m[K~~~~~^~~~~~~~~~~~[m[K
+[63.399s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:[m[K At global scope:
+[63.400s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:83:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid sl::convert(const sl_lidar_response_measurement_node_hq_t&, sl_lidar_response_measurement_node_t&)[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+[63.401s]    83 |     static void [01;35m[Kconvert[m[K(const sl_lidar_response_measurement_node_hq_t& from, sl_lidar_response_measurement_node_t& to)
+[63.402s]       |                 [01;35m[K^~~~~~~[m[K
+[63.403s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:75:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid sl::convert(const sl_lidar_response_measurement_node_t&, sl_lidar_response_measurement_node_hq_t&)[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+[63.405s]    75 |     static void [01;35m[Kconvert[m[K(const sl_lidar_response_measurement_node_t& from, sl_lidar_response_measurement_node_hq_t& to)
+[63.406s]       |                 [01;35m[K^~~~~~~[m[K
+[63.408s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:70:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid sl::printDeprecationWarn(const char*, const char*)[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+[63.409s]    70 |     static void [01;35m[KprintDeprecationWarn[m[K(const char* fn, const char* replacement)
+[63.411s]       |                 [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[65.262s] [ 31%] [32mBuilding CXX object CMakeFiles/rplidar_node.dir/sdk/src/sl_lidarprotocol_codec.cpp.o[0m
+[67.609s] In file included from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/rplidar_protocol.h:36[m[K,
+[67.610s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/rplidar.h:39[m[K,
+[67.610s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sdkcommon.h:49[m[K,
+[67.615s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sl_lidarprotocol_codec.cpp:35[m[K:
+[67.616s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[67.617s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[67.617s]       |                [01;35m[K^[m[K
+[67.626s] In file included from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/rplidar_cmd.h:36[m[K,
+[67.630s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/rplidar.h:40[m[K,
+[67.633s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sdkcommon.h:49[m[K,
+[67.636s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sl_lidarprotocol_codec.cpp:35[m[K:
+[67.639s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[67.642s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[67.646s]       |                    [01;35m[K^[m[K
+[68.594s] In file included from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sl_lidarprotocol_codec.cpp:49[m[K:
+[68.595s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sl_async_transceiver.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::IAsyncProtocolCodec::onChannelError(u_result)[m[K’:
+[68.596s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sl_async_transceiver.h:90:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KerrCode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[68.596s]    90 |         virtual void   onChannelError([01;35m[Ku_result errCode[m[K) {}
+[68.597s]       |                                       [01;35m[K~~~~~~~~~^~~~~~~[m[K
+[69.082s] [ 34%] [32mBuilding CXX object CMakeFiles/rplidar_node.dir/sdk/src/sl_serial_channel.cpp.o[0m
+[70.459s] In file included from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/sl_lidar_cmd.h:41[m[K,
+[70.460s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/sl_lidar_driver.h:54[m[K,
+[70.460s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sl_serial_channel.cpp:33[m[K:
+[70.462s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[70.462s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[70.463s]       |                [01;35m[K^[m[K
+[70.464s] In file included from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/sl_lidar_driver.h:54[m[K,
+[70.465s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sl_serial_channel.cpp:33[m[K:
+[70.465s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[70.466s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[70.467s]       |                    [01;35m[K^[m[K
+[70.745s] [ 36%] [32mBuilding CXX object CMakeFiles/rplidar_node.dir/sdk/src/sl_tcp_channel.cpp.o[0m
+[72.150s] In file included from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/sl_lidar_cmd.h:41[m[K,
+[72.151s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/sl_lidar_driver.h:54[m[K,
+[72.158s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sl_tcp_channel.cpp:33[m[K:
+[72.159s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[72.160s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[72.160s]       |                [01;35m[K^[m[K
+[72.161s] In file included from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/sl_lidar_driver.h:54[m[K,
+[72.162s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sl_tcp_channel.cpp:33[m[K:
+[72.162s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[72.163s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[72.164s]       |                    [01;35m[K^[m[K
+[72.177s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sl_tcp_channel.cpp:[m[K In member function ‘[01m[Kvoid sl::TcpChannel::setStatus(_u32)[m[K’:
+[72.178s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sl_tcp_channel.cpp:109:29:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflag[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[72.178s]   109 |         void setStatus([01;35m[K_u32 flag[m[K){}
+[72.179s]       |                        [01;35m[K~~~~~^~~~[m[K
+[72.450s] [ 39%] [32mBuilding CXX object CMakeFiles/rplidar_node.dir/sdk/src/sl_udp_channel.cpp.o[0m
+[74.004s] In file included from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/sl_lidar_cmd.h:41[m[K,
+[74.005s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/sl_lidar_driver.h:54[m[K,
+[74.006s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sl_udp_channel.cpp:33[m[K:
+[74.007s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[74.008s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[74.009s]       |                [01;35m[K^[m[K
+[74.010s] In file included from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/sl_lidar_driver.h:54[m[K,
+[74.011s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sl_udp_channel.cpp:33[m[K:
+[74.011s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[74.012s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[74.013s]       |                    [01;35m[K^[m[K
+[74.029s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sl_udp_channel.cpp:[m[K In member function ‘[01m[Kvoid sl::UdpChannel::setStatus(_u32)[m[K’:
+[74.030s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sl_udp_channel.cpp:112:29:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflag[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[74.031s]   112 |         void setStatus([01;35m[K_u32 flag[m[K){}
+[74.032s]       |                        [01;35m[K~~~~~^~~~[m[K
+[74.296s] [ 42%] [32m[1mLinking CXX executable rplidar_node[0m
+[76.924s] [ 47%] Built target rplidar_node
+[77.064s] [ 50%] [32mBuilding CXX object CMakeFiles/rplidar_client.dir/src/rplidar_client.cpp.o[0m
+[118.279s] [ 52%] [32m[1mLinking CXX executable rplidar_client[0m
+[120.532s] [ 52%] Built target rplidar_client
+[120.633s] [35m[1mConsolidate compiler generated dependencies of target rplidar_composition[0m
+[120.844s] [ 55%] [32mBuilding CXX object CMakeFiles/rplidar_composition.dir/sdk/src/arch/linux/net_serial.cpp.o[0m
+[120.868s] [ 57%] [32mBuilding CXX object CMakeFiles/rplidar_composition.dir/sdk/src/arch/linux/net_socket.cpp.o[0m
+[121.921s] [ 60%] [32mBuilding CXX object CMakeFiles/rplidar_composition.dir/sdk/src/dataunpacker/dataunpacker.cpp.o[0m
+[123.037s] [ 63%] [32mBuilding CXX object CMakeFiles/rplidar_composition.dir/sdk/src/arch/linux/timer.cpp.o[0m
+[123.816s] In file included from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/rplidar_protocol.h:36[m[K,
+[123.817s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/rplidar.h:39[m[K,
+[123.818s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sdkcommon.h:49[m[K,
+[123.818s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/arch/linux/net_socket.cpp:10[m[K:
+[123.819s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[123.820s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[123.820s]       |                [01;35m[K^[m[K
+[123.824s] In file included from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/rplidar_cmd.h:36[m[K,
+[123.824s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/rplidar.h:40[m[K,
+[123.825s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sdkcommon.h:49[m[K,
+[123.826s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/arch/linux/net_socket.cpp:10[m[K:
+[123.826s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[123.826s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[123.827s]       |                    [01;35m[K^[m[K
+[124.247s] In file included from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/arch/linux/arch_linux.h:42[m[K,
+[124.247s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sdkcommon.h:41[m[K,
+[124.248s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/arch/linux/net_socket.cpp:10[m[K:
+[124.249s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/arch/linux/net_socket.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::arch::net::DGramSocketImpl::sendTo(const rp::net::SocketAddress*, const void*, size_t)[m[K’:
+[124.249s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/arch/linux/net_socket.cpp:733:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[124.250s]   733 |             assert([01;35m[Kans == len[m[K);
+[124.251s]       |                    [01;35m[K~~~~^~~~~~[m[K
+[124.783s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kbool rp::arch::net::raw_serial::open(const char*, uint32_t, uint32_t)[m[K’:
+[124.788s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:97:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflags[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[124.792s]    97 | _serial::open(const char * portname, uint32_t baudrate, [01;35m[Kuint32_t flags[m[K)
+[124.795s]       |                                                         [01;35m[K~~~~~~~~~^~~~~[m[K
+[124.798s] 
+[124.802s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kvirtual void rp::arch::net::raw_serial::flush(_u32)[m[K’:
+[124.815s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:281:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflags[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[124.823s]   281 | void raw_serial::flush( [01;35m[K_u32 flags[m[K)
+[124.827s]       |                         [01;35m[K~~~~~^~~~~[m[K
+[124.834s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kvirtual int rp::arch::net::raw_serial::waitforsent(_u32, size_t*)[m[K’:
+[124.838s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:286:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[124.841s]   286 | int raw_serial::waitforsent([01;35m[K_u32 timeout[m[K, size_t * returned_size)
+[124.845s]       |                             [01;35m[K~~~~~^~~~~~~[m[K
+[124.849s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kvirtual int rp::arch::net::raw_serial::waitforrecv(_u32, size_t*)[m[K’:
+[124.853s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:292:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[124.856s]   292 | int raw_serial::waitforrecv([01;35m[K_u32 timeout[m[K, size_t * returned_size)
+[124.860s]       |                             [01;35m[K~~~~~^~~~~~~[m[K
+[124.863s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kvirtual void rp::arch::net::raw_serial::cancelOperation()[m[K’:
+[124.867s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:427:5:[m[K [01;35m[Kwarning: [m[Kvalue computed is not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[124.870s]   427 |     [01;35m[K(int)::write(_selfpipe[1], "x", 1)[m[K;
+[124.874s]       |     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[125.884s] In file included from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/rplidar_protocol.h:36[m[K,
+[125.886s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/rplidar.h:39[m[K,
+[125.888s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sdkcommon.h:49[m[K,
+[125.889s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/dataunnpacker_commondef.h:41[m[K,
+[125.890s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/dataunpacker.cpp:39[m[K:
+[125.896s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[125.901s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[125.902s]       |                [01;35m[K^[m[K
+[125.903s] In file included from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/rplidar_cmd.h:36[m[K,
+[125.907s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/rplidar.h:40[m[K,
+[125.909s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sdkcommon.h:49[m[K,
+[125.911s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/dataunnpacker_commondef.h:41[m[K,
+[125.916s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/dataunpacker.cpp:39[m[K:
+[125.920s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[125.924s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[125.928s]       |                    [01;35m[K^[m[K
+[127.090s] In file included from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/dataunpacker.cpp:40[m[K:
+[127.091s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/dataunpacker.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::LIDARSampleDataListener::onCustomSampleDataDecoded(_u8, _u32, const void*, size_t)[m[K’:
+[127.092s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/dataunpacker.h:54:52:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KansType[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[127.094s]    54 |         virtual void onCustomSampleDataDecoded([01;35m[K_u8 ansType[m[K, _u32 customCode, const void* data, size_t size) {}
+[127.094s]       |                                                [01;35m[K~~~~^~~~~~~[m[K
+[127.096s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/dataunpacker.h:54:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KcustomCode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[127.097s]    54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, [01;35m[K_u32 customCode[m[K, const void* data, size_t size) {}
+[127.097s]       |                                                             [01;35m[K~~~~~^~~~~~~~~~[m[K
+[127.098s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/dataunpacker.h:54:90:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[127.099s]    54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, [01;35m[Kconst void* data[m[K, size_t size) {}
+[127.100s]       |                                                                              [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[127.101s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/dataunpacker.h:54:103:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksize[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[127.102s]    54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, const void* data, [01;35m[Ksize_t size[m[K) {}
+[127.103s]       |                                                                                                [01;35m[K~~~~~~~^~~~[m[K
+[127.104s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/dataunpacker.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::LIDARSampleDataListener::onDecodingError(int, _u8, const void*, size_t)[m[K’:
+[127.105s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/dataunpacker.h:56:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KerrMsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[127.106s]    56 |         virtual void onDecodingError([01;35m[Kint errMsg[m[K, _u8 ansType, const void* payload, size_t size) {}
+[127.107s]       |                                      [01;35m[K~~~~^~~~~~[m[K
+[127.108s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/dataunpacker.h:56:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KansType[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[127.109s]    56 |         virtual void onDecodingError(int errMsg, [01;35m[K_u8 ansType[m[K, const void* payload, size_t size) {}
+[127.110s]       |                                                  [01;35m[K~~~~^~~~~~~[m[K
+[127.111s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/dataunpacker.h:56:75:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[127.112s]    56 |         virtual void onDecodingError(int errMsg, _u8 ansType, [01;35m[Kconst void* payload[m[K, size_t size) {}
+[127.113s]       |                                                               [01;35m[K~~~~~~~~~~~~^~~~~~~[m[K
+[127.114s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/dataunpacker.h:56:91:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksize[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[127.115s]    56 |         virtual void onDecodingError(int errMsg, _u8 ansType, const void* payload, [01;35m[Ksize_t size[m[K) {}
+[127.116s]       |                                                                                    [01;35m[K~~~~~~~^~~~[m[K
+[128.113s] [ 65%] [32mBuilding CXX object CMakeFiles/rplidar_composition.dir/sdk/src/dataunpacker/unpacker/handler_normalnode.cpp.o[0m
+[130.727s] In file included from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/rplidar_protocol.h:36[m[K,
+[130.727s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/rplidar.h:39[m[K,
+[130.729s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sdkcommon.h:49[m[K,
+[130.729s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunnpacker_commondef.h:41[m[K,
+[130.730s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/unpacker/handler_normalnode.cpp:39[m[K:
+[130.731s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[130.732s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[130.732s]       |                [01;35m[K^[m[K
+[130.733s] In file included from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/rplidar_cmd.h:36[m[K,
+[130.734s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/rplidar.h:40[m[K,
+[130.734s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sdkcommon.h:49[m[K,
+[130.735s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunnpacker_commondef.h:41[m[K,
+[130.736s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/unpacker/handler_normalnode.cpp:39[m[K:
+[130.736s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[130.737s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[130.738s]       |                    [01;35m[K^[m[K
+[131.694s] In file included from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/unpacker/handler_normalnode.cpp:40[m[K:
+[131.695s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::LIDARSampleDataListener::onCustomSampleDataDecoded(_u8, _u32, const void*, size_t)[m[K’:
+[131.696s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:52:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KansType[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[131.697s]    54 |         virtual void onCustomSampleDataDecoded([01;35m[K_u8 ansType[m[K, _u32 customCode, const void* data, size_t size) {}
+[131.697s]       |                                                [01;35m[K~~~~^~~~~~~[m[K
+[131.698s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KcustomCode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[131.699s]    54 |    virtual void onCustomSampleDataDecoded(_u8 ansType, [01;35m[K_u32 customCode[m[K, const void* data, size_t size) {}
+[131.700s]       |                                                        [01;35m[K~~~~~^~~~~~~~~~[m[K
+[131.700s] 
+[131.701s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:90:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[131.702s]    54 | SampleDataDecoded(_u8 ansType, _u32 customCode, [01;35m[Kconst void* data[m[K, size_t size) {}
+[131.702s]       |                                                 [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[131.703s] 
+[131.704s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:103:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksize[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[131.704s]    54 | Decoded(_u8 ansType, _u32 customCode, const void* data, [01;35m[Ksize_t size[m[K) {}
+[131.705s]       |                                                         [01;35m[K~~~~~~~^~~~[m[K
+[131.706s] 
+[131.707s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::LIDARSampleDataListener::onDecodingError(int, _u8, const void*, size_t)[m[K’:
+[131.716s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KerrMsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[131.717s]    56 |         virtual void onDecodingError([01;35m[Kint errMsg[m[K, _u8 ansType, const void* payload, size_t size) {}
+[131.718s]       |                                      [01;35m[K~~~~^~~~~~[m[K
+[131.720s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KansType[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[131.723s]    56 |         virtual void onDecodingError(int errMsg, [01;35m[K_u8 ansType[m[K, const void* payload, size_t size) {}
+[131.724s]       |                                                  [01;35m[K~~~~^~~~~~~[m[K
+[131.725s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:75:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[131.726s]    56 | l void onDecodingError(int errMsg, _u8 ansType, [01;35m[Kconst void* payload[m[K, size_t size) {}
+[131.728s]       |                                                 [01;35m[K~~~~~~~~~~~~^~~~~~~[m[K
+[131.729s] 
+[131.730s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:91:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksize[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[131.730s]    56 | dingError(int errMsg, _u8 ansType, const void* payload, [01;35m[Ksize_t size[m[K) {}
+[131.731s]       |                                                         [01;35m[K~~~~~~~^~~~[m[K
+[131.733s] 
+[132.277s] [ 68%] [32mBuilding CXX object CMakeFiles/rplidar_composition.dir/sdk/src/hal/thread.cpp.o[0m
+[134.604s] In file included from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/rplidar_protocol.h:36[m[K,
+[134.605s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/rplidar.h:39[m[K,
+[134.605s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sdkcommon.h:49[m[K,
+[134.606s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/hal/thread.cpp:35[m[K:
+[134.610s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[134.612s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[134.612s]       |                [01;35m[K^[m[K
+[134.613s] In file included from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/rplidar_cmd.h:36[m[K,
+[134.614s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/rplidar.h:40[m[K,
+[134.615s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sdkcommon.h:49[m[K,
+[134.616s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/hal/thread.cpp:35[m[K:
+[134.622s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[134.624s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[134.626s]       |                    [01;35m[K^[m[K
+[134.862s] In file included from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/hal/thread.cpp:43[m[K:
+[134.863s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/arch/linux/thread.hpp:[m[K In static member function ‘[01m[Kstatic rp::hal::Thread rp::hal::Thread::create(thread_proc_t, void*)[m[K’:
+[134.864s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/arch/linux/thread.hpp:52:57:[m[K [01;35m[Kwarning: [m[Kcast between incompatible function types from ‘[01m[Kthread_proc_t[m[K’ {aka ‘[01m[Klong unsigned int (*)(void*)[m[K’} to ‘[01m[Kvoid* (*)(void*)[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcast-function-type-Wcast-function-type]8;;[m[K]
+[134.864s]    52 |     pthread_create((pthread_t *)&newborn._handle, NULL, [01;35m[K(void * (*)(void *))proc[m[K, data);
+[134.865s]       |                                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[134.867s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/arch/linux/thread.hpp:[m[K In member function ‘[01m[Ku_result rp::hal::Thread::join(long unsigned int)[m[K’:
+[134.868s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/arch/linux/thread.hpp:176:37:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[134.869s]   176 | u_result Thread::join([01;35m[Kunsigned long timeout[m[K)
+[134.869s]       |                       [01;35m[K~~~~~~~~~~~~~~^~~~~~~[m[K
+[135.296s] [ 71%] [32mBuilding CXX object CMakeFiles/rplidar_composition.dir/sdk/src/rplidar_driver.cpp.o[0m
+[137.875s] In file included from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/rplidar_protocol.h:36[m[K,
+[137.876s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/rplidar.h:39[m[K,
+[137.877s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sdkcommon.h:49[m[K,
+[137.877s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/rplidar_driver.cpp:33[m[K:
+[137.878s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[137.879s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[137.879s]       |                [01;35m[K^[m[K
+[137.880s] In file included from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/rplidar_cmd.h:36[m[K,
+[137.880s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/rplidar.h:40[m[K,
+[137.881s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sdkcommon.h:49[m[K,
+[137.881s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/rplidar_driver.cpp:33[m[K:
+[137.882s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[137.883s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[137.884s]       |                    [01;35m[K^[m[K
+[138.271s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Ku_result rp::standalone::rplidar::RPlidarDriver::connect(const char*, _u32, _u32)[m[K’:
+[138.272s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/rplidar_driver.cpp:67:77:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflag[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[138.273s]    67 | lt RPlidarDriver::connect(const char *path, _u32 portOrBaud, [01;35m[K_u32 flag[m[K)
+[138.274s]       |                                                              [01;35m[K~~~~~^~~~[m[K
+[138.274s] 
+[138.275s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Ku_result rp::standalone::rplidar::RPlidarDriver::reset(_u32)[m[K’:
+[138.276s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/rplidar_driver.cpp:101:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[138.276s]   101 |     u_result RPlidarDriver::reset([01;35m[K_u32 timeout[m[K)
+[138.277s]       |                                   [01;35m[K~~~~~^~~~~~~[m[K
+[138.278s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Ku_result rp::standalone::rplidar::RPlidarDriver::getScanDataWithInterval(rplidar_response_measurement_node_t*, size_t&)[m[K’:
+[138.280s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/rplidar_driver.cpp:180:91:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knodebuffer[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[138.280s]   180 | tScanDataWithInterval([01;35m[Krplidar_response_measurement_node_t * nodebuffer[m[K, size_t & count)
+[138.282s]       |                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[138.283s] 
+[138.283s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/rplidar_driver.cpp:180:112:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcount[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[138.284s]   180 | erval(rplidar_response_measurement_node_t * nodebuffer, [01;35m[Ksize_t & count[m[K)
+[138.285s]       |                                                         [01;35m[K~~~~~~~~~^~~~~[m[K
+[138.285s] 
+[138.873s] [ 73%] [32mBuilding CXX object CMakeFiles/rplidar_composition.dir/sdk/src/sl_async_transceiver.cpp.o[0m
+[141.976s] In file included from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/rplidar_protocol.h:36[m[K,
+[141.977s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/rplidar.h:39[m[K,
+[141.979s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sdkcommon.h:49[m[K,
+[141.980s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sl_async_transceiver.cpp:35[m[K:
+[141.981s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[141.982s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[141.984s]       |                [01;35m[K^[m[K
+[141.986s] In file included from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/rplidar_cmd.h:36[m[K,
+[141.988s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/rplidar.h:40[m[K,
+[141.989s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sdkcommon.h:49[m[K,
+[141.990s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sl_async_transceiver.cpp:35[m[K:
+[141.992s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[142.008s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[142.010s]       |                    [01;35m[K^[m[K
+[142.596s] In file included from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sl_async_transceiver.cpp:44[m[K:
+[142.598s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sl_async_transceiver.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::IAsyncProtocolCodec::onChannelError(u_result)[m[K’:
+[142.610s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sl_async_transceiver.h:90:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KerrCode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[142.616s]    90 |         virtual void   onChannelError([01;35m[Ku_result errCode[m[K) {}
+[142.617s]       |                                       [01;35m[K~~~~~~~~~^~~~~~~[m[K
+[143.371s] [ 76%] [32mBuilding CXX object CMakeFiles/rplidar_composition.dir/sdk/src/sl_lidar_driver.cpp.o[0m
+[145.423s] In file included from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/rplidar_protocol.h:36[m[K,
+[145.423s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/rplidar.h:39[m[K,
+[145.424s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sdkcommon.h:49[m[K,
+[145.424s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:33[m[K:
+[145.425s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[145.425s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[145.426s]       |                [01;35m[K^[m[K
+[145.426s] In file included from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/rplidar_cmd.h:36[m[K,
+[145.427s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/rplidar.h:40[m[K,
+[145.428s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sdkcommon.h:49[m[K,
+[145.428s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:33[m[K:
+[145.429s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[145.429s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[145.430s]       |                    [01;35m[K^[m[K
+[146.322s] In file included from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:50[m[K:
+[146.322s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/dataunpacker.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::LIDARSampleDataListener::onCustomSampleDataDecoded(_u8, _u32, const void*, size_t)[m[K’:
+[146.323s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/dataunpacker.h:54:52:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KansType[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[146.323s]    54 |         virtual void onCustomSampleDataDecoded([01;35m[K_u8 ansType[m[K, _u32 customCode, const void* data, size_t size) {}
+[146.324s]       |                                                [01;35m[K~~~~^~~~~~~[m[K
+[146.324s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/dataunpacker.h:54:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KcustomCode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[146.325s]    54 |    virtual void onCustomSampleDataDecoded(_u8 ansType, [01;35m[K_u32 customCode[m[K, const void* data, size_t size) {}
+[146.325s]       |                                                        [01;35m[K~~~~~^~~~~~~~~~[m[K
+[146.326s] 
+[146.326s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/dataunpacker.h:54:90:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[146.326s]    54 | SampleDataDecoded(_u8 ansType, _u32 customCode, [01;35m[Kconst void* data[m[K, size_t size) {}
+[146.327s]       |                                                 [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[146.327s] 
+[146.328s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/dataunpacker.h:54:103:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksize[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[146.328s]    54 | Decoded(_u8 ansType, _u32 customCode, const void* data, [01;35m[Ksize_t size[m[K) {}
+[146.328s]       |                                                         [01;35m[K~~~~~~~^~~~[m[K
+[146.329s] 
+[146.329s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/dataunpacker.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::LIDARSampleDataListener::onDecodingError(int, _u8, const void*, size_t)[m[K’:
+[146.330s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/dataunpacker.h:56:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KerrMsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[146.330s]    56 |         virtual void onDecodingError([01;35m[Kint errMsg[m[K, _u8 ansType, const void* payload, size_t size) {}
+[146.330s]       |                                      [01;35m[K~~~~^~~~~~[m[K
+[146.331s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/dataunpacker.h:56:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KansType[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[146.332s]    56 |         virtual void onDecodingError(int errMsg, [01;35m[K_u8 ansType[m[K, const void* payload, size_t size) {}
+[146.333s]       |                                                  [01;35m[K~~~~^~~~~~~[m[K
+[146.333s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/dataunpacker.h:56:75:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[146.333s]    56 | l void onDecodingError(int errMsg, _u8 ansType, [01;35m[Kconst void* payload[m[K, size_t size) {}
+[146.334s]       |                                                 [01;35m[K~~~~~~~~~~~~^~~~~~~[m[K
+[146.334s] 
+[146.335s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/dataunpacker.h:56:91:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksize[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[146.335s]    56 | dingError(int errMsg, _u8 ansType, const void* payload, [01;35m[Ksize_t size[m[K) {}
+[146.336s]       |                                                         [01;35m[K~~~~~~~^~~~[m[K
+[146.339s] 
+[146.361s] In file included from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:51[m[K:
+[146.361s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sl_async_transceiver.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::IAsyncProtocolCodec::onChannelError(u_result)[m[K’:
+[146.362s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sl_async_transceiver.h:90:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KerrCode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[146.362s]    90 |         virtual void   onChannelError([01;35m[Ku_result errCode[m[K) {}
+[146.363s]       |                                       [01;35m[K~~~~~~~~~^~~~~~~[m[K
+[146.407s] [ 78%] [32mBuilding CXX object CMakeFiles/rplidar_composition.dir/sdk/src/sl_lidarprotocol_codec.cpp.o[0m
+[146.457s] [ 81%] [32mBuilding CXX object CMakeFiles/rplidar_composition.dir/sdk/src/dataunpacker/unpacker/handler_hqnode.cpp.o[0m
+[146.465s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::reset(sl_u32)[m[K’:
+[146.465s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:511:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KtimeoutInMs[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[146.466s]   511 |         sl_result reset([01;35m[Ksl_u32 timeoutInMs = DEFAULT_TIMEOUT[m[K)
+[146.466s]       |                         [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[146.480s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::startScan(bool, bool, sl_u32, sl::LidarScanMode*)[m[K’:
+[146.481s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:586:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Koptions[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[146.481s]   586 | sl_result startScan(bool force, bool useTypicalScan, [01;35m[Ksl_u32 options = 0[m[K, LidarScanMode* outUsedScanMode = nullptr)
+[146.482s]       |                                                      [01;35m[K~~~~~~~^~~~~~~~~~~[m[K
+[146.482s] 
+[146.490s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::stop(sl_u32)[m[K’:
+[146.490s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:763:31:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[146.491s]   763 |         sl_result stop([01;35m[Ksl_u32 timeout = DEFAULT_TIMEOUT[m[K)
+[146.491s]       |                        [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[146.498s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::getFrequency(const sl::LidarScanMode&, const sl_lidar_response_measurement_node_hq_t*, size_t, float&)[m[K’:
+[146.498s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:880:110:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knodes[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[146.499s]   880 | e& scanMode, [01;35m[Kconst sl_lidar_response_measurement_node_hq_t* nodes[m[K, size_t count, float& frequency)
+[146.499s]       |              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[146.500s] 
+[146.510s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::getMotorInfo(sl::LidarMotorInfo&, sl_u32)[m[K’:
+[146.512s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:1023:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KtimeoutInMs[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[146.512s]  1023 |    sl_result getMotorInfo(LidarMotorInfo &motorInfo, [01;35m[Ksl_u32 timeoutInMs[m[K)
+[146.513s]       |                                                      [01;35m[K~~~~~~~^~~~~~~~~~~[m[K
+[146.513s] 
+[146.516s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Ku_result sl::SlamtecLidarDriver::getScanModeCount(sl_u16&, sl_u32)[m[K’:
+[146.517s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:1199:61:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KtimeoutInMs[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[146.517s]  1199 |         u_result getScanModeCount(sl_u16& modeCount, [01;35m[Ksl_u32 timeoutInMs = DEFAULT_TIMEOUT[m[K)
+[146.518s]       |                                                      [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[146.712s] /home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp: In instantiation of ‘[01m[Kvoid sl::RawSampleNodeHolder<T>::pushNode(_u64, const T*) [with T = sl_lidar_response_measurement_node_hq_t; _u64 = long unsigned int][m[K’:
+[146.715s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:1648:42:[m[K   required from here
+[146.715s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:202:28:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimestamp_uS[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[146.716s]   202 |         void pushNode([01;35m[K_u64 timestamp_uS[m[K, const T* node)
+[146.716s]       |                       [01;35m[K~~~~~^~~~~~~~~~~~[m[K
+[147.285s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:[m[K At global scope:
+[147.288s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:83:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid sl::convert(const sl_lidar_response_measurement_node_hq_t&, sl_lidar_response_measurement_node_t&)[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+[147.291s]    83 |     static void [01;35m[Kconvert[m[K(const sl_lidar_response_measurement_node_hq_t& from, sl_lidar_response_measurement_node_t& to)
+[147.294s]       |                 [01;35m[K^~~~~~~[m[K
+[147.297s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:75:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid sl::convert(const sl_lidar_response_measurement_node_t&, sl_lidar_response_measurement_node_hq_t&)[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+[147.299s]    75 |     static void [01;35m[Kconvert[m[K(const sl_lidar_response_measurement_node_t& from, sl_lidar_response_measurement_node_hq_t& to)
+[147.302s]       |                 [01;35m[K^~~~~~~[m[K
+[147.304s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:70:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid sl::printDeprecationWarn(const char*, const char*)[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+[147.306s]    70 |     static void [01;35m[KprintDeprecationWarn[m[K(const char* fn, const char* replacement)
+[147.309s]       |                 [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[147.524s] [ 84%] [32mBuilding CXX object CMakeFiles/rplidar_composition.dir/sdk/src/dataunpacker/unpacker/handler_capsules.cpp.o[0m
+[149.472s] In file included from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/rplidar_protocol.h:36[m[K,
+[149.473s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/rplidar.h:39[m[K,
+[149.473s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sdkcommon.h:49[m[K,
+[149.474s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sl_lidarprotocol_codec.cpp:35[m[K:
+[149.475s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[149.476s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[149.476s]       |                [01;35m[K^[m[K
+[149.486s] In file included from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/rplidar_cmd.h:36[m[K,
+[149.487s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/rplidar.h:40[m[K,
+[149.488s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sdkcommon.h:49[m[K,
+[149.488s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sl_lidarprotocol_codec.cpp:35[m[K:
+[149.489s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[149.489s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[149.490s]       |                    [01;35m[K^[m[K
+[149.536s] In file included from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/rplidar_protocol.h:36[m[K,
+[149.536s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/rplidar.h:39[m[K,
+[149.537s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sdkcommon.h:49[m[K,
+[149.538s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunnpacker_commondef.h:41[m[K,
+[149.538s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/unpacker/handler_hqnode.cpp:39[m[K:
+[149.540s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[149.541s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[149.541s]       |                [01;35m[K^[m[K
+[149.542s] In file included from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/rplidar_cmd.h:36[m[K,
+[149.542s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/rplidar.h:40[m[K,
+[149.543s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sdkcommon.h:49[m[K,
+[149.544s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunnpacker_commondef.h:41[m[K,
+[149.544s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/unpacker/handler_hqnode.cpp:39[m[K:
+[149.545s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[149.545s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[149.546s]       |                    [01;35m[K^[m[K
+[150.007s] [ 86%] [32mBuilding CXX object CMakeFiles/rplidar_composition.dir/sdk/src/sl_serial_channel.cpp.o[0m
+[150.980s] In file included from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/unpacker/handler_hqnode.cpp:40[m[K:
+[150.981s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::LIDARSampleDataListener::onCustomSampleDataDecoded(_u8, _u32, const void*, size_t)[m[K’:
+[150.982s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:52:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KansType[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[150.983s]    54 |         virtual void onCustomSampleDataDecoded([01;35m[K_u8 ansType[m[K, _u32 customCode, const void* data, size_t size) {}
+[150.984s]       |                                                [01;35m[K~~~~^~~~~~~[m[K
+[150.984s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KcustomCode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[150.985s]    54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, [01;35m[K_u32 customCode[m[K, const void* data, size_t size) {}
+[150.986s]       |                                                             [01;35m[K~~~~~^~~~~~~~~~[m[K
+[150.987s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:90:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[150.989s]    54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, [01;35m[Kconst void* data[m[K, size_t size) {}
+[150.990s]       |                                                                              [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[150.991s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:103:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksize[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[150.992s]    54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, const void* data, [01;35m[Ksize_t size[m[K) {}
+[150.993s]       |                                                                                                [01;35m[K~~~~~~~^~~~[m[K
+[150.993s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::LIDARSampleDataListener::onDecodingError(int, _u8, const void*, size_t)[m[K’:
+[150.994s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KerrMsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[150.995s]    56 |         virtual void onDecodingError([01;35m[Kint errMsg[m[K, _u8 ansType, const void* payload, size_t size) {}
+[150.996s]       |                                      [01;35m[K~~~~^~~~~~[m[K
+[150.997s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KansType[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[150.997s]    56 |         virtual void onDecodingError(int errMsg, [01;35m[K_u8 ansType[m[K, const void* payload, size_t size) {}
+[150.998s]       |                                                  [01;35m[K~~~~^~~~~~~[m[K
+[150.998s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:75:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[151.016s]    56 |         virtual void onDecodingError(int errMsg, _u8 ansType, [01;35m[Kconst void* payload[m[K, size_t size) {}
+[151.017s]       |                                                               [01;35m[K~~~~~~~~~~~~^~~~~~~[m[K
+[151.018s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:91:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksize[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[151.019s]    56 |         virtual void onDecodingError(int errMsg, _u8 ansType, const void* payload, [01;35m[Ksize_t size[m[K) {}
+[151.019s]       |                                                                                    [01;35m[K~~~~~~~^~~~[m[K
+[151.088s] In file included from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/rplidar_protocol.h:36[m[K,
+[151.089s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/rplidar.h:39[m[K,
+[151.090s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sdkcommon.h:49[m[K,
+[151.090s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunnpacker_commondef.h:41[m[K,
+[151.091s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/unpacker/handler_capsules.cpp:39[m[K:
+[151.092s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[151.093s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[151.094s]       |                [01;35m[K^[m[K
+[151.094s] In file included from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/rplidar_cmd.h:36[m[K,
+[151.095s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/rplidar.h:40[m[K,
+[151.096s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sdkcommon.h:49[m[K,
+[151.097s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunnpacker_commondef.h:41[m[K,
+[151.097s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/unpacker/handler_capsules.cpp:39[m[K:
+[151.098s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[151.099s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[151.100s]       |                    [01;35m[K^[m[K
+[151.157s] In file included from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sl_lidarprotocol_codec.cpp:49[m[K:
+[151.161s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sl_async_transceiver.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::IAsyncProtocolCodec::onChannelError(u_result)[m[K’:
+[151.162s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sl_async_transceiver.h:90:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KerrCode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[151.163s]    90 |         virtual void   onChannelError([01;35m[Ku_result errCode[m[K) {}
+[151.164s]       |                                       [01;35m[K~~~~~~~~~^~~~~~~[m[K
+[151.826s] [ 89%] [32mBuilding CXX object CMakeFiles/rplidar_composition.dir/sdk/src/sl_tcp_channel.cpp.o[0m
+[151.904s] [ 92%] [32mBuilding CXX object CMakeFiles/rplidar_composition.dir/sdk/src/sl_udp_channel.cpp.o[0m
+[152.098s] In file included from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/sl_lidar_cmd.h:41[m[K,
+[152.100s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/sl_lidar_driver.h:54[m[K,
+[152.104s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sl_serial_channel.cpp:33[m[K:
+[152.107s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[152.110s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[152.114s]       |                [01;35m[K^[m[K
+[152.129s] In file included from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/sl_lidar_driver.h:54[m[K,
+[152.133s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sl_serial_channel.cpp:33[m[K:
+[152.137s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[152.140s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[152.143s]       |                    [01;35m[K^[m[K
+[152.352s] In file included from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/unpacker/handler_capsules.cpp:40[m[K:
+[152.356s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::LIDARSampleDataListener::onCustomSampleDataDecoded(_u8, _u32, const void*, size_t)[m[K’:
+[152.362s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:52:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KansType[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[152.366s]    54 |         virtual void onCustomSampleDataDecoded([01;35m[K_u8 ansType[m[K, _u32 customCode, const void* data, size_t size) {}
+[152.372s]       |                                                [01;35m[K~~~~^~~~~~~[m[K
+[152.380s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KcustomCode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[152.382s]    54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, [01;35m[K_u32 customCode[m[K, const void* data, size_t size) {}
+[152.386s]       |                                                             [01;35m[K~~~~~^~~~~~~~~~[m[K
+[152.403s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:90:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[152.407s]    54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, [01;35m[Kconst void* data[m[K, size_t size) {}
+[152.410s]       |                                                                              [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[152.412s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:103:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksize[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[152.415s]    54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, const void* data, [01;35m[Ksize_t size[m[K) {}
+[152.417s]       |                                                                                                [01;35m[K~~~~~~~^~~~[m[K
+[152.419s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::LIDARSampleDataListener::onDecodingError(int, _u8, const void*, size_t)[m[K’:
+[152.422s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KerrMsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[152.425s]    56 |         virtual void onDecodingError([01;35m[Kint errMsg[m[K, _u8 ansType, const void* payload, size_t size) {}
+[152.427s]       |                                      [01;35m[K~~~~^~~~~~[m[K
+[152.430s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KansType[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[152.432s]    56 |         virtual void onDecodingError(int errMsg, [01;35m[K_u8 ansType[m[K, const void* payload, size_t size) {}
+[152.435s]       |                                                  [01;35m[K~~~~^~~~~~~[m[K
+[152.438s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:75:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[152.440s]    56 |         virtual void onDecodingError(int errMsg, _u8 ansType, [01;35m[Kconst void* payload[m[K, size_t size) {}
+[152.443s]       |                                                               [01;35m[K~~~~~~~~~~~~^~~~~~~[m[K
+[152.446s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:91:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksize[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[152.448s]    56 |         virtual void onDecodingError(int errMsg, _u8 ansType, const void* payload, [01;35m[Ksize_t size[m[K) {}
+[152.450s]       |                                                                                    [01;35m[K~~~~~~~^~~~[m[K
+[152.453s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/unpacker/handler_capsules.cpp:[m[K In member function ‘[01m[Kvoid sl::internal::unpacker::UnpackerHandler_DenseCapsuleNode::_onScanNodeDenseCapsuleData(rplidar_response_dense_capsule_measurement_nodes_t&, sl::internal::LIDARSampleDataUnpackerInner*)[m[K’:
+[152.455s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/dataunpacker/unpacker/handler_capsules.cpp:763:30:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on cast result type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+[152.458s]   763 |             const int dist = [01;35m[Kstatic_cast<const int>(_cached_previous_dense_capsuledata.cabins[pos].distance)[m[K;
+[152.460s]       |                              [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[153.474s] In file included from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/sl_lidar_cmd.h:41[m[K,
+[153.474s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/sl_lidar_driver.h:54[m[K,
+[153.475s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sl_tcp_channel.cpp:33[m[K:
+[153.476s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[153.476s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[153.477s]       |                [01;35m[K^[m[K
+[153.484s] In file included from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/sl_lidar_driver.h:54[m[K,
+[153.485s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sl_tcp_channel.cpp:33[m[K:
+[153.485s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[153.486s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[153.486s]       |                    [01;35m[K^[m[K
+[153.500s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sl_tcp_channel.cpp:[m[K In member function ‘[01m[Kvoid sl::TcpChannel::setStatus(_u32)[m[K’:
+[153.500s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sl_tcp_channel.cpp:109:29:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflag[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[153.501s]   109 |         void setStatus([01;35m[K_u32 flag[m[K){}
+[153.502s]       |                        [01;35m[K~~~~~^~~~[m[K
+[153.569s] In file included from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/sl_lidar_cmd.h:41[m[K,
+[153.570s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/sl_lidar_driver.h:54[m[K,
+[153.571s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sl_udp_channel.cpp:33[m[K:
+[153.572s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[153.573s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[153.573s]       |                [01;35m[K^[m[K
+[153.574s] In file included from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/sl_lidar_driver.h:54[m[K,
+[153.575s]                  from [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sl_udp_channel.cpp:33[m[K:
+[153.576s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[153.577s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[153.578s]       |                    [01;35m[K^[m[K
+[153.594s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sl_udp_channel.cpp:[m[K In member function ‘[01m[Kvoid sl::UdpChannel::setStatus(_u32)[m[K’:
+[153.595s] [01m[K/home/kingpooper/deepRacerWS/src/rplidar_ros/sdk/src/sl_udp_channel.cpp:112:29:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflag[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[153.596s]   112 |         void setStatus([01;35m[K_u32 flag[m[K){}
+[153.596s]       |                        [01;35m[K~~~~~^~~~[m[K
+[153.861s] [ 94%] [32m[1mLinking CXX executable rplidar_composition[0m
+[155.487s] [100%] Built target rplidar_composition
+[155.535s] Invoked command in '/home/kingpooper/deepRacerWS/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kingpooper/deepRacerWS/install/tape:/home/kingpooper/deepRacerWS/install/ros2_pca9685:/home/kingpooper/deepRacerWS/install/control:/opt/ros/humble /usr/bin/cmake --build /home/kingpooper/deepRacerWS/build/rplidar_ros -- -j4 -l4
+[155.547s] Invoking command in '/home/kingpooper/deepRacerWS/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kingpooper/deepRacerWS/install/tape:/home/kingpooper/deepRacerWS/install/ros2_pca9685:/home/kingpooper/deepRacerWS/install/control:/opt/ros/humble /usr/bin/cmake --install /home/kingpooper/deepRacerWS/build/rplidar_ros
+[155.581s] -- Install configuration: ""
+[155.584s] -- Execute custom install script
+[155.587s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/launch/__pycache__/rplidar_a1_launch.cpython-310.pyc
+[155.588s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/launch/__pycache__/view_rplidar_a1_launch.cpython-310.pyc
+[155.589s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a1_launch.py
+[155.590s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m12_launch.py
+[155.591s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m7_launch.py
+[155.591s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m8_launch.py
+[155.592s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a3_launch.py
+[155.593s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/launch/rplidar_c1_launch.py
+[155.599s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_launch.py
+[155.600s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_tcp_launch.py
+[155.601s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2_launch.py
+[155.601s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2e_launch.py
+[155.601s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s3_launch.py
+[155.602s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/launch/rplidar_t1_launch.py
+[155.603s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a1_launch.py
+[155.603s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m12_launch.py
+[155.604s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m7_launch.py
+[155.605s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m8_launch.py
+[155.606s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a3_launch.py
+[155.606s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_c1_launch.py
+[155.607s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_launch.py
+[155.608s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_tcp_launch.py
+[155.608s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2_launch.py
+[155.609s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2e_launch.py
+[155.609s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s3_launch.py
+[155.610s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_t1_launch.py
+[155.611s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/rviz/rplidar_ros.rviz
+[155.614s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/lib/rplidar_ros/rplidar_node
+[155.614s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/lib/rplidar_ros/rplidar_composition
+[155.617s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/lib/rplidar_ros/rplidar_client
+[155.617s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/ament_index/resource_index/package_run_dependencies/rplidar_ros
+[155.618s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/ament_index/resource_index/parent_prefix_path/rplidar_ros
+[155.619s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.sh
+[155.620s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.dsv
+[155.621s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/environment/path.sh
+[155.622s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/environment/path.dsv
+[155.623s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/local_setup.bash
+[155.624s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/local_setup.sh
+[155.625s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/local_setup.zsh
+[155.626s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/local_setup.dsv
+[155.627s] -- Symlinking: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/package.dsv
+[155.662s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/ament_index/resource_index/packages/rplidar_ros
+[155.664s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[155.665s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[155.666s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake
+[155.667s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake
+[155.668s] -- Up-to-date symlink: /home/kingpooper/deepRacerWS/install/rplidar_ros/share/rplidar_ros/package.xml
+[155.678s] Invoked command in '/home/kingpooper/deepRacerWS/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kingpooper/deepRacerWS/install/tape:/home/kingpooper/deepRacerWS/install/ros2_pca9685:/home/kingpooper/deepRacerWS/install/control:/opt/ros/humble /usr/bin/cmake --install /home/kingpooper/deepRacerWS/build/rplidar_ros
