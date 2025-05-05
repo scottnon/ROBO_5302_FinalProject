@@ -24,6 +24,12 @@ setup(
         'tape_follower = tape.tape_follower:main',
         'my_tape_follower = tape.my_tape_follower:main',
         'my_sexy_tape_follower = tape.my_sexy_tape_follower:main',
+        'my_blue_tape_follower = tape.my_blue_tape_follower:main',
+        'tom_blue_tape = tape.tom_blue_tape:main',
+        'james_blue_tape = tape.james_blue_tape:main',
+        'stop_sign = tape.stop_sign:main',
+        'school_zone = tape.school_zone:main',
+        'obs_avoid = tape.obs_avoid:main',
         ],
     },
 )

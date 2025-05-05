@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-72fc6c3c3d4849f186f0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "v4l2_camera",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-2000ef7ca187c8671c8b.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "v4l2_camera::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-v4l2_camera-805fcc2e062bd254b8b0.json",
+					"name" : "v4l2_camera",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "v4l2_camera_compose_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-v4l2_camera_compose_test-cc4bba714150ece295f9.json",
+					"name" : "v4l2_camera_compose_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "v4l2_camera_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-v4l2_camera_node-5ef9c4c23c566a669ed3.json",
+					"name" : "v4l2_camera_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "v4l2_camera_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-v4l2_camera_uninstall-21c9803748589f8aa48d.json",
+					"name" : "v4l2_camera_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/kingpooper/deepRacerWS/build/v4l2_camera",
+		"source" : "/home/kingpooper/deepRacerWS/src/ros2_v4l2_camera"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

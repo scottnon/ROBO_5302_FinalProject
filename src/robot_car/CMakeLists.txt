@@ -17,9 +17,14 @@ find_package(geometry_msgs REQUIRED)
 
 # Install Python nodes - add names of new python nodes here
 install(PROGRAMS
-  robot_car/bicycle_model_fake_odom_publisher.py
+  robot_car/bicycle_model_scott.py
+  # robot_car/map_metadata_relay.py
   # robot_car/new_python_node.py  -- this is the format for adding new python files (just add another line above this line)
   DESTINATION lib/${PROJECT_NAME}
+)
+
+install(DIRECTORY behavior_trees
+  DESTINATION share/${PROJECT_NAME}
 )
 
 # Install launch files, URDF, RViz configs

@@ -44,12 +44,12 @@ print("Initializing IO System - freq")
 pca.frequency = 100
 
 
-maxr=100	# can be adjusted slightly according to Dusty
-minl=30		# can be adjusted slightly according to Dusty (these are steering angle values)
-maxthr=100
-minthr= 75
+maxr = 135	# can be adjusted slightly according to Dusty, Tom changed to 135 per repo read me (5/1)
+minl = 30		# can be adjusted slightly according to Dusty (these are steering angle values), check if turn right command is the same amount as turn left
+maxthr = 125    # 125 per repo readme
+minthr = 65     # 65 per repo readme
 thrinit = 90    # initial linear
-strinit = 100   # initial angular    
+strinit = 85   # initial angular, was 100
 pinSTR = 15
 pinTHR = 14
 
@@ -81,7 +81,7 @@ class MinimalSubscriber(Node):
 
     def listener_callback(self, msg):
         throttle=-msg.linear.x
-        steering=msg.angular.z - 10      # -20 is trim
+        steering=msg.angular.z -0.5 #- 10      # -20 is trim, changed to -0.25 from 10 (Tom, 5/1)
   #      self.get_logger().info('Y AXIS: "%s"' % yaxis)
  #       self.get_logger().info('X AXIS: "%s"' % xaxis)
         self.get_logger().info('Throttle: "%s"' % throttle)

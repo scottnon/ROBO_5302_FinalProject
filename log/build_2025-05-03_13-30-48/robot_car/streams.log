@@ -1,0 +1,70 @@
+[0.065s] Invoking command in '/home/kingpooper/deepRacerWS/build/robot_car': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kingpooper/deepRacerWS/install/tape:/home/kingpooper/deepRacerWS/install/ros2_pca9685:/home/kingpooper/deepRacerWS/install/control:/opt/ros/humble /usr/bin/cmake /home/kingpooper/deepRacerWS/src/robot_car -DCMAKE_INSTALL_PREFIX=/home/kingpooper/deepRacerWS/install/robot_car
+[2.560s] -- The C compiler identification is GNU 11.4.0
+[4.763s] -- The CXX compiler identification is GNU 11.4.0
+[4.866s] -- Detecting C compiler ABI info
+[5.404s] -- Detecting C compiler ABI info - done
+[5.431s] -- Check for working C compiler: /usr/bin/cc - skipped
+[5.433s] -- Detecting C compile features
+[5.443s] -- Detecting C compile features - done
+[5.485s] -- Detecting CXX compiler ABI info
+[5.976s] -- Detecting CXX compiler ABI info - done
+[6.012s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[6.014s] -- Detecting CXX compile features
+[6.015s] -- Detecting CXX compile features - done
+[6.156s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[7.067s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[7.866s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[8.355s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[8.419s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[8.491s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[8.679s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.824s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.204s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[9.234s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[9.378s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[9.488s] -- Looking for pthread.h
+[10.320s] -- Looking for pthread.h - found
+[10.324s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[10.772s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[10.777s] -- Found Threads: TRUE  
+[11.096s] -- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)
+[11.190s] -- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)
+[11.426s] -- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)
+[11.992s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[12.396s] -- Configuring done
+[12.439s] -- Generating done
+[12.454s] -- Build files have been written to: /home/kingpooper/deepRacerWS/build/robot_car
+[12.494s] Invoked command in '/home/kingpooper/deepRacerWS/build/robot_car' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kingpooper/deepRacerWS/install/tape:/home/kingpooper/deepRacerWS/install/ros2_pca9685:/home/kingpooper/deepRacerWS/install/control:/opt/ros/humble /usr/bin/cmake /home/kingpooper/deepRacerWS/src/robot_car -DCMAKE_INSTALL_PREFIX=/home/kingpooper/deepRacerWS/install/robot_car
+[12.505s] Invoking command in '/home/kingpooper/deepRacerWS/build/robot_car': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kingpooper/deepRacerWS/install/tape:/home/kingpooper/deepRacerWS/install/ros2_pca9685:/home/kingpooper/deepRacerWS/install/control:/opt/ros/humble /usr/bin/cmake --build /home/kingpooper/deepRacerWS/build/robot_car -- -j4 -l4
+[12.694s] Invoked command in '/home/kingpooper/deepRacerWS/build/robot_car' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kingpooper/deepRacerWS/install/tape:/home/kingpooper/deepRacerWS/install/ros2_pca9685:/home/kingpooper/deepRacerWS/install/control:/opt/ros/humble /usr/bin/cmake --build /home/kingpooper/deepRacerWS/build/robot_car -- -j4 -l4
+[12.740s] Invoking command in '/home/kingpooper/deepRacerWS/build/robot_car': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kingpooper/deepRacerWS/install/tape:/home/kingpooper/deepRacerWS/install/ros2_pca9685:/home/kingpooper/deepRacerWS/install/control:/opt/ros/humble /usr/bin/cmake --install /home/kingpooper/deepRacerWS/build/robot_car
+[12.779s] -- Install configuration: ""
+[12.783s] -- Installing: /home/kingpooper/deepRacerWS/install/robot_car/lib/robot_car/bicycle_model_fake_odom_publisher.py
+[12.787s] -- Installing: /home/kingpooper/deepRacerWS/install/robot_car/lib/robot_car/bicycle_model_scott.py
+[12.791s] -- Installing: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/launch
+[12.794s] -- Installing: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/launch/display.launch.py
+[12.797s] -- Installing: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/launch/__pycache__
+[12.799s] -- Installing: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/launch/__pycache__/display.launch.cpython-310.pyc
+[12.801s] -- Installing: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/urdf
+[12.803s] -- Installing: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/urdf/description
+[12.805s] -- Installing: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/urdf/description/robot_car_description.urdf
+[12.807s] -- Installing: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/config
+[12.809s] -- Installing: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/config/mapper_params_online_async.yaml
+[12.813s] -- Installing: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/rviz
+[12.815s] -- Installing: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/rviz/config.rviz
+[12.818s] -- Installing: /home/kingpooper/deepRacerWS/install/robot_car/share/ament_index/resource_index/package_run_dependencies/robot_car
+[12.821s] -- Installing: /home/kingpooper/deepRacerWS/install/robot_car/share/ament_index/resource_index/parent_prefix_path/robot_car
+[12.824s] -- Installing: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/environment/ament_prefix_path.sh
+[12.826s] -- Installing: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/environment/ament_prefix_path.dsv
+[12.828s] -- Installing: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/environment/path.sh
+[12.831s] -- Installing: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/environment/path.dsv
+[12.833s] -- Installing: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/local_setup.bash
+[12.835s] -- Installing: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/local_setup.sh
+[12.837s] -- Installing: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/local_setup.zsh
+[12.839s] -- Installing: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/local_setup.dsv
+[12.842s] -- Installing: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/package.dsv
+[12.844s] -- Installing: /home/kingpooper/deepRacerWS/install/robot_car/share/ament_index/resource_index/packages/robot_car
+[12.847s] -- Installing: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/cmake/robot_carConfig.cmake
+[12.849s] -- Installing: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/cmake/robot_carConfig-version.cmake
+[12.851s] -- Installing: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/package.xml
+[12.861s] Invoked command in '/home/kingpooper/deepRacerWS/build/robot_car' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kingpooper/deepRacerWS/install/tape:/home/kingpooper/deepRacerWS/install/ros2_pca9685:/home/kingpooper/deepRacerWS/install/control:/opt/ros/humble /usr/bin/cmake --install /home/kingpooper/deepRacerWS/build/robot_car

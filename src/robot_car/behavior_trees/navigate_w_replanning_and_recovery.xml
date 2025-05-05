@@ -1,0 +1,14 @@
+<root main_tree_to_execute="MainTree">
+  <BehaviorTree ID="MainTree">
+    <Fallback name="root_selector">
+      <Sequence name="Navigate">
+        <ComputePathToPose/>
+        <FollowPath/>
+      </Sequence>
+      <RecoveryNode number_of_retries="1" name="recovery_node">
+        <ClearEntireCostmap/>
+      </RecoveryNode>
+    </Fallback>
+  </BehaviorTree>
+</root>
+

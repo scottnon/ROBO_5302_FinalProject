@@ -1,8 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.001212] (-) JobUnselected: {'identifier': 'control'}
-[0.002021] (-) JobUnselected: {'identifier': 'ros2_pca9685'}
-[0.002129] (-) JobUnselected: {'identifier': 'rplidar_ros'}
-[0.002370] (-) JobUnselected: {'identifier': 'slam'}
-[0.002473] (-) JobUnselected: {'identifier': 'tape'}
-[0.002615] (-) JobUnselected: {'identifier': 'v4l2_camera'}
-[0.003407] (-) EventReactorShutdown: {}

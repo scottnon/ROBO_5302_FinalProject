@@ -18,14 +18,13 @@ class MySexyTapeFollower(Node):
         self.integral = 0.0
         self.previous_time = time.time()
         self.last_error = 0 #initialize the last error to zero
-        self.linear_velocity_gain = 0.29 #will stay constant but tune here
-        self.proportional_gain = 0.004 #will be used to steer towards centroid of black tape
-        self.integral_gain = 0.001
-        self.derivative_gain = 0.0
+        self.linear_velocity_gain = 0.14 #will stay constant but tune here
+        self.proportional_gain = 0.1 #will be used to steer towards centroid of black tape
+        self.integral_gain = 0.1
+        self.derivative_gain = 0.3
 
 
     def listener_callback(self, data):
-        self.get_logger().info("receiving video frame") 
         img = self.br.imgmsg_to_cv2(data, 'mono8') #convert to grayscale image
         # img = self.br.imgmsg_to_cv2(data, 'bgr8') #convert to BGR8 Image
         #note: the reason it's not converting to a grayscale image right way is because we later use the cvtColor function 
@@ -36,11 +35,12 @@ class MySexyTapeFollower(Node):
 
 
         lower_threshold = 0 #darkest gray we accept
-        upper_threshold = 20 #lightest gray we accept
+        upper_threshold = 30 #lightest gray we accept
 
         mask = cv2.inRange(img, lower_threshold, upper_threshold) #gets rid of everything that isnt in that color range
         # self.get_logger().info("image moments before masking: ", cv2.moments(mask)['m00']) #print the moments of the image before masking
-        roi_height = mask.shape[0] // 2 #take only (a hot dog) half of the image
+        vertical_cutoff = 1.5
+        roi_height = int(mask.shape[0] // vertical_cutoff) #take only (a hot dog) half of the image
         #will make two rois, one for the left and one for the right
         roi_left = mask[mask.shape[0] - roi_height:, :mask.shape[1] // 2] #cut out the left region   
         roi_right = mask[mask.shape[0] - roi_height:, mask.shape[1] // 2:] #cut out the right region
@@ -55,10 +55,41 @@ class MySexyTapeFollower(Node):
             #if the right region has more black pixels, turn right
             #if the left region has more black pixels, turn left
             #if both regions have black pixels, go straight
-            threshold = 0.01 * min(MR['m00'], ML['m00'])
-            error = MR['m00'] - ML['m00']
+            threshold = 0.3 * max(MR['m00'], ML['m00']) #this is using 3% of the number of pixels
+            clip_threshold = 0.5 * max(MR['m00'], ML['m00']) #this is the condition used to clip angles
+            #clip threshold represents like "we think it's pointed really away from the line"
+
+            #explanation of moments:
+            # m00 = sum of all pixels in the image
+            # m10 = sum of all x coordinates of the pixels in the image
+
+
+            # change centroid values to x values only (suspicious code)
+            # left_cx = int(ML["m10"] - ML["m00"]) #from shaya: im not sure what this is doing 
+            # right_cx = int(MR["m10"] - MR["m00"])
+            # error = right_cx - left_cx
+
+            #use x centroid (shaya rewrite)
+            # left_cx = int(ML["m10"]/ML["m00"]) #this divides the sum of all x coordinates by the number of pixels in the image
+            #theoretically should be the mean x value
+            # right_cx = int(MR["m10"]/MR["m00"])
+            # error = right_cx - left_cx
+
+            # #compare number of pixels 
+            # right_pixels = cv2.countNonZero(roi_right) #counts nonzero pixels in the mask
+            # left_pixels = cv2.countNonZero(roi_left)
+            # error = right_pixels - left_pixels
+
+            #compare number of pixels 
+            right_pixels = ML['m00'] #counts nonzero pixels in the mask, but a different way
+            left_pixels = MR['m00']
+            error = (left_pixels - right_pixels)
+            self.get_logger().info("error: " + str(error)) 
+            self.get_logger().info("threshold: " + str(threshold))
+            self.get_logger().info("clip: " + str(clip_threshold))
+
             # self.get_logger().info("here is the error") 
-            if np.abs(error) > threshold:
+            if np.abs(error) > clip_threshold:
                 #turn a direction
                 self.get_logger().info("turning") 
 
@@ -67,18 +98,29 @@ class MySexyTapeFollower(Node):
                 self.integral += error * (time.time() - self.previous_time)
                 i = self.integral_gain * self.integral
                 
-                d = self.integral_gain * ((self.previous_error -  error) / (time.time() - self.previous_time))
+                d = self.derivative_gain * ((self.previous_error -  error) / (time.time() - self.previous_time))
 
                 angular_velocity =  p + i + d
                 self.previous_time = time.time()
                 self.previous_error = error
+
+                linear_velocity = self.linear_velocity_gain
                 
-                if abs(error) > 20:
+                
+                if abs(error) > threshold:
                 #To avoid extreme turning when the error is large, the angular velocity is clamped between -0.3 and 0.3
-                    angular_velocity = np.clip(angular_velocity, -1, 1) 
+                    self.get_logger().info("clipping") 
+                    angular_velocity = np.clip(angular_velocity, -0.3, 0.3) 
+                    # linear_velocity = 0.133
+
+                # if error < 0 :
+                #     angular_velocity *= 1.4
+                # if error > 0: 
+                #     angular_velocity *= 0.4
+
                 self.get_logger().info("angular velocity: " + str(angular_velocity))
                 msg = Twist()
-                msg.linear.x = self.linear_velocity_gain  # Linear velocity in x-axis
+                msg.linear.x = linear_velocity  # Linear velocity in x-axis
                 msg.linear.y = 0.0
                 msg.linear.z = 0.0
                 msg.angular.x = 0.0
@@ -94,7 +136,7 @@ class MySexyTapeFollower(Node):
                 msg.angular.x = 0.0
                 msg.angular.y = 0.0
                 msg.linear.x = self.linear_velocity_gain
-                msg.angular.z = 0.0
+                msg.angular.z = -0.28
                 self.publisher_.publish(msg)
         else:
             # If no tape is detected, go straight
@@ -105,14 +147,14 @@ class MySexyTapeFollower(Node):
             msg.angular.x = 0.0
             msg.angular.y = 0.0
             msg.linear.x = self.linear_velocity_gain
-            msg.angular.z = 0.0
+            msg.angular.z = -0.28
             self.publisher_.publish(msg)
 
         #UNCOMMENT THESE FOR VISUALIZATION        
-        # cv2.imshow("Line Threshold", mask)
-        # cv2.imshow("Left Region of Interest", roi_left)
-        # cv2.imshow("Right Region of Interest", roi_right)
-        #cv2.imshow("Raw Image", img)
+        cv2.imshow("Line Threshold", mask)
+        cv2.imshow("Left Region of Interest", roi_left)
+        cv2.imshow("Right Region of Interest", roi_right)
+        cv2.imshow("Raw Image", img)
         cv2.waitKey(1)
 
 def main(args=None):

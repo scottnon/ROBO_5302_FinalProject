@@ -1,4 +1,0 @@
-Invoking command in '/home/kingpooper/deepRacerWS/build/v4l2_camera': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kingpooper/deepRacerWS/build/v4l2_camera -- -j4 -l4
-Invoked command in '/home/kingpooper/deepRacerWS/build/v4l2_camera' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kingpooper/deepRacerWS/build/v4l2_camera -- -j4 -l4
-Invoking command in '/home/kingpooper/deepRacerWS/build/v4l2_camera': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kingpooper/deepRacerWS/build/v4l2_camera
-Invoked command in '/home/kingpooper/deepRacerWS/build/v4l2_camera' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kingpooper/deepRacerWS/build/v4l2_camera

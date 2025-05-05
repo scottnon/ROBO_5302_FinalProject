@@ -10,11 +10,11 @@ def generate_launch_description():
     pkg_share = FindPackageShare(package='robot_car').find('robot_car')
     default_model_path = os.path.join(pkg_share, 'urdf', 'description', 'robot_car_description.urdf')
     default_rviz_config_path = os.path.join(pkg_share, 'rviz', 'config.rviz')
-    default_slam_params_path = os.path.join(pkg_share, 'config', 'slam_toolbox_params.yaml')
+    default_slam_params_path = os.path.join(pkg_share, 'config', 'mapper_params_online_async.yaml')
 
     # Declare launch arguments
     declare_slam_arg = DeclareLaunchArgument(
-        name='slam', default_value='False', description='Run SLAM Toolbox'
+        name='slam', default_value='True', description='Run SLAM Toolbox'
     )
     declare_gui_arg = DeclareLaunchArgument(
         name='gui', default_value='True', description='Flag to enable joint_state_publisher_gui'
@@ -54,15 +54,28 @@ def generate_launch_description():
         output='screen',
         arguments=['-d', LaunchConfiguration('rvizconfig')],
     )
+    
+    odom_node = Node(
+        package = 'robot_car',
+        executable='bicycle_model_scott.py',
+        name='bicycle_odom',
+        output='screen'
+    )
 
     slam_toolbox_node = Node(
         package='slam_toolbox',
-        executable='async_slam_toolbox_node',  # changed from 'sync' to 'async'
+        executable='async_slam_toolbox_node',
         name='slam_toolbox',
         output='screen',
-        parameters=[default_slam_params_path],
-        arguments=['--ros-args', '--queue-size', '100'],
+        parameters=[{'use_sim_time': False}, default_slam_params_path],
         condition=IfCondition(LaunchConfiguration('slam'))
+    )
+    
+    lidar_to_laser = Node(
+    	package='tf2_ros',
+    	executable='static_transform_publisher',
+    	name='laser_to_lidar_link_tf',
+    	arguments=['0', '0', '0', '0', '0', '0', 'lidar_link', 'laser']
     )
 
     return LaunchDescription([
@@ -73,6 +86,8 @@ def generate_launch_description():
         joint_state_publisher_node,
         joint_state_publisher_gui_node,
         robot_state_publisher_node,
+        odom_node,
         rviz_node,
-        slam_toolbox_node
+        slam_toolbox_node,
+        lidar_to_laser
     ])

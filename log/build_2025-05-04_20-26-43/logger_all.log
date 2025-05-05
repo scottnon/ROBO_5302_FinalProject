@@ -1,0 +1,257 @@
+[0.771s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'robot_car']
+[0.771s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['robot_car'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffff85856140>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff85a0e6b0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff85a0e6b0>>, mixin_verb=('build',))
+[1.972s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.973s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.973s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.974s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.974s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.975s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.975s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/kingpooper/deepRacerWS'
+[1.977s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.979s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.979s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.980s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.980s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.980s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.981s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.981s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.982s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.061s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.062s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.063s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.064s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.065s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.066s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.066s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.067s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.068s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.072s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.072s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.073s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['ignore', 'ignore_ament_install']
+[2.074s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ignore'
+[2.074s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ignore_ament_install'
+[2.075s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['colcon_pkg']
+[2.075s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'colcon_pkg'
+[2.076s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['colcon_meta']
+[2.076s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'colcon_meta'
+[2.076s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['ros']
+[2.076s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ros'
+[2.077s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['cmake', 'python']
+[2.077s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'cmake'
+[2.077s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'python'
+[2.078s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['python_setup_py']
+[2.078s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'python_setup_py'
+[2.078s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[2.079s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'ignore'
+[2.079s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'ignore_ament_install'
+[2.080s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['colcon_pkg']
+[2.080s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'colcon_pkg'
+[2.080s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['colcon_meta']
+[2.081s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'colcon_meta'
+[2.081s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['ros']
+[2.081s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'ros'
+[2.082s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['cmake', 'python']
+[2.082s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'cmake'
+[2.083s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'python'
+[2.083s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['python_setup_py']
+[2.084s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'python_setup_py'
+[2.084s] Level 1:colcon.colcon_core.package_identification:_identify(launch/build) by extensions ['ignore', 'ignore_ament_install']
+[2.085s] Level 1:colcon.colcon_core.package_identification:_identify(launch/build) by extension 'ignore'
+[2.085s] Level 1:colcon.colcon_core.package_identification:_identify(launch/build) ignored
+[2.086s] Level 1:colcon.colcon_core.package_identification:_identify(launch/install) by extensions ['ignore', 'ignore_ament_install']
+[2.086s] Level 1:colcon.colcon_core.package_identification:_identify(launch/install) by extension 'ignore'
+[2.087s] Level 1:colcon.colcon_core.package_identification:_identify(launch/install) ignored
+[2.087s] Level 1:colcon.colcon_core.package_identification:_identify(launch/log) by extensions ['ignore', 'ignore_ament_install']
+[2.088s] Level 1:colcon.colcon_core.package_identification:_identify(launch/log) by extension 'ignore'
+[2.088s] Level 1:colcon.colcon_core.package_identification:_identify(launch/log) ignored
+[2.089s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.090s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.090s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.091s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.091s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.092s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.092s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.093s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.093s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.093s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.093s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.094s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.094s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.095s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.095s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.095s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.096s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[2.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[2.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[2.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extensions ['ignore', 'ignore_ament_install']
+[2.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extension 'ignore'
+[2.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extension 'ignore_ament_install'
+[2.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extensions ['colcon_pkg']
+[2.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extension 'colcon_pkg'
+[2.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extensions ['colcon_meta']
+[2.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extension 'colcon_meta'
+[2.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extensions ['ros']
+[2.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extension 'ros'
+[2.109s] DEBUG:colcon.colcon_core.package_identification:Package 'src/control' with type 'ros.ament_python' and name 'control'
+[2.110s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[2.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[2.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[2.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[2.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[2.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[2.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_car) by extensions ['ignore', 'ignore_ament_install']
+[2.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_car) by extension 'ignore'
+[2.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_car) by extension 'ignore_ament_install'
+[2.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_car) by extensions ['colcon_pkg']
+[2.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_car) by extension 'colcon_pkg'
+[2.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_car) by extensions ['colcon_meta']
+[2.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_car) by extension 'colcon_meta'
+[2.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_car) by extensions ['ros']
+[2.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_car) by extension 'ros'
+[2.164s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_car' with type 'ros.ament_cmake' and name 'robot_car'
+[2.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_pca9685) by extensions ['ignore', 'ignore_ament_install']
+[2.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_pca9685) by extension 'ignore'
+[2.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_pca9685) by extension 'ignore_ament_install'
+[2.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_pca9685) by extensions ['colcon_pkg']
+[2.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_pca9685) by extension 'colcon_pkg'
+[2.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_pca9685) by extensions ['colcon_meta']
+[2.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_pca9685) by extension 'colcon_meta'
+[2.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_pca9685) by extensions ['ros']
+[2.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_pca9685) by extension 'ros'
+[2.173s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_pca9685' with type 'ros.ament_python' and name 'ros2_pca9685'
+[2.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_v4l2_camera) by extensions ['ignore', 'ignore_ament_install']
+[2.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_v4l2_camera) by extension 'ignore'
+[2.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_v4l2_camera) by extension 'ignore_ament_install'
+[2.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_v4l2_camera) by extensions ['colcon_pkg']
+[2.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_v4l2_camera) by extension 'colcon_pkg'
+[2.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_v4l2_camera) by extensions ['colcon_meta']
+[2.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_v4l2_camera) by extension 'colcon_meta'
+[2.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_v4l2_camera) by extensions ['ros']
+[2.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_v4l2_camera) by extension 'ros'
+[2.184s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_v4l2_camera' with type 'ros.ament_cmake' and name 'v4l2_camera'
+[2.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['ignore', 'ignore_ament_install']
+[2.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ignore'
+[2.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ignore_ament_install'
+[2.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['colcon_pkg']
+[2.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'colcon_pkg'
+[2.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['colcon_meta']
+[2.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'colcon_meta'
+[2.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['ros']
+[2.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ros'
+[2.192s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rplidar_ros' with type 'ros.ament_cmake' and name 'rplidar_ros'
+[2.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/slamconfig) by extensions ['ignore', 'ignore_ament_install']
+[2.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/slamconfig) by extension 'ignore'
+[2.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/slamconfig) by extension 'ignore_ament_install'
+[2.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/slamconfig) by extensions ['colcon_pkg']
+[2.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/slamconfig) by extension 'colcon_pkg'
+[2.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/slamconfig) by extensions ['colcon_meta']
+[2.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/slamconfig) by extension 'colcon_meta'
+[2.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/slamconfig) by extensions ['ros']
+[2.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/slamconfig) by extension 'ros'
+[2.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/slamconfig) by extensions ['cmake', 'python']
+[2.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/slamconfig) by extension 'cmake'
+[2.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/slamconfig) by extension 'python'
+[2.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/slamconfig) by extensions ['python_setup_py']
+[2.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/slamconfig) by extension 'python_setup_py'
+[2.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/tape) by extensions ['ignore', 'ignore_ament_install']
+[2.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/tape) by extension 'ignore'
+[2.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/tape) by extension 'ignore_ament_install'
+[2.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/tape) by extensions ['colcon_pkg']
+[2.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/tape) by extension 'colcon_pkg'
+[2.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/tape) by extensions ['colcon_meta']
+[2.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/tape) by extension 'colcon_meta'
+[2.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/tape) by extensions ['ros']
+[2.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/tape) by extension 'ros'
+[2.208s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tape' with type 'ros.ament_python' and name 'tape'
+[2.208s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.311s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'control' in 'src/control'
+[2.312s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ros2_pca9685' in 'src/ros2_pca9685'
+[2.313s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'rplidar_ros' in 'src/rplidar_ros'
+[2.313s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'tape' in 'src/tape'
+[2.313s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'v4l2_camera' in 'src/ros2_v4l2_camera'
+[2.316s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.316s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.335s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/kingpooper/deepRacerWS/install
+[2.351s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 359 installed packages in /opt/ros/humble
+[2.364s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.691s] Level 5:colcon.colcon_core.verb:set package 'robot_car' build argument 'cmake_args' from command line to 'None'
+[2.692s] Level 5:colcon.colcon_core.verb:set package 'robot_car' build argument 'cmake_target' from command line to 'None'
+[2.692s] Level 5:colcon.colcon_core.verb:set package 'robot_car' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.693s] Level 5:colcon.colcon_core.verb:set package 'robot_car' build argument 'cmake_clean_cache' from command line to 'False'
+[2.693s] Level 5:colcon.colcon_core.verb:set package 'robot_car' build argument 'cmake_clean_first' from command line to 'False'
+[2.693s] Level 5:colcon.colcon_core.verb:set package 'robot_car' build argument 'cmake_force_configure' from command line to 'False'
+[2.693s] Level 5:colcon.colcon_core.verb:set package 'robot_car' build argument 'ament_cmake_args' from command line to 'None'
+[2.693s] Level 5:colcon.colcon_core.verb:set package 'robot_car' build argument 'catkin_cmake_args' from command line to 'None'
+[2.694s] Level 5:colcon.colcon_core.verb:set package 'robot_car' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.694s] DEBUG:colcon.colcon_core.verb:Building package 'robot_car' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kingpooper/deepRacerWS/build/robot_car', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kingpooper/deepRacerWS/install/robot_car', 'merge_install': False, 'path': '/home/kingpooper/deepRacerWS/src/robot_car', 'symlink_install': False, 'test_result_base': None}
+[2.696s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.705s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.707s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kingpooper/deepRacerWS/src/robot_car' with build type 'ament_cmake'
+[2.708s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kingpooper/deepRacerWS/src/robot_car'
+[2.727s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.728s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.729s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.797s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kingpooper/deepRacerWS/build/robot_car': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kingpooper/deepRacerWS/install/tape:/home/kingpooper/deepRacerWS/install/ros2_pca9685:/home/kingpooper/deepRacerWS/install/control:/opt/ros/humble /usr/bin/cmake --build /home/kingpooper/deepRacerWS/build/robot_car -- -j4 -l4
+[7.125s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kingpooper/deepRacerWS/build/robot_car' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kingpooper/deepRacerWS/install/tape:/home/kingpooper/deepRacerWS/install/ros2_pca9685:/home/kingpooper/deepRacerWS/install/control:/opt/ros/humble /usr/bin/cmake --build /home/kingpooper/deepRacerWS/build/robot_car -- -j4 -l4
+[7.206s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kingpooper/deepRacerWS/build/robot_car': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kingpooper/deepRacerWS/install/tape:/home/kingpooper/deepRacerWS/install/ros2_pca9685:/home/kingpooper/deepRacerWS/install/control:/opt/ros/humble /usr/bin/cmake --install /home/kingpooper/deepRacerWS/build/robot_car
+[7.318s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_car)
+[7.341s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kingpooper/deepRacerWS/build/robot_car' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kingpooper/deepRacerWS/install/tape:/home/kingpooper/deepRacerWS/install/ros2_pca9685:/home/kingpooper/deepRacerWS/install/control:/opt/ros/humble /usr/bin/cmake --install /home/kingpooper/deepRacerWS/build/robot_car
+[7.346s] Level 1:colcon.colcon_core.environment:checking '/home/kingpooper/deepRacerWS/install/robot_car' for CMake module files
+[7.350s] Level 1:colcon.colcon_core.environment:checking '/home/kingpooper/deepRacerWS/install/robot_car' for CMake config files
+[7.353s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_car', 'cmake_prefix_path')
+[7.360s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/hook/cmake_prefix_path.ps1'
+[7.366s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/hook/cmake_prefix_path.dsv'
+[7.370s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/hook/cmake_prefix_path.sh'
+[7.378s] Level 1:colcon.colcon_core.environment:checking '/home/kingpooper/deepRacerWS/install/robot_car/lib'
+[7.379s] Level 1:colcon.colcon_core.environment:checking '/home/kingpooper/deepRacerWS/install/robot_car/bin'
+[7.380s] Level 1:colcon.colcon_core.environment:checking '/home/kingpooper/deepRacerWS/install/robot_car/lib/pkgconfig/robot_car.pc'
+[7.382s] Level 1:colcon.colcon_core.environment:checking '/home/kingpooper/deepRacerWS/install/robot_car/lib/python3.10/site-packages'
+[7.384s] Level 1:colcon.colcon_core.environment:checking '/home/kingpooper/deepRacerWS/install/robot_car/bin'
+[7.386s] INFO:colcon.colcon_core.shell:Creating package script '/home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/package.ps1'
+[7.394s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/package.dsv'
+[7.398s] INFO:colcon.colcon_core.shell:Creating package script '/home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/package.sh'
+[7.403s] INFO:colcon.colcon_core.shell:Creating package script '/home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/package.bash'
+[7.409s] INFO:colcon.colcon_core.shell:Creating package script '/home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/package.zsh'
+[7.413s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kingpooper/deepRacerWS/install/robot_car/share/colcon-core/packages/robot_car)
+[7.417s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_car)
+[7.419s] Level 1:colcon.colcon_core.environment:checking '/home/kingpooper/deepRacerWS/install/robot_car' for CMake module files
+[7.423s] Level 1:colcon.colcon_core.environment:checking '/home/kingpooper/deepRacerWS/install/robot_car' for CMake config files
+[7.428s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_car', 'cmake_prefix_path')
+[7.430s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/hook/cmake_prefix_path.ps1'
+[7.435s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/hook/cmake_prefix_path.dsv'
+[7.442s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/hook/cmake_prefix_path.sh'
+[7.447s] Level 1:colcon.colcon_core.environment:checking '/home/kingpooper/deepRacerWS/install/robot_car/lib'
+[7.448s] Level 1:colcon.colcon_core.environment:checking '/home/kingpooper/deepRacerWS/install/robot_car/bin'
+[7.449s] Level 1:colcon.colcon_core.environment:checking '/home/kingpooper/deepRacerWS/install/robot_car/lib/pkgconfig/robot_car.pc'
+[7.451s] Level 1:colcon.colcon_core.environment:checking '/home/kingpooper/deepRacerWS/install/robot_car/lib/python3.10/site-packages'
+[7.452s] Level 1:colcon.colcon_core.environment:checking '/home/kingpooper/deepRacerWS/install/robot_car/bin'
+[7.454s] INFO:colcon.colcon_core.shell:Creating package script '/home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/package.ps1'
+[7.458s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/package.dsv'
+[7.463s] INFO:colcon.colcon_core.shell:Creating package script '/home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/package.sh'
+[7.470s] INFO:colcon.colcon_core.shell:Creating package script '/home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/package.bash'
+[7.476s] INFO:colcon.colcon_core.shell:Creating package script '/home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/package.zsh'
+[7.481s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kingpooper/deepRacerWS/install/robot_car/share/colcon-core/packages/robot_car)
+[7.484s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[7.485s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[7.486s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[7.486s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[7.535s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[7.536s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[7.537s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[7.548s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[7.549s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[7.551s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kingpooper/deepRacerWS/install/local_setup.ps1'
+[7.566s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kingpooper/deepRacerWS/install/_local_setup_util_ps1.py'
+[7.578s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kingpooper/deepRacerWS/install/setup.ps1'
+[7.589s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kingpooper/deepRacerWS/install/local_setup.sh'
+[7.594s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kingpooper/deepRacerWS/install/_local_setup_util_sh.py'
+[7.599s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kingpooper/deepRacerWS/install/setup.sh'
+[7.610s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kingpooper/deepRacerWS/install/local_setup.bash'
+[7.614s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kingpooper/deepRacerWS/install/setup.bash'
+[7.624s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kingpooper/deepRacerWS/install/local_setup.zsh'
+[7.628s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kingpooper/deepRacerWS/install/setup.zsh'

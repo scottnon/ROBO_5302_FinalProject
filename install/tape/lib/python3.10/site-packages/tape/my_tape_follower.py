@@ -9,7 +9,7 @@ import numpy as np
 class MyTapeFollower(Node):
     def __init__(self):
         super().__init__('my_tape_follower')
-        self.subscription = self.create_subscription(Image, '/image_raw', self.listener_callback, 10)
+        self.subscription = self.create_subscription(Image, '/image_raw', self.listener_callback, 10)   # 10 is the queue size
         self.br = CvBridge() #establish a CV2 bridge to convert ros raw images to usable data for openCV
         self.publisher_ = self.create_publisher(Twist, '/cmd_vel', 10) #will publish motion commands
         
@@ -62,7 +62,7 @@ class MyTapeFollower(Node):
 
             #derivative control
             if error != 0:
-                derivative = (error - self.last_error) / 0.1 #should the 0.1 be derivative gain?
+                derivative = (error - self.last_error) / 0.1 #should the 0.1 be derivative gain? I think this should be how often the camera publishes info (roughly 28.5 fps ~ 0.035 seconds per frame)
                 self.last_error = error
             else:
                 derivative = 0

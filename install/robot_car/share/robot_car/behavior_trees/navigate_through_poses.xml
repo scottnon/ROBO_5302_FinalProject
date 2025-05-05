@@ -1,0 +1,9 @@
+<root main_tree_to_execute="MainTree">
+  <BehaviorTree ID="MainTree">
+    <PipelineSequence>
+      <GoalUpdated/>
+      <ComputePathThroughPoses/>
+      <FollowPath/>
+    </PipelineSequence>
+  </BehaviorTree>
+</root>

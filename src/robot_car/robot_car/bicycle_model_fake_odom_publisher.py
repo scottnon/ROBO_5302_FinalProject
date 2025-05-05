@@ -1,3 +1,5 @@
+#!/usr/bin/env python3          # added by Scott, tells C interpreter to use python
+
 import math
 import rclpy
 from rclpy.node import Node
