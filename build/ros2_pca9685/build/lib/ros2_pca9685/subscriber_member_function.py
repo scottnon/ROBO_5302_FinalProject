@@ -81,7 +81,7 @@ class MinimalSubscriber(Node):
 
     def listener_callback(self, msg):
         throttle=-msg.linear.x
-        steering=msg.angular.z -0.5 #- 10      # -20 is trim, changed to -0.25 from 10 (Tom, 5/1)
+        steering=msg.angular.z -0.4 # -0.5 trim is very good (SN 5/3)
   #      self.get_logger().info('Y AXIS: "%s"' % yaxis)
  #       self.get_logger().info('X AXIS: "%s"' % xaxis)
         self.get_logger().info('Throttle: "%s"' % throttle)

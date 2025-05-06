@@ -1,0 +1,56 @@
+[0.119s] Invoking command in '/home/kingpooper/deepRacerWS/build/robot_car': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kingpooper/deepRacerWS/install/tape:/home/kingpooper/deepRacerWS/install/ros2_pca9685:/home/kingpooper/deepRacerWS/install/control:/opt/ros/humble /usr/bin/cmake --build /home/kingpooper/deepRacerWS/build/robot_car -- -j4 -l4
+[0.791s] Invoked command in '/home/kingpooper/deepRacerWS/build/robot_car' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kingpooper/deepRacerWS/install/tape:/home/kingpooper/deepRacerWS/install/ros2_pca9685:/home/kingpooper/deepRacerWS/install/control:/opt/ros/humble /usr/bin/cmake --build /home/kingpooper/deepRacerWS/build/robot_car -- -j4 -l4
+[0.857s] Invoking command in '/home/kingpooper/deepRacerWS/build/robot_car': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kingpooper/deepRacerWS/install/tape:/home/kingpooper/deepRacerWS/install/ros2_pca9685:/home/kingpooper/deepRacerWS/install/control:/opt/ros/humble /usr/bin/cmake --install /home/kingpooper/deepRacerWS/build/robot_car
+[0.927s] -- Install configuration: ""
+[0.931s] -- Up-to-date: /home/kingpooper/deepRacerWS/install/robot_car/lib/robot_car/bicycle_model_scott.py
+[0.933s] -- Up-to-date: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/behavior_trees
+[0.936s] -- Up-to-date: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/behavior_trees/navigate_through_poses.xml
+[0.939s] -- Up-to-date: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/behavior_trees/navigate_w_replanning_and_recovery.xml
+[0.940s] -- Up-to-date: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/launch
+[0.948s] -- Up-to-date: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/launch/display.launch.py
+[0.950s] -- Up-to-date: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/launch/__pycache__
+[0.954s] -- Up-to-date: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/launch/__pycache__/test_map_only_launch.cpython-310.pyc
+[0.955s] -- Up-to-date: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/launch/__pycache__/display.launch.cpython-310.pyc
+[0.957s] -- Up-to-date: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/launch/__pycache__/james_launch.cpython-310.pyc
+[0.958s] -- Up-to-date: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/launch/__pycache__/trent_launch_file.cpython-310.pyc
+[0.960s] -- Up-to-date: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/launch/__pycache__/loc_launch.cpython-310.pyc
+[0.961s] -- Installing: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/launch/__pycache__/test_localization_launch.cpython-310.pyc
+[0.971s] -- Up-to-date: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/launch/__pycache__/localization.launch.cpython-310.pyc
+[0.972s] -- Up-to-date: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/launch/minimal_launch.py
+[0.973s] -- Up-to-date: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/launch/test_map_only_launch.py
+[0.973s] -- Up-to-date: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/launch/localization.launch.py
+[0.975s] -- Up-to-date: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/launch/james_launch.py
+[0.977s] -- Up-to-date: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/launch/lifecycle_diagnostics.py
+[0.978s] -- Installing: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/launch/test_localization_launch.py
+[0.985s] -- Up-to-date: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/launch/scott_localization_launch.py
+[0.987s] -- Up-to-date: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/launch/loc_launch.py
+[0.996s] -- Up-to-date: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/launch/map_server_test.py
+[0.997s] -- Up-to-date: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/launch/trent_launch_file.py
+[1.003s] -- Up-to-date: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/urdf
+[1.004s] -- Up-to-date: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/urdf/description
+[1.005s] -- Up-to-date: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/urdf/description/robot_car_description.urdf
+[1.008s] -- Up-to-date: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/config
+[1.009s] -- Up-to-date: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/config/localization_params.yaml
+[1.010s] -- Up-to-date: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/config/nav2_params.yaml
+[1.010s] -- Up-to-date: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/config/trent_nav_params.yaml
+[1.011s] -- Up-to-date: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/config/localization.yaml
+[1.011s] -- Up-to-date: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/config/mapper_params_online_async.yaml
+[1.012s] -- Up-to-date: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/config/minimal_nav_params.yaml
+[1.013s] -- Up-to-date: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/rviz
+[1.014s] -- Up-to-date: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/rviz/config.rviz
+[1.016s] -- Up-to-date: /home/kingpooper/deepRacerWS/install/robot_car/share/ament_index/resource_index/package_run_dependencies/robot_car
+[1.017s] -- Up-to-date: /home/kingpooper/deepRacerWS/install/robot_car/share/ament_index/resource_index/parent_prefix_path/robot_car
+[1.017s] -- Up-to-date: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/environment/ament_prefix_path.sh
+[1.034s] -- Up-to-date: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/environment/ament_prefix_path.dsv
+[1.035s] -- Up-to-date: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/environment/path.sh
+[1.035s] -- Up-to-date: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/environment/path.dsv
+[1.037s] -- Up-to-date: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/local_setup.bash
+[1.037s] -- Up-to-date: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/local_setup.sh
+[1.038s] -- Up-to-date: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/local_setup.zsh
+[1.039s] -- Up-to-date: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/local_setup.dsv
+[1.039s] -- Installing: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/package.dsv
+[1.040s] -- Up-to-date: /home/kingpooper/deepRacerWS/install/robot_car/share/ament_index/resource_index/packages/robot_car
+[1.040s] -- Up-to-date: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/cmake/robot_carConfig.cmake
+[1.040s] -- Up-to-date: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/cmake/robot_carConfig-version.cmake
+[1.041s] -- Up-to-date: /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/package.xml
+[1.057s] Invoked command in '/home/kingpooper/deepRacerWS/build/robot_car' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kingpooper/deepRacerWS/install/tape:/home/kingpooper/deepRacerWS/install/ros2_pca9685:/home/kingpooper/deepRacerWS/install/control:/opt/ros/humble /usr/bin/cmake --install /home/kingpooper/deepRacerWS/build/robot_car

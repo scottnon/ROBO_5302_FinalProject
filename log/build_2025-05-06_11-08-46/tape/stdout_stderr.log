@@ -1,0 +1,37 @@
+running egg_info
+writing ../../build/tape/tape.egg-info/PKG-INFO
+writing dependency_links to ../../build/tape/tape.egg-info/dependency_links.txt
+writing entry points to ../../build/tape/tape.egg-info/entry_points.txt
+writing requirements to ../../build/tape/tape.egg-info/requires.txt
+writing top-level names to ../../build/tape/tape.egg-info/top_level.txt
+reading manifest file '../../build/tape/tape.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/tape/tape.egg-info/SOURCES.txt'
+running build
+running build_py
+copying tape/james_blue_follower.py -> /home/kingpooper/deepRacerWS/build/tape/build/lib/tape
+copying tape/shay_blue_follower.py -> /home/kingpooper/deepRacerWS/build/tape/build/lib/tape
+running install
+running install_lib
+copying /home/kingpooper/deepRacerWS/build/tape/build/lib/tape/james_blue_follower.py -> /home/kingpooper/deepRacerWS/install/tape/lib/python3.10/site-packages/tape
+copying /home/kingpooper/deepRacerWS/build/tape/build/lib/tape/shay_blue_follower.py -> /home/kingpooper/deepRacerWS/install/tape/lib/python3.10/site-packages/tape
+byte-compiling /home/kingpooper/deepRacerWS/install/tape/lib/python3.10/site-packages/tape/james_blue_follower.py to james_blue_follower.cpython-310.pyc
+byte-compiling /home/kingpooper/deepRacerWS/install/tape/lib/python3.10/site-packages/tape/shay_blue_follower.py to shay_blue_follower.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/kingpooper/deepRacerWS/install/tape/lib/python3.10/site-packages/tape-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/tape/tape.egg-info to /home/kingpooper/deepRacerWS/install/tape/lib/python3.10/site-packages/tape-0.0.0-py3.10.egg-info
+running install_scripts
+Installing image_subscriber script to /home/kingpooper/deepRacerWS/install/tape/lib/tape
+Installing james_blue_follower script to /home/kingpooper/deepRacerWS/install/tape/lib/tape
+Installing my_blue_tape_follower script to /home/kingpooper/deepRacerWS/install/tape/lib/tape
+Installing my_sexy_tape_follower script to /home/kingpooper/deepRacerWS/install/tape/lib/tape
+Installing my_tape_follower script to /home/kingpooper/deepRacerWS/install/tape/lib/tape
+Installing obs_avoid script to /home/kingpooper/deepRacerWS/install/tape/lib/tape
+Installing school_zone script to /home/kingpooper/deepRacerWS/install/tape/lib/tape
+Installing shay_blue_follower script to /home/kingpooper/deepRacerWS/install/tape/lib/tape
+Installing shaya_blue script to /home/kingpooper/deepRacerWS/install/tape/lib/tape
+Installing stop_sign script to /home/kingpooper/deepRacerWS/install/tape/lib/tape
+Installing tape_follower script to /home/kingpooper/deepRacerWS/install/tape/lib/tape
+Installing tom_blue_tape script to /home/kingpooper/deepRacerWS/install/tape/lib/tape
+writing list of installed files to '/home/kingpooper/deepRacerWS/build/tape/install.log'

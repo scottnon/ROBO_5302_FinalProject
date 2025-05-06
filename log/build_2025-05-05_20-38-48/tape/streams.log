@@ -1,0 +1,36 @@
+[5.914s] Invoking command in '/home/kingpooper/deepRacerWS/src/tape': PYTHONPATH=/home/kingpooper/deepRacerWS/build/tape/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kingpooper/deepRacerWS/install/tape/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tape build --build-base /home/kingpooper/deepRacerWS/build/tape/build install --record /home/kingpooper/deepRacerWS/build/tape/install.log --single-version-externally-managed install_data
+[7.962s] running egg_info
+[7.968s] writing ../../build/tape/tape.egg-info/PKG-INFO
+[7.973s] writing dependency_links to ../../build/tape/tape.egg-info/dependency_links.txt
+[7.979s] writing entry points to ../../build/tape/tape.egg-info/entry_points.txt
+[7.984s] writing requirements to ../../build/tape/tape.egg-info/requires.txt
+[7.985s] writing top-level names to ../../build/tape/tape.egg-info/top_level.txt
+[7.996s] reading manifest file '../../build/tape/tape.egg-info/SOURCES.txt'
+[7.998s] adding license file 'LICENSE'
+[8.002s] writing manifest file '../../build/tape/tape.egg-info/SOURCES.txt'
+[8.005s] running build
+[8.006s] running build_py
+[8.008s] copying tape/shay_blue_follower.py -> /home/kingpooper/deepRacerWS/build/tape/build/lib/tape
+[8.013s] running install
+[8.015s] running install_lib
+[8.022s] copying /home/kingpooper/deepRacerWS/build/tape/build/lib/tape/shay_blue_follower.py -> /home/kingpooper/deepRacerWS/install/tape/lib/python3.10/site-packages/tape
+[8.036s] byte-compiling /home/kingpooper/deepRacerWS/install/tape/lib/python3.10/site-packages/tape/shay_blue_follower.py to shay_blue_follower.cpython-310.pyc
+[8.048s] running install_data
+[8.055s] running install_egg_info
+[8.067s] removing '/home/kingpooper/deepRacerWS/install/tape/lib/python3.10/site-packages/tape-0.0.0-py3.10.egg-info' (and everything under it)
+[8.084s] Copying ../../build/tape/tape.egg-info to /home/kingpooper/deepRacerWS/install/tape/lib/python3.10/site-packages/tape-0.0.0-py3.10.egg-info
+[8.099s] running install_scripts
+[8.285s] Installing image_subscriber script to /home/kingpooper/deepRacerWS/install/tape/lib/tape
+[8.289s] Installing james_blue_follower script to /home/kingpooper/deepRacerWS/install/tape/lib/tape
+[8.290s] Installing my_blue_tape_follower script to /home/kingpooper/deepRacerWS/install/tape/lib/tape
+[8.291s] Installing my_sexy_tape_follower script to /home/kingpooper/deepRacerWS/install/tape/lib/tape
+[8.291s] Installing my_tape_follower script to /home/kingpooper/deepRacerWS/install/tape/lib/tape
+[8.292s] Installing obs_avoid script to /home/kingpooper/deepRacerWS/install/tape/lib/tape
+[8.293s] Installing school_zone script to /home/kingpooper/deepRacerWS/install/tape/lib/tape
+[8.294s] Installing shay_blue_follower script to /home/kingpooper/deepRacerWS/install/tape/lib/tape
+[8.315s] Installing shaya_blue script to /home/kingpooper/deepRacerWS/install/tape/lib/tape
+[8.315s] Installing stop_sign script to /home/kingpooper/deepRacerWS/install/tape/lib/tape
+[8.316s] Installing tape_follower script to /home/kingpooper/deepRacerWS/install/tape/lib/tape
+[8.316s] Installing tom_blue_tape script to /home/kingpooper/deepRacerWS/install/tape/lib/tape
+[8.317s] writing list of installed files to '/home/kingpooper/deepRacerWS/build/tape/install.log'
+[8.569s] Invoked command in '/home/kingpooper/deepRacerWS/src/tape' returned '0': PYTHONPATH=/home/kingpooper/deepRacerWS/build/tape/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kingpooper/deepRacerWS/install/tape/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tape build --build-base /home/kingpooper/deepRacerWS/build/tape/build install --record /home/kingpooper/deepRacerWS/build/tape/install.log --single-version-externally-managed install_data

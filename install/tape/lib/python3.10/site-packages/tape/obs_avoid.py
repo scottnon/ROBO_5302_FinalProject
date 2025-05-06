@@ -17,6 +17,8 @@ class ObsAvoid(Node):
         self.subscription = self.create_subscription(LaserScan,'scan', self.listener_callback, 10)
         self.br = CvBridge() #establish a CV2 bridge to convert ros raw images to usable data for openCV
         self.publisher_ = self.create_publisher(Twist, '/cmd_vel', 10) #will publish motion commands
+        self.flag = "fwd"
+        #flag should be either fwd or follow
         
         # self.previous_error = 0.0
         # self.integral = 0.0
@@ -27,63 +29,78 @@ class ObsAvoid(Node):
         # self.integral_gain = 0.1
         # self.derivative_gain = 0.3
 
-    def is_object_front(self, data):
+    def is_object(self, data, direction):
+        if direction == 'front':
+            data_range = data.ranges[330:390]
+        elif direction == 'left':
+            data_range = data.ranges[60:120]
         # Check if there's an object close to us based on laser scan data
-        threshold_distance = 1.0  # Set a threshold distance (in meters)
+        threshold_distance = 2  # Set a threshold distance (in meters)
         min_range = max(min(data.ranges[330:390]), data.range_min)
-        # self.get_logger().info('I heard min: "%s"' % min_range)	# echo minimum range seen
+        self.get_logger().info('I heard min: "%s"' % min_range)	# echo minimum range seen
         if min_range < threshold_distance:
+            self.get_logger().info('OBJECT DETECTED')
             return True
         return False
 
-    def is_object_left(self, data):
-        threshold_distance = 1.0  # Set a threshold distance (in meters)
-        min_range = max(min(data.ranges[60:120]), data.range_min)
-        # self.get_logger().info('I heard min: "%s"' % min_range)	# echo minimum range seen
-        if min_range < threshold_distance:
-            return True
-        return False
-
-    def turn_right(self):
-        # Create a Twist message to turn right
+    def turn(self, direction):
         msg = Twist()
         msg.linear.x = 0.0
-        msg.angular.z = -0.5
         self.publisher_.publish(msg)
-        self.get_logger().info('Turning right')
-        time.sleep(0.5)
-
-    def turn_left(self):
+        time.sleep(1)
+        ang = 0.0
+        if direction == 'right':
+            self.get_logger().info('Turning right')
+            # Create a Twist message to turn right
+            ang = 5.0
+        elif direction == 'left':
+            self.get_logger().info('Turning left')
+            ang = -5.0
         # Create a Twist message to turn right
         msg = Twist()
-        msg.linear.x = 0.0
-        msg.angular.z = 0.5
+        msg.linear.x = 0.15
+        msg.angular.z = ang
         self.publisher_.publish(msg)
         self.get_logger().info('Turning right')
-        time.sleep(0.5)
+        time.sleep(1)
 
     def move_forward(self):
         # Create a Twist message to move forward
         msg = Twist()
-        msg.linear.x = 0.2
+        msg.linear.x = 0.14
         msg.angular.z = 0.0
         self.publisher_.publish(msg)
         self.get_logger().info('Moving forward')
         time.sleep(0.5)
 
+    def back_that_ass_up(self):
+        # Create a Twist message to move forward
+        msg = Twist()
+        msg.linear.x = -0.2
+        msg.angular.z = 0.0
+        self.publisher_.publish(msg)
+        self.get_logger().info('back that ass up')
+        time.sleep(1)
+
 
     def listener_callback(self, data):
         #write a bug-like algorith that moves forward until it senses an object in front, then turns right around the object
-        if not self.is_object_front(data):
-            self.move_forward()
-            if self.is_object_front(data):
+        if self.flag == "fwd":
+            if not self.is_object(data, "front"):
+                self.move_forward()
+                self.flag = "fwd"
+            if self.is_object(data, "front"):
                 self.get_logger().info('Object detected in front, turning right')
-                self.turn_right()
-                while self.is_object_left(data):
-                    self.move_forward()
-                    if not self.is_object_left(data):
-                        self.turn_left()
-                        break   
+                # self.back_that_ass_up()
+                self.turn("right")
+                self.flag = "follow"
+        elif self.flag == "follow":
+            if self.is_object(data, "left"):
+                self.move_forward()
+                self.flag = "follow"
+            if not self.is_object(data, "left"): #once there's no longer an object to our left
+                self.turn("left") 
+                self.flag = "fwd" 
         cv2.waitKey(1)
 
 def main(args=None):

@@ -1,0 +1,37 @@
+[5.475s] Invoking command in '/home/kingpooper/deepRacerWS/src/tape': PYTHONPATH=/home/kingpooper/deepRacerWS/build/tape/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kingpooper/deepRacerWS/install/tape/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tape build --build-base /home/kingpooper/deepRacerWS/build/tape/build install --record /home/kingpooper/deepRacerWS/build/tape/install.log --single-version-externally-managed install_data
+[7.419s] running egg_info
+[7.423s] writing ../../build/tape/tape.egg-info/PKG-INFO
+[7.424s] writing dependency_links to ../../build/tape/tape.egg-info/dependency_links.txt
+[7.425s] writing entry points to ../../build/tape/tape.egg-info/entry_points.txt
+[7.427s] writing requirements to ../../build/tape/tape.egg-info/requires.txt
+[7.427s] writing top-level names to ../../build/tape/tape.egg-info/top_level.txt
+[7.436s] reading manifest file '../../build/tape/tape.egg-info/SOURCES.txt'
+[7.438s] adding license file 'LICENSE'
+[7.442s] writing manifest file '../../build/tape/tape.egg-info/SOURCES.txt'
+[7.442s] running build
+[7.443s] running build_py
+[7.444s] copying tape/james_blue_follower.py -> /home/kingpooper/deepRacerWS/build/tape/build/lib/tape
+[7.447s] copying tape/obs_avoid.py -> /home/kingpooper/deepRacerWS/build/tape/build/lib/tape
+[7.450s] running install
+[7.454s] running install_lib
+[7.456s] copying /home/kingpooper/deepRacerWS/build/tape/build/lib/tape/james_blue_follower.py -> /home/kingpooper/deepRacerWS/install/tape/lib/python3.10/site-packages/tape
+[7.459s] copying /home/kingpooper/deepRacerWS/build/tape/build/lib/tape/obs_avoid.py -> /home/kingpooper/deepRacerWS/install/tape/lib/python3.10/site-packages/tape
+[7.463s] byte-compiling /home/kingpooper/deepRacerWS/install/tape/lib/python3.10/site-packages/tape/james_blue_follower.py to james_blue_follower.cpython-310.pyc
+[7.469s] byte-compiling /home/kingpooper/deepRacerWS/install/tape/lib/python3.10/site-packages/tape/obs_avoid.py to obs_avoid.cpython-310.pyc
+[7.475s] running install_data
+[7.477s] running install_egg_info
+[7.486s] removing '/home/kingpooper/deepRacerWS/install/tape/lib/python3.10/site-packages/tape-0.0.0-py3.10.egg-info' (and everything under it)
+[7.488s] Copying ../../build/tape/tape.egg-info to /home/kingpooper/deepRacerWS/install/tape/lib/python3.10/site-packages/tape-0.0.0-py3.10.egg-info
+[7.496s] running install_scripts
+[7.590s] Installing image_subscriber script to /home/kingpooper/deepRacerWS/install/tape/lib/tape
+[7.591s] Installing james_blue_follower script to /home/kingpooper/deepRacerWS/install/tape/lib/tape
+[7.592s] Installing my_blue_tape_follower script to /home/kingpooper/deepRacerWS/install/tape/lib/tape
+[7.594s] Installing my_sexy_tape_follower script to /home/kingpooper/deepRacerWS/install/tape/lib/tape
+[7.603s] Installing my_tape_follower script to /home/kingpooper/deepRacerWS/install/tape/lib/tape
+[7.604s] Installing obs_avoid script to /home/kingpooper/deepRacerWS/install/tape/lib/tape
+[7.605s] Installing school_zone script to /home/kingpooper/deepRacerWS/install/tape/lib/tape
+[7.608s] Installing stop_sign script to /home/kingpooper/deepRacerWS/install/tape/lib/tape
+[7.610s] Installing tape_follower script to /home/kingpooper/deepRacerWS/install/tape/lib/tape
+[7.611s] Installing tom_blue_tape script to /home/kingpooper/deepRacerWS/install/tape/lib/tape
+[7.614s] writing list of installed files to '/home/kingpooper/deepRacerWS/build/tape/install.log'
+[7.797s] Invoked command in '/home/kingpooper/deepRacerWS/src/tape' returned '0': PYTHONPATH=/home/kingpooper/deepRacerWS/build/tape/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kingpooper/deepRacerWS/install/tape/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tape build --build-base /home/kingpooper/deepRacerWS/build/tape/build install --record /home/kingpooper/deepRacerWS/build/tape/install.log --single-version-externally-managed install_data

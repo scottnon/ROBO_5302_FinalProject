@@ -1,0 +1,45 @@
+[0.000000] (-) TimerEvent: {}
+[0.000738] (-) JobUnselected: {'identifier': 'control'}
+[0.001030] (-) JobUnselected: {'identifier': 'robot_car'}
+[0.001248] (-) JobUnselected: {'identifier': 'ros2_pca9685'}
+[0.001422] (-) JobUnselected: {'identifier': 'rplidar_ros'}
+[0.001572] (-) JobUnselected: {'identifier': 'v4l2_camera'}
+[0.001720] (tape) JobQueued: {'identifier': 'tape', 'dependencies': OrderedDict()}
+[0.007477] (tape) JobStarted: {'identifier': 'tape'}
+[0.102498] (-) TimerEvent: {}
+[0.203316] (-) TimerEvent: {}
+[0.304197] (-) TimerEvent: {}
+[0.405121] (-) TimerEvent: {}
+[0.506192] (-) TimerEvent: {}
+[0.607203] (-) TimerEvent: {}
+[0.708230] (-) TimerEvent: {}
+[0.809248] (-) TimerEvent: {}
+[0.910122] (-) TimerEvent: {}
+[1.011622] (-) TimerEvent: {}
+[1.112679] (-) TimerEvent: {}
+[1.218325] (-) TimerEvent: {}
+[1.319313] (-) TimerEvent: {}
+[1.420248] (-) TimerEvent: {}
+[1.521190] (-) TimerEvent: {}
+[1.622021] (-) TimerEvent: {}
+[1.722940] (-) TimerEvent: {}
+[1.823858] (-) TimerEvent: {}
+[1.924675] (-) TimerEvent: {}
+[2.025662] (-) TimerEvent: {}
+[2.126872] (-) TimerEvent: {}
+[2.227993] (-) TimerEvent: {}
+[2.329016] (-) TimerEvent: {}
+[2.431492] (-) TimerEvent: {}
+[2.532405] (-) TimerEvent: {}
+[2.633440] (-) TimerEvent: {}
+[2.735597] (-) TimerEvent: {}
+[2.837096] (-) TimerEvent: {}
+[2.938297] (-) TimerEvent: {}
+[3.039509] (-) TimerEvent: {}
+[3.141615] (-) TimerEvent: {}
+[3.242427] (-) TimerEvent: {}
+[3.343291] (-) TimerEvent: {}
+[3.444290] (-) TimerEvent: {}
+[3.459948] (tape) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_parallel_executor/executor/parallel.py", line 75, in execute\n    loop.run_until_complete(future)\n  File "/usr/lib/python3.10/asyncio/base_events.py", line 636, in run_until_complete\n    self.run_forever()\n  File "/usr/lib/python3.10/asyncio/base_events.py", line 603, in run_forever\n    self._run_once()\n  File "/usr/lib/python3.10/asyncio/base_events.py", line 1871, in _run_once\n    event_list = self._selector.select(timeout)\n  File "/usr/lib/python3.10/selectors.py", line 469, in select\n    fd_event_list = self._selector.poll(timeout, max_ev)\nKeyboardInterrupt\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 102, in build\n    return await extension.build(additional_hooks=additional_hooks)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/build.py", line 96, in build\n    available_commands = await self._get_available_commands(\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/build.py", line 194, in _get_available_commands\n    output = await check_output(\n  File "/usr/lib/python3/dist-packages/colcon_core/subprocess.py", line 129, in check_output\n    assert not rc, f\'Expected {args} to pass: {stderr_data}\'\nAssertionError: Expected [\'/usr/bin/python3\', \'-W\', \'ignore:setup.py install is deprecated\', \'-W\', \'ignore:easy_install command is deprecated\', \'setup.py\', \'--help-commands\'] to pass: Traceback (most recent call last):\n  File "/home/kingpooper/deepRacerWS/src/tape/setup.py", line 1, in <module>\n    from setuptools import find_packages, setup\n  File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 16, in <module>\n    import setuptools.version\n  File "/usr/lib/python3/dist-packages/setuptools/version.py", line 1, in <module>\n    import pkg_resources\n  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 33, in <module>\n    import email.parser\n  File "/usr/lib/python3.10/email/parser.py", line 12, in <module>\n    from email.feedparser import FeedParser, BytesFeedParser\n  File "/usr/lib/python3.10/email/feedparser.py", line 27, in <module>\n    from email._policybase import compat32\n  File "/usr/lib/python3.10/email/_policybase.py", line 9, in <module>\n    from email.utils import _has_surrogates\n  File "/usr/lib/python3.10/email/utils.py", line 390, in <module>\n    rfc2231_continuation = re.compile(r\'^(?P<name>\\w+)\\*((?P<num>[0-9]+)\\*?)?$\',\n  File "/usr/lib/python3.10/re.py", line 251, in compile\n    return _compile(pattern, flags)\n  File "/usr/lib/python3.10/re.py", line 303, in _compile\n    p = sre_compile.compile(pattern, flags)\n  File "/usr/lib/python3.10/sre_compile.py", line 792, in compile\n    code = _code(p, flags)\n  File "/usr/lib/python3.10/sre_compile.py", line 628, in _code\n    _compile_info(code, p, flags)\n  File "/usr/lib/python3.10/sre_compile.py", line 564, in _compile_info\n    lo, hi = pattern.getwidth()\n  File "/usr/lib/python3.10/sre_parse.py", line 201, in getwidth\n    hi = hi + j * av[1]\nKeyboardInterrupt\n\n'}
+[3.463574] (tape) JobEnded: {'identifier': 'tape', 'rc': 'SIGINT'}
+[3.472731] (-) EventReactorShutdown: {}

@@ -1,0 +1,46 @@
+[0.000000] (-) TimerEvent: {}
+[0.002086] (-) JobUnselected: {'identifier': 'control'}
+[0.002925] (-) JobUnselected: {'identifier': 'robot_car'}
+[0.003581] (-) JobUnselected: {'identifier': 'ros2_pca9685'}
+[0.004146] (-) JobUnselected: {'identifier': 'rplidar_ros'}
+[0.004325] (-) JobUnselected: {'identifier': 'v4l2_camera'}
+[0.005378] (tape) JobQueued: {'identifier': 'tape', 'dependencies': OrderedDict()}
+[0.006672] (tape) JobStarted: {'identifier': 'tape'}
+[0.110462] (-) TimerEvent: {}
+[0.211398] (-) TimerEvent: {}
+[0.321951] (-) TimerEvent: {}
+[0.424234] (-) TimerEvent: {}
+[0.525495] (-) TimerEvent: {}
+[0.626462] (-) TimerEvent: {}
+[0.727549] (-) TimerEvent: {}
+[0.828337] (-) TimerEvent: {}
+[0.929241] (-) TimerEvent: {}
+[1.030119] (-) TimerEvent: {}
+[1.131119] (-) TimerEvent: {}
+[1.231898] (-) TimerEvent: {}
+[1.332665] (-) TimerEvent: {}
+[1.433416] (-) TimerEvent: {}
+[1.534181] (-) TimerEvent: {}
+[1.634924] (-) TimerEvent: {}
+[1.735672] (-) TimerEvent: {}
+[1.836533] (-) TimerEvent: {}
+[1.937331] (-) TimerEvent: {}
+[2.038064] (-) TimerEvent: {}
+[2.139102] (-) TimerEvent: {}
+[2.243417] (-) TimerEvent: {}
+[2.344185] (-) TimerEvent: {}
+[2.444973] (-) TimerEvent: {}
+[2.546168] (-) TimerEvent: {}
+[2.647090] (-) TimerEvent: {}
+[2.748886] (-) TimerEvent: {}
+[2.850059] (-) TimerEvent: {}
+[2.954148] (-) TimerEvent: {}
+[3.054972] (-) TimerEvent: {}
+[3.155735] (-) TimerEvent: {}
+[3.256489] (-) TimerEvent: {}
+[3.357262] (-) TimerEvent: {}
+[3.458179] (-) TimerEvent: {}
+[3.552306] (tape) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_parallel_executor/executor/parallel.py", line 75, in execute\n    loop.run_until_complete(future)\n  File "/usr/lib/python3.10/asyncio/base_events.py", line 636, in run_until_complete\n    self.run_forever()\n  File "/usr/lib/python3.10/asyncio/base_events.py", line 603, in run_forever\n    self._run_once()\n  File "/usr/lib/python3.10/asyncio/base_events.py", line 1871, in _run_once\n    event_list = self._selector.select(timeout)\n  File "/usr/lib/python3.10/selectors.py", line 469, in select\n    fd_event_list = self._selector.poll(timeout, max_ev)\nKeyboardInterrupt\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 102, in build\n    return await extension.build(additional_hooks=additional_hooks)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/build.py", line 96, in build\n    available_commands = await self._get_available_commands(\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/build.py", line 194, in _get_available_commands\n    output = await check_output(\n  File "/usr/lib/python3/dist-packages/colcon_core/subprocess.py", line 129, in check_output\n    assert not rc, f\'Expected {args} to pass: {stderr_data}\'\nAssertionError: Expected [\'/usr/bin/python3\', \'-W\', \'ignore:setup.py install is deprecated\', \'-W\', \'ignore:easy_install command is deprecated\', \'setup.py\', \'--help-commands\'] to pass: Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2031, in try_parse\n    return packaging.version.Version(name)\n  File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/packaging/version.py", line 266, in __init__\n    raise InvalidVersion(f"Invalid version: \'{version}\'")\npkg_resources.extern.packaging.version.InvalidVersion: Invalid version: \'packages/action_tutorials_py\'\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File "/home/kingpooper/deepRacerWS/src/tape/setup.py", line 1, in <module>\n    from setuptools import find_packages, setup\n  File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 16, in <module>\n    import setuptools.version\n  File "/usr/lib/python3/dist-packages/setuptools/version.py", line 1, in <module>\n    import pkg_resources\n  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3267, in <module>\n    def _initialize_master_working_set():\n  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3241, in _call_aside\n    f(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3302, in _initialize_master_working_set\n    list(map(working_set.add_entry, sys.path))\n  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 613, in add_entry\n    for dist in find_distributions(entry, True):\n  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2073, in find_on_path\n    path_item_entries = _by_version_descending(filtered)\n  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2043, in _by_version_descending\n    return sorted(names, key=_by_version, reverse=True)\n  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2041, in _by_version\n    return [try_parse(part) for part in parts]\n  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2041, in <listcomp>\n    return [try_parse(part) for part in parts]\n  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2033, in try_parse\n    return packaging.version.Version(\'0\')\n  File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/packaging/version.py", line 269, in __init__\n    self._version = _Version(\nKeyboardInterrupt\n\n'}
+[3.556482] (tape) JobEnded: {'identifier': 'tape', 'rc': 'SIGINT'}
+[3.558772] (-) TimerEvent: {}
+[3.564225] (-) EventReactorShutdown: {}

@@ -7,23 +7,17 @@ import cv2
 import time
 import numpy as np
 import os
+import datetime
 
 
 class StopSign(Node):
     def __init__(self):
         super().__init__('stop_sign')
-        self.subscription = self.create_subscription(Image, '/image_raw', self.listener_callback, 10)
+        self.subscription = self.create_subscription(Image, '/image_raw', self.listener_callback, 1)
         self.br = CvBridge() #establish a CV2 bridge to convert ros raw images to usable data for openCV
-        self.publisher_ = self.create_publisher(Twist, '/cmd_vel', 10) #will publish motion commands
-        
-        # self.previous_error = 0.0
-        # self.integral = 0.0
-        # self.previous_time = time.time()
-        # self.last_error = 0 #initialize the last error to zero
-        # self.linear_velocity_gain = 0.14 #will stay constant but tune here
-        # self.proportional_gain = 0.1 #will be used to steer towards centroid of black tape
-        # self.integral_gain = 0.1
-        # self.derivative_gain = 0.3
+        self.publisher_ = self.create_publisher(Twist, '/cmd_vel', 1) #will publish motion commands
+        self.stopped = 0
+        self.starttime = datetime.datetime.now()
 
 
     def listener_callback(self, data):
@@ -41,11 +35,26 @@ class StopSign(Node):
         stop_cascade = cv2.CascadeClassifier('src/tape/tape/stop_data.xml')
         # /home/kingpooper/deepRacerWS/src/tape/tape/stop_data.xml
 
-        found = stop_cascade.detectMultiScale(img_gray, minSize=(20, 20)) #tune the 20x20 if we want to recognize smaller/larger
+        found = stop_cascade.detectMultiScale(img_gray, minSize=(65, 65), maxSize=(800, 800)) #tune the 20x20 if we want to recognize smaller/larger
 
-        self.get_logger().info('STOP SIGNS FOUND' + str(len(found)))
+        # self.get_logger().info('STOP SIGNS FOUND' + str(len(found)))
+        # self.get_logger().info('has stopped alreadry' + str(self.stopped))
+        time_since_start = (datetime.datetime.now() - self.starttime).total_seconds()
+        # self.get_logger().info('time since start' + str(time_since_start))
 
-        if len(found) > 0:
+        #red filtering
+        enter_zone_range_lower = np.array([150, 0, 15] )
+        enter_zone_range_upper = np.array([255, 40, 65])
+        img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
+        mask_red = cv2.inRange(img_rgb, enter_zone_range_lower, enter_zone_range_upper)
+        width = 0
+        if mask_red is None:
+            pass
+        else:
+            column_sums = np.sum(mask_red, axis=0)
+            width = np.count_nonzero(column_sums)
+
+        if (len(found) > 0 or width > 60) and self.stopped == 0:
             self.get_logger().info("(stopping for the stop sign)") 
             msg = Twist()
             msg.linear.y = 0.0
@@ -55,9 +64,15 @@ class StopSign(Node):
             msg.linear.x = 0.0
             msg.angular.z = 0.0
             self.publisher_.publish(msg)
+            time.sleep(3.3)
+            msg = Twist()
+            msg.linear.x = 0.18
+            self.publisher_.publish(msg)
+            self.stopped = 1
         
         for (x, y, w, h) in found:
             cv2.rectangle(img_rgb, (x, y), (x + w, y + h), (0, 255, 0), 5)
+            self.get_logger().info("(STOP SIGN SIZE: )" + str(w) + "by" + str(h)) 
         
         # cv2.imshow("Stop Sign Detected", img_rgb)
         # cv2.imshow("Raw Image", img_rgb)

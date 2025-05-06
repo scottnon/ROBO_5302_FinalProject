@@ -199,3 +199,45 @@
 [4.939s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kingpooper/deepRacerWS/install/tape/share/tape/hook/ament_prefix_path.sh'
 [4.948s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
 [4.949s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.575s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/kingpooper/deepRacerWS/src/tape'
+[8.577s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.578s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.757s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kingpooper/deepRacerWS/src/tape': PYTHONPATH=/home/kingpooper/deepRacerWS/build/tape/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kingpooper/deepRacerWS/install/tape/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tape build --build-base /home/kingpooper/deepRacerWS/build/tape/build install --record /home/kingpooper/deepRacerWS/build/tape/install.log --single-version-externally-managed install_data
+[16.608s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kingpooper/deepRacerWS/src/tape' returned '0': PYTHONPATH=/home/kingpooper/deepRacerWS/build/tape/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kingpooper/deepRacerWS/install/tape/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tape build --build-base /home/kingpooper/deepRacerWS/build/tape/build install --record /home/kingpooper/deepRacerWS/build/tape/install.log --single-version-externally-managed install_data
+[16.631s] Level 1:colcon.colcon_core.environment:checking '/home/kingpooper/deepRacerWS/install/tape' for CMake module files
+[16.635s] Level 1:colcon.colcon_core.environment:checking '/home/kingpooper/deepRacerWS/install/tape' for CMake config files
+[16.643s] Level 1:colcon.colcon_core.environment:checking '/home/kingpooper/deepRacerWS/install/tape/lib'
+[16.645s] Level 1:colcon.colcon_core.environment:checking '/home/kingpooper/deepRacerWS/install/tape/bin'
+[16.646s] Level 1:colcon.colcon_core.environment:checking '/home/kingpooper/deepRacerWS/install/tape/lib/pkgconfig/tape.pc'
+[16.647s] Level 1:colcon.colcon_core.environment:checking '/home/kingpooper/deepRacerWS/install/tape/lib/python3.10/site-packages'
+[16.655s] Level 1:colcon.colcon_core.shell:create_environment_hook('tape', 'pythonpath')
+[16.656s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kingpooper/deepRacerWS/install/tape/share/tape/hook/pythonpath.ps1'
+[16.660s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kingpooper/deepRacerWS/install/tape/share/tape/hook/pythonpath.dsv'
+[16.663s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kingpooper/deepRacerWS/install/tape/share/tape/hook/pythonpath.sh'
+[16.668s] Level 1:colcon.colcon_core.environment:checking '/home/kingpooper/deepRacerWS/install/tape/bin'
+[16.669s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tape)
+[16.681s] INFO:colcon.colcon_core.shell:Creating package script '/home/kingpooper/deepRacerWS/install/tape/share/tape/package.ps1'
+[16.689s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kingpooper/deepRacerWS/install/tape/share/tape/package.dsv'
+[16.696s] INFO:colcon.colcon_core.shell:Creating package script '/home/kingpooper/deepRacerWS/install/tape/share/tape/package.sh'
+[16.707s] INFO:colcon.colcon_core.shell:Creating package script '/home/kingpooper/deepRacerWS/install/tape/share/tape/package.bash'
+[16.715s] INFO:colcon.colcon_core.shell:Creating package script '/home/kingpooper/deepRacerWS/install/tape/share/tape/package.zsh'
+[16.725s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kingpooper/deepRacerWS/install/tape/share/colcon-core/packages/tape)
+[16.732s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[16.733s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[16.734s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[16.734s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[16.792s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[16.793s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[16.793s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[16.815s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[16.816s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[16.817s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kingpooper/deepRacerWS/install/local_setup.ps1'
+[16.835s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kingpooper/deepRacerWS/install/_local_setup_util_ps1.py'
+[16.852s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kingpooper/deepRacerWS/install/setup.ps1'
+[16.885s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kingpooper/deepRacerWS/install/local_setup.sh'
+[16.890s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kingpooper/deepRacerWS/install/_local_setup_util_sh.py'
+[16.907s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kingpooper/deepRacerWS/install/setup.sh'
+[16.927s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kingpooper/deepRacerWS/install/local_setup.bash'
+[16.931s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kingpooper/deepRacerWS/install/setup.bash'
+[16.949s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kingpooper/deepRacerWS/install/local_setup.zsh'
+[16.959s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kingpooper/deepRacerWS/install/setup.zsh'

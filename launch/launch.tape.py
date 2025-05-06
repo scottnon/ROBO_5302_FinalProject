@@ -20,7 +20,7 @@ def generate_launch_description():
 
         Node(   # launch tape_follower
             package='tape',
-            executable='james_blue_tape',
+            executable='shay_blue_follower',
         ), 
 
 

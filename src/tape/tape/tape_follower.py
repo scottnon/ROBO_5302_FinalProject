@@ -128,6 +128,7 @@ class LineFollower(Node):
         self.previous_time = time.time()
         self.previous_error = 0.0  # initialize the last error to zero
 
+
     def listener_callback(self, data):
         self.get_logger().info('Receiving video frame')
         # Convert ROS Image message to OpenCV image

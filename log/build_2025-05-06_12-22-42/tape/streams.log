@@ -1,0 +1,36 @@
+[7.136s] Invoking command in '/home/kingpooper/deepRacerWS/src/tape': PYTHONPATH=/home/kingpooper/deepRacerWS/build/tape/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kingpooper/deepRacerWS/install/tape/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tape build --build-base /home/kingpooper/deepRacerWS/build/tape/build install --record /home/kingpooper/deepRacerWS/build/tape/install.log --single-version-externally-managed install_data
+[10.071s] running egg_info
+[10.075s] writing ../../build/tape/tape.egg-info/PKG-INFO
+[10.077s] writing dependency_links to ../../build/tape/tape.egg-info/dependency_links.txt
+[10.078s] writing entry points to ../../build/tape/tape.egg-info/entry_points.txt
+[10.081s] writing requirements to ../../build/tape/tape.egg-info/requires.txt
+[10.082s] writing top-level names to ../../build/tape/tape.egg-info/top_level.txt
+[10.096s] reading manifest file '../../build/tape/tape.egg-info/SOURCES.txt'
+[10.098s] adding license file 'LICENSE'
+[10.102s] writing manifest file '../../build/tape/tape.egg-info/SOURCES.txt'
+[10.103s] running build
+[10.104s] running build_py
+[10.106s] copying tape/shay_blue_follower.py -> /home/kingpooper/deepRacerWS/build/tape/build/lib/tape
+[10.112s] running install
+[10.116s] running install_lib
+[10.125s] copying /home/kingpooper/deepRacerWS/build/tape/build/lib/tape/shay_blue_follower.py -> /home/kingpooper/deepRacerWS/install/tape/lib/python3.10/site-packages/tape
+[10.133s] byte-compiling /home/kingpooper/deepRacerWS/install/tape/lib/python3.10/site-packages/tape/shay_blue_follower.py to shay_blue_follower.cpython-310.pyc
+[10.142s] running install_data
+[10.143s] running install_egg_info
+[10.153s] removing '/home/kingpooper/deepRacerWS/install/tape/lib/python3.10/site-packages/tape-0.0.0-py3.10.egg-info' (and everything under it)
+[10.156s] Copying ../../build/tape/tape.egg-info to /home/kingpooper/deepRacerWS/install/tape/lib/python3.10/site-packages/tape-0.0.0-py3.10.egg-info
+[10.166s] running install_scripts
+[10.290s] Installing image_subscriber script to /home/kingpooper/deepRacerWS/install/tape/lib/tape
+[10.291s] Installing james_blue_follower script to /home/kingpooper/deepRacerWS/install/tape/lib/tape
+[10.292s] Installing my_blue_tape_follower script to /home/kingpooper/deepRacerWS/install/tape/lib/tape
+[10.293s] Installing my_sexy_tape_follower script to /home/kingpooper/deepRacerWS/install/tape/lib/tape
+[10.294s] Installing my_tape_follower script to /home/kingpooper/deepRacerWS/install/tape/lib/tape
+[10.295s] Installing obs_avoid script to /home/kingpooper/deepRacerWS/install/tape/lib/tape
+[10.297s] Installing school_zone script to /home/kingpooper/deepRacerWS/install/tape/lib/tape
+[10.299s] Installing shay_blue_follower script to /home/kingpooper/deepRacerWS/install/tape/lib/tape
+[10.301s] Installing shaya_blue script to /home/kingpooper/deepRacerWS/install/tape/lib/tape
+[10.302s] Installing stop_sign script to /home/kingpooper/deepRacerWS/install/tape/lib/tape
+[10.303s] Installing tape_follower script to /home/kingpooper/deepRacerWS/install/tape/lib/tape
+[10.308s] Installing tom_blue_tape script to /home/kingpooper/deepRacerWS/install/tape/lib/tape
+[10.320s] writing list of installed files to '/home/kingpooper/deepRacerWS/build/tape/install.log'
+[10.497s] Invoked command in '/home/kingpooper/deepRacerWS/src/tape' returned '0': PYTHONPATH=/home/kingpooper/deepRacerWS/build/tape/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kingpooper/deepRacerWS/install/tape/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tape build --build-base /home/kingpooper/deepRacerWS/build/tape/build install --record /home/kingpooper/deepRacerWS/build/tape/install.log --single-version-externally-managed install_data

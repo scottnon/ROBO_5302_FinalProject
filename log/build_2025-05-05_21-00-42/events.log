@@ -1,0 +1,124 @@
+[0.000000] (-) TimerEvent: {}
+[0.002458] (-) JobUnselected: {'identifier': 'control'}
+[0.002812] (-) JobUnselected: {'identifier': 'robot_car'}
+[0.003377] (-) JobUnselected: {'identifier': 'ros2_pca9685'}
+[0.003623] (-) JobUnselected: {'identifier': 'rplidar_ros'}
+[0.003780] (-) JobUnselected: {'identifier': 'v4l2_camera'}
+[0.005240] (tape) JobQueued: {'identifier': 'tape', 'dependencies': OrderedDict()}
+[0.018924] (tape) JobStarted: {'identifier': 'tape'}
+[0.097375] (-) TimerEvent: {}
+[0.198242] (-) TimerEvent: {}
+[0.299167] (-) TimerEvent: {}
+[0.400358] (-) TimerEvent: {}
+[0.501750] (-) TimerEvent: {}
+[0.609031] (-) TimerEvent: {}
+[0.710712] (-) TimerEvent: {}
+[0.812115] (-) TimerEvent: {}
+[0.919252] (-) TimerEvent: {}
+[1.020133] (-) TimerEvent: {}
+[1.120939] (-) TimerEvent: {}
+[1.221878] (-) TimerEvent: {}
+[1.323313] (-) TimerEvent: {}
+[1.424075] (-) TimerEvent: {}
+[1.525058] (-) TimerEvent: {}
+[1.625774] (-) TimerEvent: {}
+[1.726888] (-) TimerEvent: {}
+[1.827672] (-) TimerEvent: {}
+[1.928438] (-) TimerEvent: {}
+[2.029287] (-) TimerEvent: {}
+[2.130183] (-) TimerEvent: {}
+[2.231391] (-) TimerEvent: {}
+[2.334629] (-) TimerEvent: {}
+[2.436801] (-) TimerEvent: {}
+[2.538523] (-) TimerEvent: {}
+[2.639520] (-) TimerEvent: {}
+[2.740304] (-) TimerEvent: {}
+[2.841073] (-) TimerEvent: {}
+[2.941847] (-) TimerEvent: {}
+[3.042659] (-) TimerEvent: {}
+[3.143536] (-) TimerEvent: {}
+[3.244444] (-) TimerEvent: {}
+[3.345896] (-) TimerEvent: {}
+[3.450698] (-) TimerEvent: {}
+[3.551673] (-) TimerEvent: {}
+[3.652506] (-) TimerEvent: {}
+[3.753342] (-) TimerEvent: {}
+[3.854197] (-) TimerEvent: {}
+[3.955767] (-) TimerEvent: {}
+[4.056940] (-) TimerEvent: {}
+[4.158529] (-) TimerEvent: {}
+[4.259374] (-) TimerEvent: {}
+[4.360190] (-) TimerEvent: {}
+[4.461479] (-) TimerEvent: {}
+[4.562289] (-) TimerEvent: {}
+[4.663052] (-) TimerEvent: {}
+[4.768334] (-) TimerEvent: {}
+[4.869340] (-) TimerEvent: {}
+[4.971161] (-) TimerEvent: {}
+[5.073801] (-) TimerEvent: {}
+[5.187338] (tape) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/tape', 'build', '--build-base', '/home/kingpooper/deepRacerWS/build/tape/build', 'install', '--record', '/home/kingpooper/deepRacerWS/build/tape/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/kingpooper/deepRacerWS/src/tape', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'kingpooper', 'SSH_CLIENT': '100.119.177.30 59447 22', 'GIT_ASKPASS': '/home/kingpooper/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/kingpooper/deepRacerWS/install/v4l2_camera/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/kingpooper/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/bin/helpers/browser.sh', 'HOME': '/home/kingpooper', 'OLDPWD': '/home/kingpooper/deepRacerWS', 'TERM_PROGRAM_VERSION': '1.99.3', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-18041333-0d05-4f43-9528-f12bd279e1eb.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/kingpooper/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/kingpooper/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/kingpooper/.vscode-server/extensions/ms-python.debugpy-2025.6.0-linux-arm64/bundled/libs/debugpy', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/kingpooper/deepRacerWS/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/kingpooper/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/kingpooper/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/kingpooper/.vscode-server/extensions/ms-python.debugpy-2025.6.0-linux-arm64/bundled/scripts/noConfigScripts', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/kingpooper/.vscode-server/extensions/ms-python.debugpy-2025.6.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-7e018d3015ed46f1.txt', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-cda9ba1a50.sock', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '73', 'AMENT_PREFIX_PATH': '/home/kingpooper/deepRacerWS/install/v4l2_camera:/home/kingpooper/deepRacerWS/install/tape:/home/kingpooper/deepRacerWS/install/rplidar_ros:/home/kingpooper/deepRacerWS/install/ros2_pca9685:/home/kingpooper/deepRacerWS/install/robot_car:/home/kingpooper/deepRacerWS/install/control:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/kingpooper/deepRacerWS/build/tape', 'SSH_CONNECTION': '100.119.177.30 59447 100.119.1.100 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/kingpooper/deepRacerWS/build/tape/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kingpooper/deepRacerWS/install/tape/lib/python3.10/site-packages:/home/kingpooper/deepRacerWS/install/tape/lib/python3.10/site-packages:/home/kingpooper/deepRacerWS/install/ros2_pca9685/lib/python3.10/site-packages:/home/kingpooper/deepRacerWS/install/control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/kingpooper/deepRacerWS/install/v4l2_camera:/home/kingpooper/deepRacerWS/install/rplidar_ros:/home/kingpooper/deepRacerWS/install/robot_car'}, 'shell': False}
+[5.208116] (-) TimerEvent: {}
+[5.310977] (-) TimerEvent: {}
+[5.412089] (-) TimerEvent: {}
+[5.513076] (-) TimerEvent: {}
+[5.614321] (-) TimerEvent: {}
+[5.715190] (-) TimerEvent: {}
+[5.816037] (-) TimerEvent: {}
+[5.916807] (-) TimerEvent: {}
+[6.017554] (-) TimerEvent: {}
+[6.118331] (-) TimerEvent: {}
+[6.219398] (-) TimerEvent: {}
+[6.320928] (-) TimerEvent: {}
+[6.421752] (-) TimerEvent: {}
+[6.522952] (-) TimerEvent: {}
+[6.624394] (-) TimerEvent: {}
+[6.741749] (-) TimerEvent: {}
+[6.842761] (-) TimerEvent: {}
+[6.943624] (-) TimerEvent: {}
+[7.044375] (-) TimerEvent: {}
+[7.145128] (-) TimerEvent: {}
+[7.245832] (-) TimerEvent: {}
+[7.254776] (tape) StdoutLine: {'line': b'running egg_info\n'}
+[7.258182] (tape) StdoutLine: {'line': b'writing ../../build/tape/tape.egg-info/PKG-INFO\n'}
+[7.258935] (tape) StdoutLine: {'line': b'writing dependency_links to ../../build/tape/tape.egg-info/dependency_links.txt\n'}
+[7.259544] (tape) StdoutLine: {'line': b'writing entry points to ../../build/tape/tape.egg-info/entry_points.txt\n'}
+[7.262739] (tape) StdoutLine: {'line': b'writing requirements to ../../build/tape/tape.egg-info/requires.txt\n'}
+[7.263591] (tape) StdoutLine: {'line': b'writing top-level names to ../../build/tape/tape.egg-info/top_level.txt\n'}
+[7.272692] (tape) StdoutLine: {'line': b"reading manifest file '../../build/tape/tape.egg-info/SOURCES.txt'\n"}
+[7.273433] (tape) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[7.278168] (tape) StdoutLine: {'line': b"writing manifest file '../../build/tape/tape.egg-info/SOURCES.txt'\n"}
+[7.279253] (tape) StdoutLine: {'line': b'running build\n'}
+[7.279787] (tape) StdoutLine: {'line': b'running build_py\n'}
+[7.287103] (tape) StdoutLine: {'line': b'copying tape/shay_blue_follower.py -> /home/kingpooper/deepRacerWS/build/tape/build/lib/tape\n'}
+[7.287828] (tape) StdoutLine: {'line': b'running install\n'}
+[7.294961] (tape) StdoutLine: {'line': b'running install_lib\n'}
+[7.301388] (tape) StdoutLine: {'line': b'copying /home/kingpooper/deepRacerWS/build/tape/build/lib/tape/shay_blue_follower.py -> /home/kingpooper/deepRacerWS/install/tape/lib/python3.10/site-packages/tape\n'}
+[7.311807] (tape) StdoutLine: {'line': b'byte-compiling /home/kingpooper/deepRacerWS/install/tape/lib/python3.10/site-packages/tape/shay_blue_follower.py to shay_blue_follower.cpython-310.pyc\n'}
+[7.322133] (tape) StdoutLine: {'line': b'running install_data\n'}
+[7.328189] (tape) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.339306] (tape) StdoutLine: {'line': b"removing '/home/kingpooper/deepRacerWS/install/tape/lib/python3.10/site-packages/tape-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[7.349435] (-) TimerEvent: {}
+[7.356922] (tape) StdoutLine: {'line': b'Copying ../../build/tape/tape.egg-info to /home/kingpooper/deepRacerWS/install/tape/lib/python3.10/site-packages/tape-0.0.0-py3.10.egg-info\n'}
+[7.389204] (tape) StdoutLine: {'line': b'running install_scripts\n'}
+[7.450033] (-) TimerEvent: {}
+[7.542679] (tape) StdoutLine: {'line': b'Installing image_subscriber script to /home/kingpooper/deepRacerWS/install/tape/lib/tape\n'}
+[7.550255] (-) TimerEvent: {}
+[7.555275] (tape) StdoutLine: {'line': b'Installing james_blue_follower script to /home/kingpooper/deepRacerWS/install/tape/lib/tape\n'}
+[7.559825] (tape) StdoutLine: {'line': b'Installing my_blue_tape_follower script to /home/kingpooper/deepRacerWS/install/tape/lib/tape\n'}
+[7.563438] (tape) StdoutLine: {'line': b'Installing my_sexy_tape_follower script to /home/kingpooper/deepRacerWS/install/tape/lib/tape\n'}
+[7.568120] (tape) StdoutLine: {'line': b'Installing my_tape_follower script to /home/kingpooper/deepRacerWS/install/tape/lib/tape\n'}
+[7.574229] (tape) StdoutLine: {'line': b'Installing obs_avoid script to /home/kingpooper/deepRacerWS/install/tape/lib/tape\n'}
+[7.579087] (tape) StdoutLine: {'line': b'Installing school_zone script to /home/kingpooper/deepRacerWS/install/tape/lib/tape\n'}
+[7.580300] (tape) StdoutLine: {'line': b'Installing shay_blue_follower script to /home/kingpooper/deepRacerWS/install/tape/lib/tape\n'}
+[7.581131] (tape) StdoutLine: {'line': b'Installing shaya_blue script to /home/kingpooper/deepRacerWS/install/tape/lib/tape\n'}
+[7.584569] (tape) StdoutLine: {'line': b'Installing stop_sign script to /home/kingpooper/deepRacerWS/install/tape/lib/tape\n'}
+[7.590403] (tape) StdoutLine: {'line': b'Installing tape_follower script to /home/kingpooper/deepRacerWS/install/tape/lib/tape\n'}
+[7.591267] (tape) StdoutLine: {'line': b'Installing tom_blue_tape script to /home/kingpooper/deepRacerWS/install/tape/lib/tape\n'}
+[7.593748] (tape) StdoutLine: {'line': b"writing list of installed files to '/home/kingpooper/deepRacerWS/build/tape/install.log'\n"}
+[7.650524] (-) TimerEvent: {}
+[7.751647] (-) TimerEvent: {}
+[7.853588] (-) TimerEvent: {}
+[7.878706] (tape) CommandEnded: {'returncode': 0}
+[7.955141] (-) TimerEvent: {}
+[7.980858] (tape) JobEnded: {'identifier': 'tape', 'rc': 0}
+[7.987806] (-) EventReactorShutdown: {}

@@ -5,6 +5,8 @@
 /home/kingpooper/deepRacerWS/install/tape/lib/python3.10/site-packages/tape/tape_follower.py
 /home/kingpooper/deepRacerWS/install/tape/lib/python3.10/site-packages/tape/__init__.py
 /home/kingpooper/deepRacerWS/install/tape/lib/python3.10/site-packages/tape/stop_sign.py
+/home/kingpooper/deepRacerWS/install/tape/lib/python3.10/site-packages/tape/shay_blue_follower.py
+/home/kingpooper/deepRacerWS/install/tape/lib/python3.10/site-packages/tape/shaya_blue.py
 /home/kingpooper/deepRacerWS/install/tape/lib/python3.10/site-packages/tape/my_tape_follower.py
 /home/kingpooper/deepRacerWS/install/tape/lib/python3.10/site-packages/tape/obs_avoid.py
 /home/kingpooper/deepRacerWS/install/tape/lib/python3.10/site-packages/tape/image_subscriber.py
@@ -16,6 +18,8 @@
 /home/kingpooper/deepRacerWS/install/tape/lib/python3.10/site-packages/tape/__pycache__/tape_follower.cpython-310.pyc
 /home/kingpooper/deepRacerWS/install/tape/lib/python3.10/site-packages/tape/__pycache__/__init__.cpython-310.pyc
 /home/kingpooper/deepRacerWS/install/tape/lib/python3.10/site-packages/tape/__pycache__/stop_sign.cpython-310.pyc
+/home/kingpooper/deepRacerWS/install/tape/lib/python3.10/site-packages/tape/__pycache__/shay_blue_follower.cpython-310.pyc
+/home/kingpooper/deepRacerWS/install/tape/lib/python3.10/site-packages/tape/__pycache__/shaya_blue.cpython-310.pyc
 /home/kingpooper/deepRacerWS/install/tape/lib/python3.10/site-packages/tape/__pycache__/my_tape_follower.cpython-310.pyc
 /home/kingpooper/deepRacerWS/install/tape/lib/python3.10/site-packages/tape/__pycache__/obs_avoid.cpython-310.pyc
 /home/kingpooper/deepRacerWS/install/tape/lib/python3.10/site-packages/tape/__pycache__/image_subscriber.cpython-310.pyc
@@ -30,12 +34,14 @@
 /home/kingpooper/deepRacerWS/install/tape/lib/python3.10/site-packages/tape-0.0.0-py3.10.egg-info/dependency_links.txt
 /home/kingpooper/deepRacerWS/install/tape/lib/python3.10/site-packages/tape-0.0.0-py3.10.egg-info/SOURCES.txt
 /home/kingpooper/deepRacerWS/install/tape/lib/tape/image_subscriber
-/home/kingpooper/deepRacerWS/install/tape/lib/tape/james_blue_tape
+/home/kingpooper/deepRacerWS/install/tape/lib/tape/james_blue_follower
 /home/kingpooper/deepRacerWS/install/tape/lib/tape/my_blue_tape_follower
 /home/kingpooper/deepRacerWS/install/tape/lib/tape/my_sexy_tape_follower
 /home/kingpooper/deepRacerWS/install/tape/lib/tape/my_tape_follower
 /home/kingpooper/deepRacerWS/install/tape/lib/tape/obs_avoid
 /home/kingpooper/deepRacerWS/install/tape/lib/tape/school_zone
+/home/kingpooper/deepRacerWS/install/tape/lib/tape/shay_blue_follower
+/home/kingpooper/deepRacerWS/install/tape/lib/tape/shaya_blue
 /home/kingpooper/deepRacerWS/install/tape/lib/tape/stop_sign
 /home/kingpooper/deepRacerWS/install/tape/lib/tape/tape_follower
 /home/kingpooper/deepRacerWS/install/tape/lib/tape/tom_blue_tape

@@ -6,6 +6,7 @@
 /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/launch/__pycache__/display.launch.cpython-310.pyc
 /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/launch/__pycache__/james_launch.cpython-310.pyc
 /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/launch/__pycache__/trent_launch_file.cpython-310.pyc
+/home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/launch/__pycache__/loc_launch.cpython-310.pyc
 /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/launch/__pycache__/test_localization_launch.cpython-310.pyc
 /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/launch/__pycache__/localization.launch.cpython-310.pyc
 /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/launch/minimal_launch.py
@@ -14,12 +15,15 @@
 /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/launch/james_launch.py
 /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/launch/lifecycle_diagnostics.py
 /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/launch/test_localization_launch.py
+/home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/launch/scott_localization_launch.py
+/home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/launch/loc_launch.py
 /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/launch/map_server_test.py
 /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/launch/trent_launch_file.py
 /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/urdf/description/robot_car_description.urdf
 /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/config/localization_params.yaml
 /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/config/nav2_params.yaml
 /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/config/trent_nav_params.yaml
+/home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/config/localization.yaml
 /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/config/mapper_params_online_async.yaml
 /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/config/minimal_nav_params.yaml
 /home/kingpooper/deepRacerWS/install/robot_car/share/robot_car/rviz/config.rviz

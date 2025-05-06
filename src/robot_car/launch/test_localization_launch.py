@@ -87,9 +87,9 @@ def generate_launch_description():
         Node(
             package='robot_car',
             executable='bicycle_model_scott.py',
-            name='bicycle_odom',
+            name='odom',
             output='screen',
-            parameters=[{'wheelbase': 0.165}]
+            # parameters=[{'wheelbase': 0.165}]
         ),
 
         Node(

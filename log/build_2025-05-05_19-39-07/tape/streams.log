@@ -1,0 +1,35 @@
+[4.757s] Invoking command in '/home/kingpooper/deepRacerWS/src/tape': PYTHONPATH=/home/kingpooper/deepRacerWS/build/tape/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kingpooper/deepRacerWS/install/tape/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tape build --build-base /home/kingpooper/deepRacerWS/build/tape/build install --record /home/kingpooper/deepRacerWS/build/tape/install.log --single-version-externally-managed install_data
+[6.340s] running egg_info
+[6.343s] writing ../../build/tape/tape.egg-info/PKG-INFO
+[6.345s] writing dependency_links to ../../build/tape/tape.egg-info/dependency_links.txt
+[6.347s] writing entry points to ../../build/tape/tape.egg-info/entry_points.txt
+[6.348s] writing requirements to ../../build/tape/tape.egg-info/requires.txt
+[6.348s] writing top-level names to ../../build/tape/tape.egg-info/top_level.txt
+[6.359s] reading manifest file '../../build/tape/tape.egg-info/SOURCES.txt'
+[6.361s] adding license file 'LICENSE'
+[6.364s] writing manifest file '../../build/tape/tape.egg-info/SOURCES.txt'
+[6.365s] running build
+[6.366s] running build_py
+[6.368s] copying tape/shaya_blue.py -> /home/kingpooper/deepRacerWS/build/tape/build/lib/tape
+[6.373s] running install
+[6.375s] running install_lib
+[6.381s] copying /home/kingpooper/deepRacerWS/build/tape/build/lib/tape/shaya_blue.py -> /home/kingpooper/deepRacerWS/install/tape/lib/python3.10/site-packages/tape
+[6.387s] byte-compiling /home/kingpooper/deepRacerWS/install/tape/lib/python3.10/site-packages/tape/shaya_blue.py to shaya_blue.cpython-310.pyc
+[6.391s] running install_data
+[6.392s] running install_egg_info
+[6.401s] removing '/home/kingpooper/deepRacerWS/install/tape/lib/python3.10/site-packages/tape-0.0.0-py3.10.egg-info' (and everything under it)
+[6.404s] Copying ../../build/tape/tape.egg-info to /home/kingpooper/deepRacerWS/install/tape/lib/python3.10/site-packages/tape-0.0.0-py3.10.egg-info
+[6.427s] running install_scripts
+[6.520s] Installing image_subscriber script to /home/kingpooper/deepRacerWS/install/tape/lib/tape
+[6.521s] Installing james_blue_follower script to /home/kingpooper/deepRacerWS/install/tape/lib/tape
+[6.522s] Installing my_blue_tape_follower script to /home/kingpooper/deepRacerWS/install/tape/lib/tape
+[6.524s] Installing my_sexy_tape_follower script to /home/kingpooper/deepRacerWS/install/tape/lib/tape
+[6.525s] Installing my_tape_follower script to /home/kingpooper/deepRacerWS/install/tape/lib/tape
+[6.526s] Installing obs_avoid script to /home/kingpooper/deepRacerWS/install/tape/lib/tape
+[6.527s] Installing school_zone script to /home/kingpooper/deepRacerWS/install/tape/lib/tape
+[6.530s] Installing shaya_blue script to /home/kingpooper/deepRacerWS/install/tape/lib/tape
+[6.531s] Installing stop_sign script to /home/kingpooper/deepRacerWS/install/tape/lib/tape
+[6.532s] Installing tape_follower script to /home/kingpooper/deepRacerWS/install/tape/lib/tape
+[6.532s] Installing tom_blue_tape script to /home/kingpooper/deepRacerWS/install/tape/lib/tape
+[6.539s] writing list of installed files to '/home/kingpooper/deepRacerWS/build/tape/install.log'
+[6.716s] Invoked command in '/home/kingpooper/deepRacerWS/src/tape' returned '0': PYTHONPATH=/home/kingpooper/deepRacerWS/build/tape/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kingpooper/deepRacerWS/install/tape/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tape build --build-base /home/kingpooper/deepRacerWS/build/tape/build install --record /home/kingpooper/deepRacerWS/build/tape/install.log --single-version-externally-managed install_data

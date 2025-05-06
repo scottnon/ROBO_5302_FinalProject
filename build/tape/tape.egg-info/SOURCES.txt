@@ -18,6 +18,8 @@ tape/my_sexy_tape_follower.py
 tape/my_tape_follower.py
 tape/obs_avoid.py
 tape/school_zone.py
+tape/shay_blue_follower.py
+tape/shaya_blue.py
 tape/stop_sign.py
 tape/tape_follower.py
 tape/tom_blue_tape.py

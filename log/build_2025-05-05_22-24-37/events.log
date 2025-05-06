@@ -1,0 +1,51 @@
+[0.000000] (-) TimerEvent: {}
+[0.003741] (-) JobUnselected: {'identifier': 'control'}
+[0.004761] (-) JobUnselected: {'identifier': 'robot_car'}
+[0.005909] (-) JobUnselected: {'identifier': 'ros2_pca9685'}
+[0.008048] (-) JobUnselected: {'identifier': 'rplidar_ros'}
+[0.008330] (-) JobUnselected: {'identifier': 'v4l2_camera'}
+[0.008526] (tape) JobQueued: {'identifier': 'tape', 'dependencies': OrderedDict()}
+[0.008701] (tape) JobStarted: {'identifier': 'tape'}
+[0.098078] (-) TimerEvent: {}
+[0.198898] (-) TimerEvent: {}
+[0.299741] (-) TimerEvent: {}
+[0.400637] (-) TimerEvent: {}
+[0.506345] (-) TimerEvent: {}
+[0.607401] (-) TimerEvent: {}
+[0.708316] (-) TimerEvent: {}
+[0.809558] (-) TimerEvent: {}
+[0.910418] (-) TimerEvent: {}
+[1.011500] (-) TimerEvent: {}
+[1.112319] (-) TimerEvent: {}
+[1.213125] (-) TimerEvent: {}
+[1.313969] (-) TimerEvent: {}
+[1.414858] (-) TimerEvent: {}
+[1.515643] (-) TimerEvent: {}
+[1.616518] (-) TimerEvent: {}
+[1.717521] (-) TimerEvent: {}
+[1.818582] (-) TimerEvent: {}
+[1.920238] (-) TimerEvent: {}
+[2.021412] (-) TimerEvent: {}
+[2.122230] (-) TimerEvent: {}
+[2.223088] (-) TimerEvent: {}
+[2.324040] (-) TimerEvent: {}
+[2.426267] (-) TimerEvent: {}
+[2.528135] (-) TimerEvent: {}
+[2.628918] (-) TimerEvent: {}
+[2.729741] (-) TimerEvent: {}
+[2.830600] (-) TimerEvent: {}
+[2.931545] (-) TimerEvent: {}
+[3.032458] (-) TimerEvent: {}
+[3.135170] (-) TimerEvent: {}
+[3.236003] (-) TimerEvent: {}
+[3.336782] (-) TimerEvent: {}
+[3.437611] (-) TimerEvent: {}
+[3.538444] (-) TimerEvent: {}
+[3.639366] (-) TimerEvent: {}
+[3.740231] (-) TimerEvent: {}
+[3.842217] (-) TimerEvent: {}
+[3.943282] (-) TimerEvent: {}
+[4.045190] (-) TimerEvent: {}
+[4.124394] (tape) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_parallel_executor/executor/parallel.py", line 75, in execute\n    loop.run_until_complete(future)\n  File "/usr/lib/python3.10/asyncio/base_events.py", line 636, in run_until_complete\n    self.run_forever()\n  File "/usr/lib/python3.10/asyncio/base_events.py", line 603, in run_forever\n    self._run_once()\n  File "/usr/lib/python3.10/asyncio/base_events.py", line 1871, in _run_once\n    event_list = self._selector.select(timeout)\n  File "/usr/lib/python3.10/selectors.py", line 469, in select\n    fd_event_list = self._selector.poll(timeout, max_ev)\nKeyboardInterrupt\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 102, in build\n    return await extension.build(additional_hooks=additional_hooks)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/build.py", line 96, in build\n    available_commands = await self._get_available_commands(\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/build.py", line 194, in _get_available_commands\n    output = await check_output(\n  File "/usr/lib/python3/dist-packages/colcon_core/subprocess.py", line 129, in check_output\n    assert not rc, f\'Expected {args} to pass: {stderr_data}\'\nAssertionError: Expected [\'/usr/bin/python3\', \'-W\', \'ignore:setup.py install is deprecated\', \'-W\', \'ignore:easy_install command is deprecated\', \'setup.py\', \'--help-commands\'] to pass: Traceback (most recent call last):\n  File "/home/kingpooper/deepRacerWS/src/tape/setup.py", line 5, in <module>\n    setup(\n  File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 153, in setup\n    return distutils.core.setup(**attrs)\n  File "/usr/lib/python3.10/distutils/core.py", line 134, in setup\n    ok = dist.parse_command_line()\n  File "/usr/lib/python3.10/distutils/dist.py", line 480, in parse_command_line\n    if self.handle_display_options(option_order):\n  File "/usr/lib/python3/dist-packages/setuptools/dist.py", line 1126, in handle_display_options\n    return _Distribution.handle_display_options(self, option_order)\n  File "/usr/lib/python3.10/distutils/dist.py", line 683, in handle_display_options\n    self.print_commands()\n  File "/usr/lib/python3/dist-packages/setuptools/dist.py", line 902, in print_commands\n    cmdclass = ep.resolve()\n  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2471, in resolve\n    module = __import__(self.module_name, fromlist=[\'__name__\'], level=0)\n  File "/usr/lib/python3/dist-packages/wheel/bdist_wheel.py", line 28, in <module>\n    from .vendored.packaging import tags\n  File "/usr/lib/python3/dist-packages/wheel/vendored/packaging/tags.py", line 633, in <module>\n    class _ELFFileHeader(object):\nKeyboardInterrupt\n\n'}
+[4.127415] (tape) JobEnded: {'identifier': 'tape', 'rc': 'SIGINT'}
+[4.136801] (-) EventReactorShutdown: {}
